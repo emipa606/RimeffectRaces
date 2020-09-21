@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>AlienKrogan</defName>
+    <label>Krogan</label>
+    
+    <description>The Krogan are a species of large, resiliant, reptilian humanoids. They are known to be self-serving, fierce warriors.
+
+-5% Walking Speed
+-30% Skilled Labor Speed and Research (-20% for Construction) 
++20% Mining speed
++125% Fist Damage, but 66% Fist Attack Speed
++20% Toxic Resistance
++10% Fire Resistance
++50% Hunger
++50% Health
++10% Immunity Gain Speed</description>
+        
+    <statBases>
+		<PsychicSensitivity>1.0</PsychicSensitivity>
+		<ToxicSensitivity>0.8</ToxicSensitivity>
+		<ComfyTemperatureMin>5</ComfyTemperatureMin>
+		<ComfyTemperatureMax>38</ComfyTemperatureMax>
+		<LeatherAmount>65</LeatherAmount>
+		<MarketValue>2600</MarketValue>
+		<MoveSpeed>4.4</MoveSpeed>
+		<Flammability>0.9</Flammability>
+		
+		<CarryingCapacity>125</CarryingCapacity>
+		<MentalBreakThreshold>0.01</MentalBreakThreshold>
+		<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+
+		<SocialImpact>1.0</SocialImpact>
+		<PlantWorkSpeed>1.0</PlantWorkSpeed>
+		<PlantHarvestYield>1.0</PlantHarvestYield>
+		<ResearchSpeed>0.7</ResearchSpeed>
+		
+		<MiningSpeed>1.2</MiningSpeed>
+		<MiningYield>1.0</MiningYield>
+		<ConstructionSpeed>0.8</ConstructionSpeed>
+		<ConstructSuccessChance>1.0</ConstructSuccessChance>
+		<DrugCookingSpeed>0.7</DrugCookingSpeed>		
+		<DrugSynthesisSpeed>0.7</DrugSynthesisSpeed>	
+		<GeneralLaborSpeed>0.7</GeneralLaborSpeed>
+
+		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+
+		<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+		<MeleeHitChance>1.1</MeleeHitChance>
+		<MeleeDodgeChance>0.8</MeleeDodgeChance>
+		
+    </statBases>
+
+	<tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+	</tools>
+
+	<alienRace>
+
+	<generalSettings>
+		<allowHumanBios>False</allowHumanBios>
+		<immuneToAge>false</immuneToAge>
+		<humanRecipeImport>true</humanRecipeImport>
+		<alienPartGenerator>
+			<!-- -->
+			<alienbodytypes>
+				<li>Hulk</li>
+			</alienbodytypes>
+			<!-- -->
+			<useGenderedHeads>true</useGenderedHeads>
+			<useGenderedBodies>false</useGenderedBodies>
+			<aliencrowntypes>
+                    <li>Average_Normal_01</li>
+					<li>Average_Normal_02</li>
+					<li>Average_Normal_03</li>
+                    <li>Average_Normal_04</li>
+					<li>Average_Normal_05</li>
+					<li>Average_Normal_06</li>
+			        <li>Average_Normal_07</li>
+					<li>Average_Normal_08</li>
+					<li>Average_Normal_09</li>
+                    <li>Average_Normal_10</li>
+					<li>Average_Normal_11</li>
+					<li>Average_Normal_12</li>
+			</aliencrowntypes>
+			
+			     <customDrawSize>(1.25, 1.25)</customDrawSize>
+                 <customHeadDrawSize>(1.35, 1.2)</customHeadDrawSize>
+				 <customPortraitDrawSize>(1.25, 1.25)</customPortraitDrawSize>
+                 <customPortraitHeadDrawSize>(1.35, 1.2)</customPortraitHeadDrawSize>
+				<colorChannels>
+					<li>
+						<name>skin</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+							<!-- brown -->
+								<li><weight>3</weight><only>RGBA(1.000, 0.894, 0.769,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.678, 0.847, 0.902,1)</only></li>
+								<li><weight>1</weight><only>RGBA(1.000, 0.627, 0.478,1)</only></li>
+								<li><weight>3</weight><only>RGBA(1.000, 0.894, 0.882,1)</only></li>
+								<li><weight>5</weight><only>RGBA(0.663, 0.663, 0.663,1)</only></li>
+								<li><weight>3</weight><only>RGBA(0.827, 0.827, 0.827,1)</only></li>
+								<li><weight>2</weight><only>RGBA(1.000, 0.894, 0.710,1)</only></li>
+								<li><weight>3</weight><only>RGBA(1.000, 0.844, 0.729,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.638, 0.807, 0.862,1)</only></li>
+								<li><weight>1</weight><only>RGBA(1.000, 0.587, 0.438,1)</only></li>
+								<li><weight>3</weight><only>RGBA(1.000, 0.854, 0.842,1)</only></li>
+								<li><weight>5</weight><only>RGBA(0.623, 0.623, 0.623,1)</only></li>
+								<li><weight>3</weight><only>RGBA(0.787, 0.787, 0.787,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.741, 0.718, 0.420,1)</only></li>
+							</options>
+						</first>
+					</li>
+				</colorChannels>
+			
+		</alienPartGenerator>
+
+		<maleGenderProbability>.99</maleGenderProbability>    
+		<forcedRaceTraitEntries>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>50</chance>
+			</li>
+		</forcedRaceTraitEntries>
+	</generalSettings>    
+
+	<graphicPaths>
+		<li>
+			<headOffset>(0, -0.05)</headOffset>
+			<head>Krogan/HeadBase/</head>
+		</li>
+	</graphicPaths>
+
+	<hairSettings>
+		<hasHair>false</hasHair>
+	</hairSettings>
+ 
+	<thoughtSettings>
+		<cannotReceiveThoughts><li>Pain</li></cannotReceiveThoughts>
+		<restrictedThoughts><li>KroganPain</li></restrictedThoughts>
+		<ateThoughtSpecific></ateThoughtSpecific>
+		<replacerList>
+		<li>
+			<original>Pain</original>
+			<replacer>KroganPain</replacer> 
+		</li>
+		</replacerList>
+	</thoughtSettings>
+
+	<raceRestriction>
+	</raceRestriction>
+
+</alienRace>
+    
+<race>
+	<thinkTreeMain>Humanlike</thinkTreeMain>
+	<nameGenerator>NamerPersonKrogan</nameGenerator>
+	<nameGeneratorFemale>NamerPersonKroganFemale</nameGeneratorFemale>
+	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+	<intelligence>Humanlike</intelligence>
+	<makesFootprints>true</makesFootprints>
+	<lifeExpectancy>2000</lifeExpectancy>
+	<bloodDef>FilthBloodKrogan</bloodDef>
+	<nameCategory>HumanStandard</nameCategory>
+	<body>Krogan</body>
+	<baseBodySize>1.5</baseBodySize>
+	<baseHealthScale>1.5</baseHealthScale>
+	<baseHungerRate>1.5</baseHungerRate>
+	<foodType>OmnivoreHuman</foodType>
+	<leatherDef>Leather_Krogan</leatherDef>
+
+	<gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+		<points>
+		<li>(0.5, 0)</li>
+		<li>(1, 1)</li>
+		<li>(1.01, 0.02)</li>
+		<li>(3.5, 0)</li>
+		</points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>KroganBabyStage</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>KroganChildStage</def>
+          <minAge>5</minAge>
+        </li>
+		        <li>
+          <def>KroganAdultStage</def>
+          <minAge>18</minAge>
+        </li>
+		        <li>
+          <def>KroganOldStage</def>
+          <minAge>150</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.5, 0.7, 0.5)</volume>
+        <offset>(0,0,-0.35)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(100,50)</li>
+		  <li>(200,30)</li>
+		  <li>(300,30)</li>
+		  <li>(400,25)</li>
+		  <li>(500,25)</li>
+		  <li>(600,25)</li>
+		  <li>(700,10)</li>
+		  <li>(800,10)</li>
+		  <li>(900,5)</li>
+		  <li>(1000,4)</li>
+		  <li>(1200,3)</li>
+		  <li>(1400,3)</li>
+		  <li>(1600,2)</li>
+		  <li>(1800,1)</li>
+		  <li>(2000,1)</li>
+		  <li>(2100,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+		<li>OrganicAgeless</li>
+        <li>KroganHediffs</li>
+      </hediffGiverSets>
+</race>
+    <recipes>
+
+		<li>InstallPowerClaw</li>
+		<li>InstallBionicEye</li>
+		<li>InstallBionicArm</li>
+		<li>InstallBionicLeg</li>
+		<li>InstallSimpleProstheticArm</li>
+		<li>InstallSimpleProstheticLeg</li>
+		<li>InstallPegLeg</li>
+		<li>InstallDenture</li>
+		<li>InstallJoywire</li>
+		<li>InstallPainstopper</li>
+		<li>InstallNaturalHeart</li>
+		<li>InstallNaturalLung</li>
+		<li>InstallNaturalKidney</li>
+		<li>InstallNaturalLiver</li>
+		<li>AdministerMechSerumHealer</li>
+		<li>ExciseCarcinoma</li>
+		<li>RemoveBodyPart</li>
+		<li>Euthanize</li>
+		<li>Anesthetize</li>
+    </recipes>
+    
+</AlienRace.ThingDef_AlienRace>
+</Defs>
