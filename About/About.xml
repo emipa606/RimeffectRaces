@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rimeffect Races[1.2]</name>
+	<author>Troopersmith1</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>Uses resources from Mass Muffect Races by Tasrook, with permission.
+Uses resources from Rimeffect: Asari of the Rims Continued [1.1][1.2]
+	
+A race mod using the Humanoid Alien Framework which adds many of the races of the Mass Effect Franchise. All have unique textures and features to set them apart from both humans and each other.</description>
+    <packageId>Troopersmith1.RimeffectRaces</packageId>
+<modDependencies>
+   <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+   </li>
+   <li>
+	<packageId>neronix17.toolbox</packageId>
+	<displayName>[O21] Toolbox</displayName>
+	<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
+   </li>
+</modDependencies>
+<loadBefore>
+</loadBefore>
+<loadAfter>
+<li>erdelf.HumanoidAlienRaces</li>
+<li>neronix17.toolbox</li>
+</loadAfter>
+</ModMetaData>
