@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <SoundDef>
+    <defName>CannibalArmCannon</defName>  
+    <context>MapOnly</context>
+	 <sustain>False</sustain>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>CannibalArmCannon</clipPath>
+          </li>
+        </grains>    
+        <volumeRange>
+          <min>25</min>        
+          <max>25</max>
+        </volumeRange>        
+		<pitchRange><min>2.5</min> <max>2.5</max></pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+    <SoundDef>
+    <defName>Phaeston</defName>  
+    <context>MapOnly</context>
+	 <sustain>False</sustain>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Phaeston</clipPath>
+          </li>
+        </grains>    
+        <volumeRange>
+          <min>100</min>        
+          <max>100</max>
+        </volumeRange>        
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+      <SoundDef>
+    <defName>PulseRifle</defName>  
+    <context>MapOnly</context>
+	 <sustain>False</sustain>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>PulseRifle</clipPath>
+          </li>
+        </grains>    
+        <volumeRange>
+          <min>100</min>        
+          <max>100</max>
+        </volumeRange>        
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+        <SoundDef>
+    <defName>PulseShotgun</defName>  
+    <context>MapOnly</context>
+	 <sustain>False</sustain>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>PulseShotgun</clipPath>
+          </li>
+        </grains>    
+        <volumeRange>
+          <min>100</min>        
+          <max>100</max>
+        </volumeRange>        
+      </li>
+    </subSounds>
+  </SoundDef>
+
+        <SoundDef>
+    <defName>M76Revenant</defName>  
+    <context>MapOnly</context>
+	 <sustain>False</sustain>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>M76Revenant</clipPath>
+          </li>
+        </grains>    
+        <volumeRange>
+          <min>100</min>        
+          <max>100</max>
+        </volumeRange>        
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

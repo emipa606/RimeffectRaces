@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HairDef>
+    <defName>Asari_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Asari/Hair/HairBlank</texPath>
+		<hairTags>
+			<li>AsariHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Batarian_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/HairBlank</texPath>
+		<hairTags>
+			<li>BatarianHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Hanar_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/HairBlank</texPath>
+		<hairTags>
+			<li>HanarHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Krogan_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/HairBlank</texPath>
+		<hairTags>
+			<li>KroganHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Quarian_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/HairBlank</texPath>
+		<hairTags>
+			<li>QuarianHair</li>
+		</hairTags>
+  </HairDef> 
+ 
+  <HairDef>
+    <defName>Salarian_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/HairBlank</texPath>
+		<hairTags>
+			<li>SalarianHair</li>
+		</hairTags>
+  </HairDef>
+ 
+  <HairDef>
+    <defName>Turian_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/HairBlank</texPath>
+		<hairTags>
+			<li>TurianHair</li>
+		</hairTags>
+  </HairDef>
+ 
+  <HairDef>
+    <defName>Vorcha_Hair_Blank</defName>
+    <label>no hair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/HairBlank</texPath>
+		<hairTags>
+			<li>VorchaHair</li>
+		</hairTags>
+  </HairDef>
+
+</Defs>

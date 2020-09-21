@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="SurgeryHanar" ParentName="SurgeryFlesh" Abstract="True">
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+		<recipeUsers>
+			<li>AlienHanar</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	
+	<RecipeDef ParentName="SurgeryHanar">
+		<defName>InstallMesogleaFilter</defName>
+		<label>install mesoglea filter</label>
+		<description>Installs mesoglea filter.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing mesoglea filter.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HanarMesogleaFilter</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HanarMesogleaFilter</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HanarRearMesogleaFilter</li>
+		    <li>HanarFrontMesogleaFilter</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+		<RecipeDef ParentName="SurgeryHanar">
+		<defName>InstallHanarSightSensor</defName>
+		<label>install hanar sight sensor</label>
+		<description>Installs hanar sight sensor.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing sight sensor.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HanarSightSensor</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HanarSightSensor</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HanarSightSensor</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+	
+		<RecipeDef ParentName="SurgeryHanar">
+		<defName>InstallHanarTentacle</defName>
+		<label>install tentacle</label>
+		<description>Installs a tentacle.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing a tentacle.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HanarTentacle</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HanarTentacle</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HanarLeftFrontOutsideTentacle</li>
+			<li>HanarLeftMiddleOutsideTentacle</li>
+			<li>HanarLeftRearOutsideTentacle</li>
+			<li>HanarLeftFrontInsideTentacle</li>
+			<li>HanarLeftRearInsideTentacle</li>
+			<li>HanarRightFrontOutsideTentacle</li>
+			<li>HanarRightMiddleOutsideTentacle</li>
+			<li>HanarRightRearOutsideTentacle</li>
+			<li>HanarRightFrontInsideTentacle</li>
+			<li>HanarRightRearInsideTentacle</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+			<RecipeDef ParentName="SurgeryHanar">
+		<defName>InstallHanarAntiGravityUnit</defName>
+		<label>install hanar anti gravity unit</label>
+		<description>Installs hanar anti gravity unit.</description>
+		<workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+		<jobString>Installing anti gravity unit.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HanarAntiGravityUnit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HanarAntiGravityUnit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HanarAntiGravityUnit</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>
+
+	</Defs>
