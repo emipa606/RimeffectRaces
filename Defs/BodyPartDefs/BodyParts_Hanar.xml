@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<BodyPartGroupDef>
+		<defName>HanarRightFrontOutsideTentacle</defName>
+		<label>front right tentacle</label>
+		<listOrder>781</listOrder>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>HanarRightMiddleOutsideTentacle</defName>
+		<label>middle right tentacle</label>
+		<listOrder>782</listOrder>
+	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>HanarRightRearOutsideTentacle</defName>
+		<label>rear right tentacle</label>
+		<listOrder>783</listOrder>
+	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>HanarLeftFrontOutsideTentacle</defName>
+		<label>front left tentacle</label>
+		<listOrder>784</listOrder>
+	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>HanarLeftMiddleOutsideTentacle</defName>
+		<label>middle left tentacle</label>
+		<listOrder>785</listOrder>
+	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>HanarLeftRearOutsideTentacle</defName>
+		<label>rear left tentacle</label>
+		<listOrder>786</listOrder>
+	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>HanarLeftFrontInsideTentacle</defName>
+		<label>rear left tentacle</label>
+		<listOrder>787</listOrder>
+	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>HanarRightFrontInsideTentacle</defName>
+		<label>rear left tentacle</label>
+		<listOrder>788</listOrder>
+	</BodyPartGroupDef>
+  
+  
+  
+	<BodyPartDef>
+		<defName>HanarUnderhead</defName>
+		<label>underhead</label>
+		<hitPoints>20</hitPoints>
+		<skinCovered>true</skinCovered>
+		<canSuggestAmputation>false</canSuggestAmputation>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarGastrovascularCavity</defName>
+		<label>gastrovascular cavity</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>MetabolismSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarOrifice</defName>
+		<label>orifice</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>EatingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarOxygenAbsorber</defName>
+		<label>oxygen absorber</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>BreathingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarMesogleaCharger</defName>
+		<label>mesoglea charger</label>
+		<hitPoints>10</hitPoints>
+		<bleedRate>3</bleedRate>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>BloodPumpingSource</li>
+		</tags>
+	</BodyPartDef>
+  
+    <BodyPartDef>
+		<defName>HanarRearMesogleaFilter</defName>
+		<label>rear mesoglea filter</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>BloodFiltrationSource</li>
+		</tags>
+		<spawnThingOnRemoved>HanarMesogleaFilter</spawnThingOnRemoved>
+		<canSuggestAmputation>false</canSuggestAmputation> 
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarFrontMesogleaFilter</defName>
+		<label>front mesoglea filter</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>BloodFiltrationSource</li>
+		</tags>
+		<spawnThingOnRemoved>HanarMesogleaFilter</spawnThingOnRemoved>
+		<canSuggestAmputation>false</canSuggestAmputation> 
+	</BodyPartDef>
+  
+
+
+	<BodyPartDef>
+		<defName>HanarSightSensor</defName>
+		<label>sight sensor</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+		<spawnThingOnRemoved>HanarSightSensor</spawnThingOnRemoved>
+		<canSuggestAmputation>false</canSuggestAmputation> 
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarSpeechProjector</defName>
+		<label>speech projector</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>TalkingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarHearingSensor</defName>
+		<label>hearing sensor</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>HearingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>HanarConciousnessSystem</defName>
+		<label>conciousness system</label>
+		<hitPoints>10</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>ConsciousnessSource</li>
+		</tags>
+	</BodyPartDef>
+
+    <BodyPartDef>
+		<defName>HanarLeftFrontOutsideTentacle</defName>
+		<label>left front outside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+   
+	<BodyPartDef>
+		<defName>HanarLeftMiddleOutsideTentacle</defName>
+		<label>left middle outside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    
+	<BodyPartDef>
+		<defName>HanarLeftRearOutsideTentacle</defName>
+		<label>left rear outside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    
+	<BodyPartDef>
+		<defName>HanarLeftFrontInsideTentacle</defName>
+		<label>left front inside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	
+    <BodyPartDef>
+		<defName>HanarLeftRearInsideTentacle</defName>
+		<label>left rear inside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+  
+    <BodyPartDef>
+		<defName>HanarRightFrontOutsideTentacle</defName>
+		<label>right front outside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    
+	<BodyPartDef>
+		<defName>HanarRightMiddleOutsideTentacle</defName>
+		<label>right middle outside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    
+	<BodyPartDef>
+		<defName>HanarRightRearOutsideTentacle</defName>
+		<label>right rear outside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    
+	<BodyPartDef>
+		<defName>HanarRightFrontInsideTentacle</defName>
+		<label>right front inside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    
+	<BodyPartDef>
+		<defName>HanarRightRearInsideTentacle</defName>
+		<label>right rear inside tentacle</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+  
+    <BodyPartDef>
+		<defName>HanarAntiGravityUnit</defName>
+		<label>anti gravity unit</label>
+		<hitPoints>50</hitPoints>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+		<spawnThingOnRemoved>HanarAntiGravityUnit</spawnThingOnRemoved>
+		<canSuggestAmputation>false</canSuggestAmputation> 
+	</BodyPartDef>
+  
+</Defs>

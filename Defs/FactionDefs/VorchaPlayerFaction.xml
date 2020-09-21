@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef Abstract="True" Name="VorchaFactionBase">
+		<factionIconPath>World/WorldObjects/Defaultbase</factionIconPath>
+		<!-- green -->
+		<colorSpectrum>
+		<!--
+			<li>(204, 255, 51)</li>
+			<li>(51, 153, 51)</li>
+			-->
+			<!-- green -->
+			<li>(50, 250, 70)</li>
+			<li>(0, 180, 0)</li>
+			<!-- red -->
+			<li>(190, 0, 40)</li>
+		</colorSpectrum>
+	</FactionDef>
+
+	<FactionDef ParentName="VorchaFactionBase">
+		<defName>VorchaPlayerColony</defName>
+		<label>Player base</label>
+		<description>Your own community</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>PlayerVorcha</basicMemberKind>
+		<pawnsPlural>Vorcha</pawnsPlural>
+		
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<backstoryCategories><li>VorchaBackstory</li></backstoryCategories>
+
+		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/VorchaFlag01</settlementTexturePath>
+<!-- techLevel : Industrial Medieval Neolithic -->		
+<!-- StartingResearchTag : TribalStart ClassicStart -->
+		<techLevel>Industrial</techLevel>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>		
+		
+		<hairTags>
+			<li>VorchaHair</li>
+		</hairTags>
+						
+	</FactionDef>
+	
+</Defs>
