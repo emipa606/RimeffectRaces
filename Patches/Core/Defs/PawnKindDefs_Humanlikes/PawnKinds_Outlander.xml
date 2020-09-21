@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<Operation Class="PatchOperationRemove">
+<xpath>*/PawnKindDef[@ParentName="OutlanderBase"]/apparelRequired</xpath>
+</Operation>
+
+
+</Patch>

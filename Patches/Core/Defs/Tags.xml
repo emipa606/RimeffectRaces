@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="WoolMegasloth"]/stuffProps</xpath>
+<value>
+      <categories>
+       <li>Wooly</li>
+      </categories>
+</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="WoolMuffalo"]/stuffProps</xpath>
+<value>
+      <categories>
+        <li>Wooly</li>
+      </categories>
+</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="WoolAlpaca"]/stuffProps</xpath>
+<value>
+      <categories>
+        <li>Wooly</li>
+      </categories>
+</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="WoolBison"]/stuffProps</xpath>
+<value>
+      <categories>
+        <li>Wooly</li>
+      </categories>
+</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+<xpath>/Defs/ThingDef[defName="WoolSheep"]/stuffProps</xpath>
+<value>
+      <categories>
+        <li>Wooly</li>
+      </categories>
+</value>
+</Operation>
+</Patch>

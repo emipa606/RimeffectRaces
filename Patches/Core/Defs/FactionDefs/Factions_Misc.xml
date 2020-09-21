@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+<xpath>*/FactionDef[defName="Pirate"]/pawnGroupMakers</xpath>
+<value>
+<pawnGroupMakers>
+      <li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Drifter>5</Drifter>
+					<Grenadier_EMP>5</Grenadier_EMP>
+					<Grenadier_Destructive>20</Grenadier_Destructive>
+					<Thrasher>70</Thrasher>
+					<Mercenary_Slasher>70</Mercenary_Slasher>
+					<Mercenary_Heavy>60</Mercenary_Heavy>
+					<Mercenary_Sniper>70</Mercenary_Sniper>
+					<Scavenger>90</Scavenger>
+					<Pirate>120</Pirate>
+					<Mercenary_Gunner>100</Mercenary_Gunner>
+					<Mercenary_Elite>100</Mercenary_Elite>
+   					<PirateBoss>100</PirateBoss>
+                    <!-- -->
+		            <KroganSoldier01>20</KroganSoldier01>
+		            <KroganVeteran01>20</KroganVeteran01>
+		            <KroganElite01>20</KroganElite01>
+					<KroganVeteranBrawler01>20</KroganVeteranBrawler01>
+		            <KroganBrawler01>20</KroganBrawler01>
+		            <SalarianSoldier01>10</SalarianSoldier01>
+		            <SalarianVeteran01>10</SalarianVeteran01>
+					<SalarianElite01>10</SalarianElite01>
+					<TurianSoldier01>10</TurianSoldier01>
+					<TurianVeteran01>10</TurianVeteran01>
+					<TurianElite01>10</TurianElite01>
+					<BatarianSoldier01>20</BatarianSoldier01>
+		            <BatarianVeteran01>20</BatarianVeteran01>
+					<BatarianElite01>20</BatarianElite01>
+					<VorchaSoldier01>20</VorchaSoldier01>
+					<VorchaVeteran01>20</VorchaVeteran01>
+	    </options>
+      </li>
+      <li>
+				<!-- Normal fights, melee-only -->
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+					<Mercenary_Slasher>100</Mercenary_Slasher>
+                    <!-- -->
+					<KroganBrawler01>25</KroganBrawler01>
+		            <KroganVeteranBrawler01>25</KroganVeteranBrawler01>
+					<VorchaBrawler01>40</VorchaBrawler01>
+		</options>
+      </li>
+      <li>
+				<!-- Base defense -->
+				<kindDef>Settlement</kindDef>
+        <options>
+          <Drifter>5</Drifter>
+					<Grenadier_Destructive>20</Grenadier_Destructive>
+					<Thrasher>70</Thrasher>
+					<Mercenary_Slasher>70</Mercenary_Slasher>
+					<Mercenary_Sniper>80</Mercenary_Sniper>
+					<Scavenger>90</Scavenger>
+					<Pirate>120</Pirate>
+					<Mercenary_Gunner>100</Mercenary_Gunner>
+					<Mercenary_Elite>100</Mercenary_Elite>
+                    <PirateBoss>100</PirateBoss>
+					<!-- -->
+		            <KroganSoldier01>10</KroganSoldier01>
+		            <KroganVeteran01>10</KroganVeteran01>
+		            <KroganElite01>10</KroganElite01>
+					<KroganVeteranBrawler01>10</KroganVeteranBrawler01>
+		            <KroganBrawler01>10</KroganBrawler01>
+		            <SalarianSoldier01>5</SalarianSoldier01>
+		            <SalarianVeteran01>5</SalarianVeteran01>
+					<SalarianElite01>5</SalarianElite01>
+					<TurianSoldier01>5</TurianSoldier01>
+					<TurianVeteran01>5</TurianVeteran01>
+					<TurianElite01>5</TurianElite01>
+					<BatarianSoldier01>10</BatarianSoldier01>
+		            <BatarianVeteran01>10</BatarianVeteran01>
+					<BatarianElite01>10</BatarianElite01>
+					<VorchaSoldier01>10</VorchaSoldier01>
+					<VorchaVeteran01>10</VorchaVeteran01>
+        </options>
+      </li>
+    </pawnGroupMakers>
+</value>
+</Operation>
+
+
+
+
+</Patch>
