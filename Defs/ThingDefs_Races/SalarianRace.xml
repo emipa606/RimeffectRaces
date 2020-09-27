@@ -87,18 +87,6 @@ Like Insect Meat</description>
         </surpriseAttack>
       </li>
       <li>
-        <label>teeth</label>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>6</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.07</chanceFactor>
-        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
-        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
-      </li>
-      <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>

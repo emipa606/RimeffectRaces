@@ -41,7 +41,7 @@
         <generalSettings>
 			<humanRecipeImport>true</humanRecipeImport>
 			<maleGenderProbability>0</maleGenderProbability>
-			<immuneToAge>true</immuneToAge>
+			<immuneToAge>false</immuneToAge>
 			<forcedRaceTraitEntries>
 			  <li>
 				 <defName>Beauty</defName>

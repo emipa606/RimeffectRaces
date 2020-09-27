@@ -339,7 +339,6 @@
     <label>brute</label>
     <race>ReaperBrute</race>
 	<combatPower>320</combatPower>
-	<canBeSapper>true</canBeSapper>
     <lifeStages>
       <li>
         <bodyGraphicData>

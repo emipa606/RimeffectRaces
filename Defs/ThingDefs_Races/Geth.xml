@@ -111,7 +111,6 @@
     <defName>GethTrooper</defName>
     <label>Geth Trooper</label>
     <race>GethTrooper</race>
-    <canBeSapper>true</canBeSapper>
 	<combatPower>90</combatPower>
     <lifeStages>
       <li>
@@ -219,7 +218,6 @@
     <defName>GethHunter</defName>
     <label>Geth Hunter</label>
     <race>GethHunter</race>
-    <canBeSapper>true</canBeSapper>
 	<combatPower>120</combatPower>
     <lifeStages>
       <li>
@@ -327,7 +325,6 @@
     <defName>GethPrime</defName>
     <label>Geth Prime</label>
     <race>GethPrime</race>
-    <canBeSapper>true</canBeSapper>
 	<combatPower>160</combatPower>
     <lifeStages>
       <li>
