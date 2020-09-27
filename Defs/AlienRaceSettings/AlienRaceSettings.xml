@@ -78,14 +78,14 @@
 			</alienrefugeekinds>
 			<startingColonists>
 				<li>
-				<pawnKindEntries>
-					<li>
-						<kindDefs>
-							<li>PlayerBatarian</li>
-						</kindDefs>
-						<chance>10.0</chance>
-					</li>
-				</pawnKindEntries>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>PlayerBatarian</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					</pawnKindEntries>
 					<factionDefs>
 						<li>BatarianPlayerColony</li>
 						<li>PlayerColony</li>
@@ -188,10 +188,10 @@
 				<li>
 					<pawnKindEntries>
 						<li>
-						<kindDefs>
-							<li>PlayerHanar</li>
-						</kindDefs>
-						<chance>10.0</chance>
+							<kindDefs>
+								<li>PlayerHanar</li>
+							</kindDefs>
+							<chance>10.0</chance>
 						</li>
 					</pawnKindEntries>
 					<factionDefs>
@@ -240,14 +240,14 @@
 			</alienrefugeekinds>
 			<startingColonists>
 				<li>
-				<pawnKindEntries>
-					<li>
-					<kindDefs>
-						<li>PlayerKrogan</li>
-					</kindDefs>
-					<chance>10.0</chance>
-					</li>
-				</pawnKindEntries>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>PlayerKrogan</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					</pawnKindEntries>
 					<factionDefs>
 						<li>KroganPlayerColony</li>
 						<li>PlayerColony</li>
@@ -294,14 +294,14 @@
 			</alienrefugeekinds>
 			<startingColonists>
 				<li>
-				<pawnKindEntries>
-					<li>
-					<kindDefs>
-						<li>PlayerQuarian</li>
-					</kindDefs>
-					<chance>10.0</chance>
-					</li>
-				</pawnKindEntries>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>PlayerQuarian</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					</pawnKindEntries>
 					<factionDefs>
 						<li>QuarianPlayerColony</li>
 						<li>PlayerColony</li>
@@ -348,14 +348,14 @@
 			</alienrefugeekinds>
 			<startingColonists>
 				<li>
-				<pawnKindEntries>
-					<li>
-					<kindDefs>
-						<li>PlayerSalarian</li>
-					</kindDefs>
-					<chance>10.0</chance>
-					</li>
-				</pawnKindEntries>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>PlayerSalarian</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					</pawnKindEntries>
 					<factionDefs>
 						<li>SalarianPlayerColony</li>
 						<li>PlayerColony</li>
@@ -402,14 +402,14 @@
 			</alienrefugeekinds>
 			<startingColonists>
 				<li>
-				<pawnKindEntries>
-					<li>
-					<kindDefs>
-						<li>PlayerTurian</li>
-					</kindDefs>
-					<chance>10.0</chance>
-					</li>
-				</pawnKindEntries>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>PlayerTurian</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					</pawnKindEntries>
 					<factionDefs>
 						<li>TurianPlayerColony</li>
 						<li>PlayerColony</li>
@@ -456,14 +456,14 @@
 			</alienrefugeekinds>
 			<startingColonists>
 				<li>
-				<pawnKindEntries>
-					<li>
-					<kindDefs>
-						<li>PlayerVorcha</li>
-					</kindDefs>
-					<chance>10.0</chance>
-					</li>
-				</pawnKindEntries>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>PlayerVorcha</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					</pawnKindEntries>
 					<factionDefs>
 						<li>VorchaPlayerColony</li>
 						<li>PlayerColony</li>

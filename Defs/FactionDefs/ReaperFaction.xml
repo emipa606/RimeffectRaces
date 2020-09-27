@@ -44,10 +44,10 @@
         <kindDef>Combat</kindDef>
         <commonality>75</commonality>
         <options>
-          <ReaperHusk>1700</ReaperHusk>
+          <ReaperHusk>700</ReaperHusk>
 		  <ReaperCannibal>100</ReaperCannibal>
-		  <ReaperMarauder>10</ReaperMarauder>
-		  <ReaperBrute>4</ReaperBrute>
+		  <ReaperMarauder>50</ReaperMarauder>
+		  <ReaperBrute>10</ReaperBrute>
         </options>
       </li>
       <li>

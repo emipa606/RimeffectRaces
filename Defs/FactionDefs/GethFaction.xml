@@ -45,9 +45,8 @@
         <commonality>100</commonality>
         <options>
           <GethTrooper>900</GethTrooper>
-		  <GethHunter>50</GethHunter>
+		  <GethHunter>250</GethHunter>
 		  <GethPrime>100</GethPrime>
-		 <!-- <ReaperBrute>5</ReaperBrute>-->
         </options>
       </li>
     </pawnGroupMakers>
