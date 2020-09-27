@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using RimWorld;
 using Verse;
+using AlienRace;
 
 namespace RimeffectRaces
 {
@@ -21,48 +22,90 @@ namespace RimeffectRaces
             {
                 RimeffectRacesDefOf.AsariFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.AsariFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.AsariRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("AsariPlayer")).First().chance = 0f;
+                RimeffectRacesDefOf.AsariRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("AsariSlave")).First().chance = 0f;
+                RimeffectRacesDefOf.AsariRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("AsariRefugee")).First().chance = 0f;
+                RimeffectRacesDefOf.AsariRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("AsariColonist")).First().chance = 0f;
             }
 
             if (!settings.BatarianFaction)
             {
                 RimeffectRacesDefOf.BatarianFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.BatarianFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.batarianRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerBatarian")).First().chance = 0f;
+                RimeffectRacesDefOf.batarianRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("BatarianSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.batarianRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("BatarianColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.batarianRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("BatarianSoldier01")).First().chance = 0f;
             }
 
             if (!settings.EnkindlerFaction)
             {
                 RimeffectRacesDefOf.EnkindlerFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.EnkindlerFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.drellRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerDrell")).First().chance = 0f;
+                RimeffectRacesDefOf.drellRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("DrellSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.drellRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("DrellColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.drellRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("DrellSoldier01")).First().chance = 0f;
+                RimeffectRacesDefOf.hanarRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerHanar")).First().chance = 0f;
+                RimeffectRacesDefOf.hanarRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("HanarSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.hanarRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("HanarColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.hanarRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("HanarSoldier01")).First().chance = 0f;
             }
 
             if (!settings.KroganFaction)
             {
                 RimeffectRacesDefOf.KroganFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.KroganFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.kroganRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerKrogan")).First().chance = 0f;
+                RimeffectRacesDefOf.kroganRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("KroganSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.kroganRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("KroganColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.kroganRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("KroganSoldier01")).First().chance = 0f;
             }
 
             if (!settings.QuarianFaction)
             {
                 RimeffectRacesDefOf.QuarianFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.QuarianFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.quarianRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerQuarian")).First().chance = 0f;
+                RimeffectRacesDefOf.quarianRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("QuarianSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.quarianRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("QuarianColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.quarianRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("QuarianSoldier01")).First().chance = 0f;
             }
 
             if (!settings.SalarianFaction)
             {
                 RimeffectRacesDefOf.SalarianFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.SalarianFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.salarianRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerSalarian")).First().chance = 0f;
+                RimeffectRacesDefOf.salarianRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("SalarianSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.salarianRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("SalarianColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.salarianRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("SalarianSoldier01")).First().chance = 0f;
             }
 
             if (!settings.TurianFaction)
             {
                 RimeffectRacesDefOf.TurianFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.TurianFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.turianRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerTurian")).First().chance = 0f;
+                RimeffectRacesDefOf.turianRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("TurianSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.turianRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("TurianColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.turianRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("TurianSoldier01")).First().chance = 0f;
             }
 
             if (!settings.VorchaFaction)
             {
                 RimeffectRacesDefOf.VorchaFaction.requiredCountAtGameStart = 0;
                 RimeffectRacesDefOf.VorchaFaction.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.vorchaRaceSettings.pawnKindSettings.startingColonists.First().pawnKindEntries.Where(x => x.kindDefs.Contains("PlayerVorcha")).First().chance = 0f;
+                RimeffectRacesDefOf.vorchaRaceSettings.pawnKindSettings.alienslavekinds.Where(x => x.kindDefs.Contains("VorchaSlave01")).First().chance = 0f;
+                RimeffectRacesDefOf.vorchaRaceSettings.pawnKindSettings.alienrefugeekinds.Where(x => x.kindDefs.Contains("VorchaColonist01")).First().chance = 0f;
+                RimeffectRacesDefOf.vorchaRaceSettings.pawnKindSettings.alienwandererkinds.First().pawnKindEntries.Where(x => x.kindDefs.Contains("VorchaSoldier01")).First().chance = 0f;
+            }
+
+            if (!settings.WhiteHandFaction)
+            {
+                RimeffectRacesDefOf.WhiteHandFaction.requiredCountAtGameStart = 0;
+                RimeffectRacesDefOf.WhiteHandFaction.maxCountAtGameStart = 0;
             }
 
             if (!settings.Geth)
