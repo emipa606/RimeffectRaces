@@ -1,15 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rimeffect Races[1.2]</name>
+	<name>Rimeffect Races [1.2]</name>
 	<author>Troopersmith1</author>
 	<url></url>
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
 	<description>Uses resources from Mass Muffect Races by Tasrook, with permission.
-Uses resources from Rimeffect: Asari of the Rims Continued [1.1][1.2]
+Uses resources from my other ME mod, Rimeffect: Asari of the Rims Continued [1.1][1.2]
 	
-A race mod using the Humanoid Alien Framework which adds many of the races of the Mass Effect Franchise. All have unique textures and features to set them apart from both humans and each other.</description>
+A race mod using the Humanoid Alien Framework which adds many of the races of the Mass Effect Franchise. All have unique textures and features to set them apart from both humans and each other.
+
+Includes the Asari, Batarians, Drell, Hanar, Krogan, Quarians, Salarians, Turians, and Vorcha.
+
+Also included as non-playlable races are the Geth (Heretics) and the Reapers.
+
+
+Includes a patch for Combat Extended
+(Geth and Reaper Weapons not patched yet, if anyone familiar with CE patching would be willing to give me a hand, I'd appreciate it.)</description>
     <packageId>Troopersmith1.RimeffectRaces</packageId>
 <modDependencies>
    <li>
@@ -24,6 +32,7 @@ A race mod using the Humanoid Alien Framework which adds many of the races of th
    </li>
 </modDependencies>
 <loadBefore>
+	<li>CETeam.CombatExtended</li>
 </loadBefore>
 <loadAfter>
 <li>erdelf.HumanoidAlienRaces</li>
