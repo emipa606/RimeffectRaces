@@ -181,9 +181,12 @@ Eat only raw meat.</description>
 				<defName>Transhumanist</defName>
 			</li>
         </disallowedTraits>
-		<!--<forcedRaceTraitEntries>
-			<li><defName>Bloodlust</defName><chance>10</chance></li>
-			</forcedRaceTraitEntries>-->
+		<forcedRaceTraitEntries>
+			<li>
+				<defName>Asexual</defName>
+				<chance>100</chance>
+			</li>
+		</forcedRaceTraitEntries>
 	</generalSettings>    
          
 	<graphicPaths>

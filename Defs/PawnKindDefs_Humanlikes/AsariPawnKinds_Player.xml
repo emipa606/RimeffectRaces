@@ -6,7 +6,7 @@
     <combatPower>40</combatPower>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
     <isFighter>false</isFighter>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
 
@@ -22,17 +22,13 @@
       </categories>
       </li>
   	</backstoryFilters>
+	<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
-      <li>Spacer</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-      <li>SpacerMilitary</li>
+		<li>IndustrialBasic</li>
     </apparelTags>
     <apparelMoney>
-      <min>1000</min>
-      <max>2400</max>
+      <min>600</min>
+      <max>600</max>
     </apparelMoney>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>

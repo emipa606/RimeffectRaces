@@ -47,6 +47,7 @@ Like Insect Meat</description>
 		<ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
 		<MeleeHitChance>1.1</MeleeHitChance>
 		<MeleeDodgeChance>1.1</MeleeDodgeChance>
+		<RestRateMultiplier>4</RestRateMultiplier>
 		
     </statBases>
 
@@ -161,7 +162,7 @@ Like Insect Meat</description>
 			
 		</alienPartGenerator>
 
-		<maleGenderProbability>.95</maleGenderProbability>    
+		<maleGenderProbability>.5</maleGenderProbability>    
 		<!--<forcedRaceTraitEntries>
 			<li><defName>Bloodlust</defName><chance>10</chance></li>
 			</forcedRaceTraitEntries>-->
@@ -242,7 +243,7 @@ Like Insect Meat</description>
         </li>
         <li>
           <def>SalarianAdultStage</def>
-          <minAge>18</minAge>
+          <minAge>12</minAge>
         </li>
 		<li>
           <def>SalarianOldStage</def>
@@ -258,12 +259,12 @@ Like Insect Meat</description>
       </specialShadowData>
       <ageGenerationCurve>
         <points>
-          <li>(14,0)</li>
-          <li>(14,2)</li>
-          <li>(18,2)</li>
-		  <li>(22,40)</li>
-		  <li>(25,50)</li>
-		  <li>(28,35)</li>
+          <li>(11.5,0)</li>
+          <li>(14,35)</li>
+          <li>(18,55)</li>
+		  <li>(22,60)</li>
+		  <li>(25,40)</li>
+		  <li>(28,25)</li>
 		  <li>(31,5)</li>
 		  <li>(35,5)</li>
 		  <li>(40,0)</li>
