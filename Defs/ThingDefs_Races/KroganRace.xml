@@ -28,7 +28,6 @@
 		<Flammability>0.9</Flammability>
 		
 		<CarryingCapacity>125</CarryingCapacity>
-		<MentalBreakThreshold>0.01</MentalBreakThreshold>
 		<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
 
 		<SocialImpact>1.0</SocialImpact>
