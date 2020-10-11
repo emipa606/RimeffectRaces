@@ -27,7 +27,6 @@ Don't much care for food quality, comfort or surroundings.</description>
 		<Flammability>1.0</Flammability>
 		
 		<CarryingCapacity>75</CarryingCapacity>
-		<MentalBreakThreshold>0.01</MentalBreakThreshold>
 
 		<SocialImpact>0.5</SocialImpact>
 		<PlantWorkSpeed>1.0</PlantWorkSpeed>
@@ -254,7 +253,7 @@ Don't much care for food quality, comfort or surroundings.</description>
 	<thinkTreeMain>Humanlike</thinkTreeMain>
 	<nameGenerator>NamerPersonVorcha</nameGenerator>
 	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
-	<hasGenders>false</hasGenders>
+	<hasGenders>true</hasGenders>
 	<intelligence>Humanlike</intelligence>
 	<makesFootprints>true</makesFootprints>
 	<lifeExpectancy>13</lifeExpectancy>
