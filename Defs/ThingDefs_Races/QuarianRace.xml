@@ -33,7 +33,6 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
 		<Flammability>0.7</Flammability>
 		
 		<CarryingCapacity>60</CarryingCapacity>
-		<MentalBreakThreshold>0.01</MentalBreakThreshold>
 
 		<SocialImpact>0.8</SocialImpact>
 		<PlantWorkSpeed>1.2</PlantWorkSpeed>
