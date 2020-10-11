@@ -20,7 +20,6 @@ Resistant to high temperatures.</description>
 		<Flammability>1.0</Flammability>
 		
 		<CarryingCapacity>75</CarryingCapacity>
-		<MentalBreakThreshold>0.01</MentalBreakThreshold>
 
 		<SocialImpact>1.0</SocialImpact>
 		<PlantWorkSpeed>1.0</PlantWorkSpeed>
