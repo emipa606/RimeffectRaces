@@ -226,7 +226,7 @@ Eat only raw meat.</description>
 <race>
 	<thinkTreeMain>Humanlike</thinkTreeMain>
 	<nameGenerator>NamerPersonHanar</nameGenerator>
-	<hasGenders>False</hasGenders>
+	<hasGenders>true</hasGenders>
 	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 	<intelligence>Humanlike</intelligence>
 	<lifeExpectancy>300</lifeExpectancy>
