@@ -27,7 +27,6 @@ Like Insect Meat</description>
 		<Flammability>1.0</Flammability>
 		
 		<CarryingCapacity>60</CarryingCapacity>
-		<MentalBreakThreshold>0.01</MentalBreakThreshold>
 
 		<SocialImpact>1.2</SocialImpact>
 		<PlantWorkSpeed>1.2</PlantWorkSpeed>
