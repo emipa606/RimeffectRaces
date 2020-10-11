@@ -110,6 +110,8 @@
 		</raceNames>
 		
 		<pawnKindNames>
+			<li>BaseGethKind</li>
+			<li>BaseReaperKind</li>
 		</pawnKindNames>
 		
 		<!-- list multiple times for higher chance to pick  -->
