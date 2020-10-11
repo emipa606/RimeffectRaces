@@ -162,7 +162,7 @@ Like Insect Meat</description>
 			
 		</alienPartGenerator>
 
-		<maleGenderProbability>.5</maleGenderProbability>    
+		<maleGenderProbability>.95</maleGenderProbability>    
 		<!--<forcedRaceTraitEntries>
 			<li><defName>Bloodlust</defName><chance>10</chance></li>
 			</forcedRaceTraitEntries>-->
