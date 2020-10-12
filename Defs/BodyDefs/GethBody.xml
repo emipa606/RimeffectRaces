@@ -4,7 +4,7 @@
 	<!-- Geth -->
 
   <BodyDef>
-    <defName>Geth</defName>
+    <defName>GethRER</defName>
     <label>geth</label>
     <corePart>
       <def>GethTorso</def>
