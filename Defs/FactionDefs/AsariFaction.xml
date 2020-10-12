@@ -34,10 +34,7 @@
       </li>
   	</backstoryFilters>
 	<hairTags>
-	  <li>Urban</li>
-      <li>Rural</li>
-      <li>Tribal</li>
-      <li>Punk</li>
+		<li>AsariHair</li>
 	</hairTags>
     <naturalColonyGoodwill>
       <min>-60</min>
