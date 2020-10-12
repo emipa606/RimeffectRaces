@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="BasePawn" Name="BaseGeth" Abstract="True">
+  <ThingDef ParentName="BasePawn" Name="BaseGethRER" Abstract="True">
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <statBases>
       <PsychicSensitivity>0</PsychicSensitivity>
@@ -20,7 +20,7 @@
     </race>
   </ThingDef>
 
-  <PawnKindDef Name="BaseGethKind" Abstract="True">
+  <PawnKindDef Name="BaseGethKindRER" Abstract="True">
     <defaultFactionType>Geth</defaultFactionType>
     <aiAvoidCover>false</aiAvoidCover>
     <destroyGearOnDrop>true</destroyGearOnDrop>
@@ -28,7 +28,7 @@
 
   <!-- Geth Trooper -->
   
-  <ThingDef ParentName="BaseGeth">
+  <ThingDef ParentName="BaseGethRER">
     <defName>GethTrooper</defName>
     <label>Geth Trooper</label>
     <description>The Geth are synthetic tools of war using networked artifical intelligence to coordinate their efforts.</description>
@@ -87,7 +87,7 @@
 	<race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
-      <body>Geth</body>
+      <body>GethRER</body>
       <baseHealthScale>1.0</baseHealthScale>
       <lifeStageAges>
         <li>
@@ -107,7 +107,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <PawnKindDef ParentName="BaseGethKind">
+  <PawnKindDef ParentName="BaseGethKindRER">
     <defName>GethTrooper</defName>
     <label>Geth Trooper</label>
     <race>GethTrooper</race>
@@ -135,7 +135,7 @@
   
     <!-- Geth Hunter -->
   
-  <ThingDef ParentName="BaseGeth">
+  <ThingDef ParentName="BaseGethRER">
     <defName>GethHunter</defName>
     <label>Geth Hunter</label>
     <description>The Geth are synthetic tools of war using networked artifical intelligence to coordinate their efforts.</description>
@@ -194,7 +194,7 @@
 	<race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
-      <body>Geth</body>
+      <body>GethRER</body>
       <baseHealthScale>1.5</baseHealthScale>
       <lifeStageAges>
         <li>
@@ -214,7 +214,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <PawnKindDef ParentName="BaseGethKind">
+  <PawnKindDef ParentName="BaseGethKindRER">
     <defName>GethHunter</defName>
     <label>Geth Hunter</label>
     <race>GethHunter</race>
@@ -242,7 +242,7 @@
   
       <!-- Geth Prime -->
   
-  <ThingDef ParentName="BaseGeth">
+  <ThingDef ParentName="BaseGethRER">
     <defName>GethPrime</defName>
     <label>Geth Prime</label>
     <description>The Geth are synthetic tools of war using networked artifical intelligence to coordinate their efforts.</description>
@@ -301,7 +301,7 @@
 	<race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
-      <body>Geth</body>
+      <body>GethRER</body>
       <baseHealthScale>2</baseHealthScale>
       <lifeStageAges>
         <li>
@@ -321,7 +321,7 @@
     </butcherProducts>
   </ThingDef>
 
-  <PawnKindDef ParentName="BaseGethKind">
+  <PawnKindDef ParentName="BaseGethKindRER">
     <defName>GethPrime</defName>
     <label>Geth Prime</label>
     <race>GethPrime</race>
