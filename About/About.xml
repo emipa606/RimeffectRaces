@@ -25,17 +25,8 @@ Includes a patch for Combat Extended
       <displayName>Humanoid Alien Races 2.0</displayName>
       <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
    </li>
-   <li>
-	<packageId>neronix17.toolbox</packageId>
-	<displayName>[O21] Toolbox</displayName>
-	<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
-   </li>
 </modDependencies>
-<loadBefore>
-	<li>CETeam.CombatExtended</li>
-</loadBefore>
 <loadAfter>
 <li>erdelf.HumanoidAlienRaces</li>
-<li>neronix17.toolbox</li>
 </loadAfter>
 </ModMetaData>
