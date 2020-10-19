@@ -1,3 +1,4 @@
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimeffect Races\Source\RimeffectRaces\obj\Debug\RimeffectRaces.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimeffect Races\Assemblies\RimeffectRaces.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimeffect Races\Source\RimeffectRaces\obj\Debug\RimeffectRaces.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Rimeffect Races\Source\RimeffectRaces\obj\Debug\RimeffectRaces.csprojAssemblyReference.cache
