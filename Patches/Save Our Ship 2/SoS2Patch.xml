@@ -11,7 +11,7 @@
 					<li Class="PatchOperationAddModExtension">
 						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienQuarian"]</xpath>
 						<value>
-							<li Class="O21Toolbox.HarmonyPatches.DefModExt_SpaceCapable" />
+							<li Class="RimeffectRaces.DefModExt_HasSpacesuit" />
 						</value>
 					</li>
 					
@@ -20,22 +20,20 @@
 						<value>
 							<ComfyTemperatureMin>-120</ComfyTemperatureMin>
 						</value>
-					</li>
-					
+					</li>		
 					<li Class="PatchOperationAddModExtension">
-						<xpath>/Defs/ThingDef[@Name="BaseGeth"]</xpath>
+						<xpath>/Defs/ThingDef[@Name="BaseGethRER"]</xpath>
 						<value>
-							<li Class="O21Toolbox.HarmonyPatches.DefModExt_SpaceCapable" />
+							<li Class="RimeffectRaces.DefModExt_HasSpacesuit" />
 						</value>
 					</li>
 					
 					<li Class="PatchOperationAddModExtension">
 						<xpath>/Defs/ThingDef[@Name="BaseReaper"]</xpath>
 						<value>
-							<li Class="O21Toolbox.HarmonyPatches.DefModExt_SpaceCapable" />
+							<li Class="RimeffectRaces.DefModExt_HasSpacesuit" />
 						</value>
 					</li>
-					
 			</operations>		
 		</match>
 	</Operation>

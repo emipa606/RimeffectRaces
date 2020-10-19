@@ -1,11 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-<Operation Class="PatchOperationAdd">
-<xpath>*/ThingDef[defName="Gun_Minigun"]/weaponTags</xpath>
-<value>
-<li>RERHeavy</li>
-</value>
+<Operation Class="PatchOperationConditional">
+    <xpath>*/ThingDef[defName="Gun_Minigun"]/weaponTags</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="Gun_Minigun"]</xpath>
+        <value>
+            <weaponTags>
+                <li>RERHeavy</li>
+            </weaponTags>
+        </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName="Gun_Minigun"]/weaponTags</xpath>
+        <value>
+            <li>RERHeavy</li>
+        </value>
+    </match>
 </Operation>
 
 
