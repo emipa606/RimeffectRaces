@@ -216,7 +216,7 @@
 	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 	<intelligence>Humanlike</intelligence>
 	<makesFootprints>true</makesFootprints>
-	<lifeExpectancy>2000</lifeExpectancy>
+	<lifeExpectancy>1300</lifeExpectancy>
 	<bloodDef>FilthBloodKrogan</bloodDef>
 	<nameCategory>HumanStandard</nameCategory>
 	<body>Krogan</body>
@@ -237,20 +237,28 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>KroganBabyStage</def>
+          <def>HumanlikeBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>KroganChildStage</def>
-          <minAge>5</minAge>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
         </li>
-		        <li>
-          <def>KroganAdultStage</def>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>9</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
           <minAge>18</minAge>
         </li>
-		        <li>
-          <def>KroganOldStage</def>
-          <minAge>150</minAge>
+		<li>
+          <def>HumanlikeOld</def>
+          <minAge>800</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -274,11 +282,7 @@
 		  <li>(900,5)</li>
 		  <li>(1000,4)</li>
 		  <li>(1200,3)</li>
-		  <li>(1400,3)</li>
-		  <li>(1600,2)</li>
-		  <li>(1800,1)</li>
-		  <li>(2000,1)</li>
-		  <li>(2100,0)</li>
+		  <li>(1400,0)</li>
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>

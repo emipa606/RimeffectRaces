@@ -204,8 +204,17 @@ Eat only raw meat.</description>
 	</relationSettings>
  
 	<thoughtSettings>
-		<cannotReceiveThoughts><li>AteWithoutTable</li><li>Naked</li><li>SoakingWet</li><li>AteRawFood</li><li>AteCorpse</li></cannotReceiveThoughts>
-		<restrictedThoughts><li>HanarNaked</li><li>HanarFood</li><li>HanarCorpse</li></restrictedThoughts>
+		<cannotReceiveThoughts>
+			<li>AteWithoutTable</li>
+			<li>Naked</li>
+			<li>SoakingWet</li>
+			<li>AteRawFood</li>
+			<li>AteCorpse</li>
+		</cannotReceiveThoughts>
+		<restrictedThoughts>
+			<li>HanarFood</li>
+			<li>HanarCorpse</li>
+		</restrictedThoughts>
 		<ateThoughtSpecific></ateThoughtSpecific>
 		<replacerList>
 		<li>
@@ -253,24 +262,28 @@ Eat only raw meat.</description>
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>HanarBabyStage</def>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
           <minAge>2</minAge>
         </li>
         <li>
-          <def>HanarChildStage</def>
-          <minAge>5</minAge>
+          <def>HumanlikeChild</def>
+          <minAge>7</minAge>
         </li>
         <li>
-          <def>HanarAdultStage1</def>
-          <minAge>20</minAge>
+          <def>HumanlikeTeenager</def>
+          <minAge>18</minAge>
         </li>
-		        <li>
-          <def>HanarAdultStage2</def>
-          <minAge>150</minAge>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>30</minAge>
         </li>
 		<li>
-          <def>HanarOldStage</def>
-          <minAge>270</minAge>
+          <def>HumanlikeOld</def>
+          <minAge>200</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -295,7 +308,7 @@ Eat only raw meat.</description>
 		  <li>(300,0)</li>
         </points>
       </ageGenerationCurve>
-      <hediffGiverSets>
+      <hediffGiverSets Inherit= "False">
         <li>HanarHediffs</li>
       </hediffGiverSets>
 </race>

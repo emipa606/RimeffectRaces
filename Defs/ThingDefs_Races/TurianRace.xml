@@ -144,6 +144,7 @@ Dislikes the cold, and likes the heat</description>
 	<alienRace>
 
 	<generalSettings>
+		<minAgeForAdulthood>16</minAgeForAdulthood>
 		<allowHumanBios>False</allowHumanBios>
 		<humanRecipeImport>true</humanRecipeImport>
 		<alienPartGenerator>
@@ -237,7 +238,7 @@ Dislikes the cold, and likes the heat</description>
 		</forcedRaceTraitEntries>		
 	    <disallowedTraits>
 			<li>
-				<defName>Gourmet</defName>
+				<defName>Gourmand</defName>
 			</li>
         </disallowedTraits>
 		<!--<forcedRaceTraitEntries>
@@ -323,20 +324,28 @@ Dislikes the cold, and likes the heat</description>
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>AlienBabyStage</def>
-          <minAge>2</minAge>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
         </li>
         <li>
-          <def>AlienChildStage</def>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
           <minAge>5</minAge>
         </li>
         <li>
-          <def>AlienAdultStage</def>
-          <minAge>14</minAge>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>16</minAge>
         </li>
 		<li>
-          <def>AlienOldStage</def>
-          <minAge>90</minAge>
+          <def>HumanlikeOld</def>
+          <minAge>95</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>

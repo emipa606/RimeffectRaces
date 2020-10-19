@@ -113,6 +113,7 @@ Don't much care for food quality, comfort or surroundings.</description>
 	<alienRace>
 
 	<generalSettings>
+		<minAgeForAdulthood>40</minAgeForAdulthood>
 		<allowHumanBios>False</allowHumanBios>
 		<humanRecipeImport>true</humanRecipeImport>
 		<alienPartGenerator>
@@ -278,7 +279,7 @@ Don't much care for food quality, comfort or surroundings.</description>
       <lifeStageAges>
         <li>
           <def>VorchaBabyStage</def>
-          <minAge>1</minAge>
+          <minAge>0</minAge>
         </li>
         <li>
           <def>VorchaChildStage</def>

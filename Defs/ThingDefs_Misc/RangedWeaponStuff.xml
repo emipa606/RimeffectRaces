@@ -22,7 +22,6 @@
     <defName>Gun_CannibalRifle</defName>
     <label>cannibal rifle</label>
     <description>A micro-scaled mass accelerator rifle used by the cannibal mutants.</description>
-    <comps><li Class="O21Toolbox.WeaponExt.CompProperties_OversizedWeapon"></li></comps>
 	<graphicData>
       <texPath>Weapons/CannibalRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -230,12 +229,11 @@
   <ThingDef ParentName="BaseGunWithQuality">
     <defName>Gun_GethPlasmaShotgun</defName>
     <label>Plasma Shotgun</label>
-    <comps><li Class="O21Toolbox.WeaponExt.CompProperties_OversizedWeapon"></li></comps>
 	<description>A three-barrelled geth weapon that fires miniature but potent cluster rounds of superconducting projectiles.</description>
     <graphicData>
       <texPath>Weapons/GethPlasmaShotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>0.95</drawSize>
+	  <drawSize>0.9</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>1000</MarketValue>
@@ -308,7 +306,6 @@
     <defName>Gun_M76Revenant</defName>
     <label>M-76 Revenant</label>
     <description>A sophisticated assault rifle that unleashes a storm of deadly high-velocity slugs.</description>
-    <comps><li Class="O21Toolbox.WeaponExt.CompProperties_OversizedWeapon"></li></comps>
 	<graphicData>
       <texPath>Weapons/M76Revenant</texPath>
       <graphicClass>Graphic_Single</graphicClass>

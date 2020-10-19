@@ -25,6 +25,7 @@ Like Insect Meat</description>
 		<MarketValue>1900</MarketValue>
 		<MoveSpeed>5.0</MoveSpeed>
 		<Flammability>1.0</Flammability>
+		<ImmunityGainSpeed>0.9</ImmunityGainSpeed>
 		
 		<CarryingCapacity>60</CarryingCapacity>
 
@@ -102,6 +103,7 @@ Like Insect Meat</description>
 	<alienRace>
 
 	<generalSettings>
+		<minAgeForAdulthood>12</minAgeForAdulthood>
 		<allowHumanBios>False</allowHumanBios>
 		<humanRecipeImport>true</humanRecipeImport>
 		<alienPartGenerator>
@@ -234,19 +236,27 @@ Like Insect Meat</description>
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>SalarianBabyStage</def>
-          <minAge>2</minAge>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
         </li>
         <li>
-          <def>SalarianChildStage</def>
-          <minAge>5</minAge>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
         </li>
         <li>
-          <def>SalarianAdultStage</def>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>8</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
           <minAge>12</minAge>
         </li>
 		<li>
-          <def>SalarianOldStage</def>
+          <def>HumanlikeOld</def>
           <minAge>30</minAge>
         </li>
       </lifeStageAges>

@@ -221,20 +221,28 @@ Resistant to high temperatures.</description>
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>AlienBabyStage</def>
-          <minAge>2</minAge>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
         </li>
         <li>
-          <def>AlienChildStage</def>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
           <minAge>5</minAge>
         </li>
         <li>
-          <def>AlienAdultStage</def>
-          <minAge>14</minAge>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
         </li>
 		<li>
-          <def>AlienOldStage</def>
-          <minAge>90</minAge>
+          <def>HumanlikeOld</def>
+          <minAge>70</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>

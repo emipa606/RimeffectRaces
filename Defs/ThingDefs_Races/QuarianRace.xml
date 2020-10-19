@@ -31,6 +31,7 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
 		<MarketValue>1400</MarketValue>
 		<MoveSpeed>4.8</MoveSpeed>
 		<Flammability>0.7</Flammability>
+		<ImmunityGainSpeed>0.85</ImmunityGainSpeed>
 		
 		<CarryingCapacity>60</CarryingCapacity>
 
@@ -210,19 +211,27 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>QuarianBabyStage</def>
-          <minAge>2</minAge>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
         </li>
         <li>
-          <def>QuarianChildStage</def>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
           <minAge>5</minAge>
         </li>
         <li>
-          <def>QuarianAdultStage</def>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
           <minAge>18</minAge>
         </li>
 		<li>
-          <def>QuarianOldStage</def>
+          <def>HumanlikeOld</def>
           <minAge>60</minAge>
         </li>
       </lifeStageAges>

@@ -34,11 +34,12 @@
   
   
   <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn">
-  <defName>Alien_Asari</defName>
+  <defName>AlienAsari</defName>
     <label>asari</label>
     <description>A mono-gender race, the asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.</description>
       <alienRace>
         <generalSettings>
+			<minAgeForAdulthood>50</minAgeForAdulthood>
 			<humanRecipeImport>true</humanRecipeImport>
 			<maleGenderProbability>0</maleGenderProbability>
 			<immuneToAge>false</immuneToAge>
@@ -243,24 +244,32 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>BabyStage</def>
+          <def>AsariBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>ChildStage</def>
-          <minAge>4</minAge>
+          <def>AsariToddler</def>
+          <minAge>8</minAge>
         </li>
         <li>
-          <def>MaidenStage</def>
-          <minAge>18</minAge>
+          <def>AsariChild</def>
+          <minAge>14</minAge>
         </li>
         <li>
-          <def>MatronStage</def>
-          <minAge>300</minAge>
+          <def>AsariTeenager</def>
+          <minAge>30</minAge>
         </li>
         <li>
-          <def>MatriarchStage</def>
-          <minAge>650</minAge>
+          <def>AsariMaiden</def>
+          <minAge>50</minAge>
+        </li>
+        <li>
+          <def>AsariMatron</def>
+          <minAge>350</minAge>
+        </li>
+        <li>
+          <def>AsariMatriarch</def>
+          <minAge>700</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>

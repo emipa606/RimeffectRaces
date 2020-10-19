@@ -212,7 +212,7 @@ Longer than human lifespan</description>
 			
 		</alienPartGenerator>
 
-		<maleGenderProbability>.95</maleGenderProbability>    
+		<maleGenderProbability>.9</maleGenderProbability>    
 		<forcedRaceTraitEntries>
 			<li>
 				<defName>Bloodlust</defName>
@@ -266,20 +266,28 @@ Longer than human lifespan</description>
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>AlienBabyStage</def>
-          <minAge>2</minAge>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
         </li>
         <li>
-          <def>AlienChildStage</def>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
           <minAge>5</minAge>
         </li>
         <li>
-          <def>AlienAdultStage</def>
-          <minAge>14</minAge>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
         </li>
 		<li>
-          <def>AlienOldStage</def>
-          <minAge>75</minAge>
+          <def>HumanlikeOld</def>
+          <minAge>95</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
