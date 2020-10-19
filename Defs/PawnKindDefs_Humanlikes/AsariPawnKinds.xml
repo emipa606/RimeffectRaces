@@ -5,7 +5,7 @@
 
   <PawnKindDef Name="AsariBase" Abstract="True">
     <defaultFactionType>AsariFaction</defaultFactionType>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
     <chemicalAddictionChance>0.035</chemicalAddictionChance>
     <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
     <backstoryFilters>
@@ -59,7 +59,7 @@
     <PawnKindDef ParentName="AsariSlaveBase">
 		<defName>AsariSlave</defName>
 		<label>asari slave</label>
-		<race>Alien_Asari</race>
+		<race>AlienAsari</race>
 	</PawnKindDef>
 	
 	   <!-- ============================ Asari Refugee Base ========================== -->
@@ -94,7 +94,7 @@
     <PawnKindDef ParentName="AsariRefugeeBase">
 		<defName>AsariRefugee</defName>
 		<label>asari refugee</label>
-		<race>Alien_Asari</race>
+		<race>AlienAsari</race>
 	</PawnKindDef>
   
   <!-- ============================ Asari Civilian Base ========================== -->
@@ -156,12 +156,12 @@
   <PawnKindDef ParentName="AsariCivBase">
     <defName>AsariColonist</defName>
     <label>colonist</label>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
   </PawnKindDef>
 
   <PawnKindDef ParentName="AsariCivBase">
     <defName>AsariMatriarch</defName>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
     <label>matriarch</label>
     <labelPlural>matriarchs</labelPlural>
     <factionLeader>true</factionLeader>
@@ -173,7 +173,7 @@
     <defName>AsariTrader</defName>
     <label>colony trader</label>
     <trader>true</trader>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
   </PawnKindDef>
   
   <!-- ============================ Asari Security ========================== -->
@@ -181,7 +181,7 @@
   <PawnKindDef Name="AsariSecurityGuard" ParentName="AsariCivBase">
     <defName>AsariSecurityGuard</defName>
     <label>security guard</label>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
     <combatPower>50</combatPower>
     <maxGenerationAge>600</maxGenerationAge>
     <gearHealthRange>
@@ -276,13 +276,13 @@
     <defName>AsariRecruit</defName>
     <label>recruit</label>
     <combatPower>70</combatPower>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
   </PawnKindDef>
   
   <PawnKindDef Name="AsariHuntresses" ParentName="AsariMilBase">
     <defName>AsariHuntress</defName>
     <label>huntresses</label>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
     <combatPower>90</combatPower>
     <minGenerationAge>100</minGenerationAge>
     <gearHealthRange>
@@ -341,7 +341,7 @@
   <PawnKindDef Name="AsariCommando" ParentName="AsariMilBase">
     <defName>AsariCommando</defName>
     <label>commando</label>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
     <combatPower>135</combatPower>
     <minGenerationAge>200</minGenerationAge>
     <gearHealthRange>
@@ -399,7 +399,7 @@
   <PawnKindDef Name="AsariCommandoElite" ParentName="AsariCommando">
      <defName>AsariCommandoElite</defName>
     <label>elite commando</label>
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
     <combatPower>220</combatPower>
     <minGenerationAge>300</minGenerationAge>
     <gearHealthRange>

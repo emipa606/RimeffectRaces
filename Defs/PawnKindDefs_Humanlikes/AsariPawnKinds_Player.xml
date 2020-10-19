@@ -2,7 +2,7 @@
 <Defs>
 
   <PawnKindDef Abstract="True" Name="BaseAsariPlayerPawnKind">
-    <race>Alien_Asari</race>
+    <race>AlienAsari</race>
     <combatPower>40</combatPower>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
     <isFighter>false</isFighter>

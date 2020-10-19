@@ -32,7 +32,7 @@
       <li>ClassicStart</li>
     </startingResearchTags>
     <hairTags>
-	<li>AsariHair</li>
+		<li>AsariHair</li>
     </hairTags>
     <apparelStuffFilter>
       <thingDefs>
@@ -67,7 +67,7 @@
       <li>TribalStart</li>
     </startingResearchTags>
     <hairTags>
-	<li>AsariHair</li>
+      <li>Tribal</li>
     </hairTags>
     <apparelStuffFilter>
       <thingDefs>

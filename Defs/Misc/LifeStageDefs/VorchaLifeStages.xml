@@ -3,24 +3,28 @@
   
   <LifeStageDef>
     <defName>VorchaBabyStage</defName>
-    <label>baby</label>
-    <bodySizeFactor>0.2</bodySizeFactor>
+    <label>juvenile</label>
+    <bodySizeFactor>0.32</bodySizeFactor>
+	<foodMaxFactor>1.5</foodMaxFactor>
     <healthScaleFactor>0.4</healthScaleFactor>
-    <hungerRateFactor>0.2</hungerRateFactor>
-    <marketValueFactor>0.5</marketValueFactor>
+    <hungerRateFactor>0.4</hungerRateFactor>
+    <marketValueFactor>0.7</marketValueFactor>
+	<meleeDamageFactor>0.6</meleeDamageFactor>
     <statFactors>
-      <MoveSpeed>0.2</MoveSpeed>
+      <MoveSpeed>0.3</MoveSpeed>
 	  <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
     </statFactors>
   </LifeStageDef>
 
   <LifeStageDef>
     <defName>VorchaChildStage</defName>
-    <label>child</label>
-    <bodySizeFactor>0.5</bodySizeFactor>
+    <label>adolescent</label>
+	<reproductive>true</reproductive>
+    <bodySizeFactor>0.85</bodySizeFactor>
     <healthScaleFactor>1.2</healthScaleFactor>
-    <marketValueFactor>0.9</marketValueFactor>
+	<meleeDamageFactor>0.85</meleeDamageFactor>
 	<statFactors>
+	  <MoveSpeed>0.95</MoveSpeed>
       <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
 	</statFactors>
   </LifeStageDef>
@@ -28,7 +32,7 @@
 
   <LifeStageDef>
     <defName>VorchaAdultStage1</defName>
-    <label>strong adult</label>
+    <label>adult</label>
     <visible>false</visible>
     <healthScaleFactor>1.7</healthScaleFactor>
 	<statFactors>
@@ -43,7 +47,7 @@
     <visible>false</visible>
     <healthScaleFactor>1.2</healthScaleFactor>
 	<statFactors>
-      <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+      <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
 	  </statFactors>
 	<reproductive>true</reproductive>
   </LifeStageDef>
@@ -54,7 +58,7 @@
     <visible>false</visible>
     <healthScaleFactor>1.0</healthScaleFactor>
 		<statFactors>
-	  <ImmunityGainSpeed>0.6</ImmunityGainSpeed>
+	  <ImmunityGainSpeed>0.85</ImmunityGainSpeed>
 	  </statFactors>
 	<reproductive>false</reproductive>
   </LifeStageDef>
@@ -66,7 +70,7 @@
     <healthScaleFactor>0.7</healthScaleFactor>
 	<statFactors>
       <MoveSpeed>0.85</MoveSpeed>
-	  <ImmunityGainSpeed>0.4</ImmunityGainSpeed>
+	  <ImmunityGainSpeed>0.6</ImmunityGainSpeed>
 	  </statFactors>
 	<reproductive>false</reproductive>
   </LifeStageDef>
