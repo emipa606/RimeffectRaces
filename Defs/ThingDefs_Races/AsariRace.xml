@@ -221,6 +221,8 @@
       </li>
     </tools>
     <race>
+	  <nameGenerator>NamerPersonAsari</nameGenerator>
+	  <nameGeneratorFemale>NamerPersonAsari</nameGeneratorFemale>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
@@ -325,9 +327,7 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-	
-	<!-- Old Def for savegame Compatibility -->
-	
+  
   <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn">
   <defName>Alien_Asari</defName>
     <label>asari</label>
@@ -516,6 +516,8 @@
       </li>
     </tools>
     <race>
+	  <nameGenerator>NamerPersonAsari</nameGenerator>
+	  <nameGeneratorFemale>NamerPersonAsari</nameGeneratorFemale>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
