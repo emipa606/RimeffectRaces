@@ -283,7 +283,7 @@ Krogan can recover from all but the most grevious of injuries, and organ redunda
 					<MoteDef>Mote_RegenBodyPart</MoteDef>
 				</BodyPartRegenParams>
 
-				<debug>true</debug>
+				<debug>false</debug>
 			</li>
 		</comps>
 	</HediffDef>
