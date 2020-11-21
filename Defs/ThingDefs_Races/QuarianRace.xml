@@ -48,8 +48,9 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
 		<DrugSynthesisSpeed>1.0</DrugSynthesisSpeed>	
 		<GeneralLaborSpeed>1.2</GeneralLaborSpeed>
 		
-		<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.22</ArmorRating_Heat>
 
 		<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
 		<MeleeHitChance>0.8</MeleeHitChance>
@@ -177,8 +178,18 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
 	</thoughtSettings>
 
     <raceRestriction>
-	<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel> 
-	<apparelList></apparelList>
+		<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel> 
+		<apparelList>
+			<li>Apparel_ArmoredExosuit</li>
+		</apparelList>
+		<whiteApparelList>
+			<li>Apparel_PsychicShockLance</li>
+			<li>Apparel_PsychicInsanityLance</li>
+			<li>Apparel_ShieldBelt</li>
+			<li>Apparel_SmokepopBelt</li>
+			<li>Apparel_PackJump</li>
+			<li>Apparel_PackBroadshield</li>
+		</whiteApparelList>
 	</raceRestriction>
 
 </alienRace>

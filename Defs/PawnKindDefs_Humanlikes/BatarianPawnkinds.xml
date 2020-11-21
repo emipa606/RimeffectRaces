@@ -238,6 +238,96 @@
 		<defName>BatarianElite01</defName>
 		<label>elite soldier</label>
 	</PawnKindDef>
+	
+    <!-- ============================ Brawler Batarians ========================== -->
+	
+	<PawnKindDef Name="BatarianBrawlerBase" ParentName="BatarianBase" Abstract="True">
+		<combatPower>100</combatPower>
+		<race>AlienBatarian</race>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>1000</min>
+			<max>1700</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>200</min>
+			<max>500</max>
+		</weaponMoney>
+		<apparelRequired>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+		<weaponTags>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+		<invNutrition>1.0</invNutrition>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="BatarianBrawlerBase">
+		<defName>BatarianBrawler01</defName>
+		<label>brawler</label>
+	</PawnKindDef>
+  
+  
+    <!-- ============================ Elite Brawler Batarians ========================== -->
+	<PawnKindDef Name="BatarianEliteBrawlerBase" ParentName="BatarianBase" Abstract="True">
+		<combatPower>125</combatPower>
+		<race>AlienBatarian</race>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>
+			<min>0.9</min>
+			<max>1.2</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>1300</min>
+			<max>2000</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+			<li>SpacerMilitary</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>350</min>
+			<max>800</max>
+		</weaponMoney>
+		<apparelRequired>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+		<weaponTags>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<invNutrition>1.0</invNutrition>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>30</choiceChance>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>1</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="BatarianEliteBrawlerBase">
+		<defName>BatarianEliteBrawler01</defName>
+		<label>elite brawler</label>
+	</PawnKindDef>
   
   <!-- ============================ Grenadier Batarians ========================== -->
   

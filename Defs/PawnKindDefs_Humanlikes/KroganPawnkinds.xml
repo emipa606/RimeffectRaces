@@ -76,7 +76,8 @@
 		</apparelMoney>
 		<apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
 		<apparelTags>
-			<li>Outlander</li><li>IndustrialBasic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>200</min>

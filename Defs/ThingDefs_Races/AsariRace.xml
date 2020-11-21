@@ -1,39 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <!-- ============================ Asari Base ========================== -->
-
-  <ThingDef Name="BaseAsariPawn" Abstract="True">
-    <thingClass>Pawn</thingClass>
-    <category>Pawn</category>
-    <selectable>true</selectable>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Pawn</altitudeLayer>
-    <useHitPoints>false</useHitPoints>
-    <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-    <inspectorTabs>
-        <li>ITab_Pawn_Health</li>
-        <li>ITab_Pawn_Needs</li>
-        <li>ITab_Pawn_Character</li>
-        <li>ITab_Pawn_Training</li>
-        <li>ITab_Pawn_Gear</li>
-        <li>ITab_Pawn_Guest</li>
-        <li>ITab_Pawn_Prisoner</li>
-        <li>ITab_Pawn_Social</li>
-        <li>ITab_Pawn_Log</li>
-        <li>ITab_Pawn_FormingCaravan</li>
-    </inspectorTabs>
-    <comps>
-        <li>
-            <compClass>CompAttachBase</compClass>
-        </li>
-    </comps>
-    <drawGUIOverlay>true</drawGUIOverlay>
-</ThingDef>
   
-  
-  <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn">
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
   <defName>AlienAsari</defName>
     <label>asari</label>
     <description>A mono-gender race, the asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.</description>
@@ -328,7 +296,9 @@
     </recipes>
   </AlienRace.ThingDef_AlienRace>
   
-  <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn">
+  <!-- Outdated Compatibility Version -->
+  
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
   <defName>Alien_Asari</defName>
     <label>asari</label>
     <description>A mono-gender race, the asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.</description>

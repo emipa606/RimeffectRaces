@@ -93,9 +93,11 @@
         <options>
           <BatarianColonist01>30</BatarianColonist01>
 		  <BatarianSoldier01>60</BatarianSoldier01>
+		  <BatarianBrawler01>40</BatarianBrawler01>
 		  <BatarianGrenadier01>15</BatarianGrenadier01>
 		  <BatarianVeteran01>35</BatarianVeteran01>
 		  <BatarianElite01>20</BatarianElite01>
+		  <BatarianEliteBrawler01>20</BatarianEliteBrawler01>
 	   	  <BatarianChancellor01>1</BatarianChancellor01>
         </options>
       </li>
@@ -118,8 +120,10 @@
         <options>
 		  <BatarianSoldier01>60</BatarianSoldier01>
 		  <BatarianVeteran01>25</BatarianVeteran01>
+		  <BatarianBrawler01>20</BatarianBrawler01>
 		  <BatarianColonist01>50</BatarianColonist01>
 		  <BatarianElite01>10</BatarianElite01>
+		  <BatarianEliteBrawler01>10</BatarianEliteBrawler01>
 		  <BatarianChancellor01>1</BatarianChancellor01>
         </options>
       </li>

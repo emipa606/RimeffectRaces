@@ -125,6 +125,14 @@
 			<min>0.9</min>
 			<max>2.0</max>
 		</gearHealthRange>
+		<apparelMoney>
+			<min>0</min>
+			<max>1500</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>QuarianMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<weaponMoney>
 			<min>650</min>
 			<max>1000</max>
@@ -140,8 +148,8 @@
 					<choiceChance>20</choiceChance>
 					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
-						<min>1</min>
-						<max>1</max>
+						<min>0</min>
+						<max>2</max>
 					</countRange>
 				</li>
 			</subOptionsChooseOne>
@@ -162,8 +170,16 @@
 			<min>1.0</min>
 			<max>2.0</max>
 		</gearHealthRange>
+		<apparelMoney>
+			<min>1000</min>
+			<max>3000</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>QuarianMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<weaponMoney>
-			<min>1100</min>
+			<min>1200</min>
 			<max>1700</max>
 		</weaponMoney>
 		<weaponTags>
@@ -177,8 +193,8 @@
 					<choiceChance>30</choiceChance>
 					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
-						<min>1</min>
-						<max>2</max>
+						<min>0</min>
+						<max>3</max>
 					</countRange>
 				</li>
 			</subOptionsChooseOne>
@@ -203,6 +219,14 @@
 			<min>300</min>
 			<max>600</max>
 		</weaponMoney>
+		<apparelMoney>
+			<min>0</min>
+			<max>1000</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>QuarianMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<weaponTags>
 			<li>GrenadeDestructive</li>
 		</weaponTags>
@@ -222,6 +246,14 @@
 			<min>1.0</min>
 			<max>2.0</max>
 		</gearHealthRange>
+		<apparelMoney>
+			<min>0</min>
+			<max>1000</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>QuarianMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<weaponMoney>
 			<min>500</min>
 			<max>1000</max>
