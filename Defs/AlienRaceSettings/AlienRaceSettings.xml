@@ -205,7 +205,6 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>HanarSoldier01</li>
 								<li>HanarColonist01</li>
 							</kindDefs>
 							<chance>20.0</chance>
