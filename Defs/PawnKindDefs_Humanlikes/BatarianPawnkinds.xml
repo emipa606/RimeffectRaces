@@ -263,9 +263,6 @@
 			<min>200</min>
 			<max>500</max>
 		</weaponMoney>
-		<apparelRequired>
-			<li>Apparel_ShieldBelt</li>
-		</apparelRequired>
 		<weaponTags>
 			<li>MedievalMeleeDecent</li>
 		</weaponTags>
