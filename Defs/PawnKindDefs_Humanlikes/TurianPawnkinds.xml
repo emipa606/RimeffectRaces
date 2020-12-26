@@ -172,6 +172,7 @@
 			<li>IndustrialMilitaryAdvanced</li>
 			<li>SpacerMilitary</li>
 			<li>BeltDefensePop</li>
+			<li>RangedShieldBelt</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>850</min>
@@ -222,6 +223,7 @@
 			<li>IndustrialMilitaryAdvanced</li>
 			<li>SpacerMilitary</li>
 			<li>BeltDefensePop</li>
+			<li>RangedShieldBelt</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>800</min>

@@ -210,6 +210,7 @@
 			<li>IndustrialMilitaryAdvanced</li>
 			<li>SpacerMilitary</li>
 			<li>BeltDefensePop</li>
+			<li>RangedShieldBelt</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>800</min>
@@ -295,6 +296,7 @@
 			<li>Outlander</li>
 			<li>IndustrialBasic</li>
 			<li>SpacerMilitary</li>
+			<li>BeltDefense</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>350</min>

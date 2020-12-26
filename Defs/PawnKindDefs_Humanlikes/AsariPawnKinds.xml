@@ -294,6 +294,7 @@
       <li>Outlander</li>
       <li>Military</li>
 	  <li>BeltDefensePop</li>
+	  <li>RangedShieldBelt</li>
     </apparelTags>
     <apparelMoney>
       <min>1500</min>
@@ -354,6 +355,7 @@
       <li>Outlander</li>
       <li>Military</li>
 	  <li>BeltDefensePop</li>
+	  <li>RangedShieldBelt</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
@@ -413,6 +415,7 @@
       <li>Military</li>
       <li>Spacer</li>
 	  <li>BeltDefensePop</li>
+	  <li>RangedShieldBelt</li>
     </apparelTags>
     <apparelMoney>
       <min>2500</min>

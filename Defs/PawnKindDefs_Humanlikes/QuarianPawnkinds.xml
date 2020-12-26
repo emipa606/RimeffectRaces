@@ -132,6 +132,7 @@
 		<apparelTags>
 			<li>QuarianMilitary</li>
 			<li>BeltDefensePop</li>
+			<li>RangedShieldBelt</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>650</min>
@@ -177,6 +178,7 @@
 		<apparelTags>
 			<li>QuarianMilitary</li>
 			<li>BeltDefensePop</li>
+			<li>RangedShieldBelt</li>
 		</apparelTags>
 		<weaponMoney>
 			<min>1200</min>
