@@ -189,6 +189,9 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
 			<li>Apparel_SmokepopBelt</li>
 			<li>Apparel_PackJump</li>
 			<li>Apparel_PackBroadshield</li>
+			<li>Apparel_QRShieldBelt</li>
+			<li>Apparel_HeavyShieldBelt</li>
+			<li>Apparel_RangedShieldBelt</li>
 		</whiteApparelList>
 	</raceRestriction>
 
