@@ -91,7 +91,7 @@
 						</value>
 					</li>
 
-					<li Class="PatchOperationReplace">
+			<!--		<li Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[@Name="BaseAsariPawn"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
 						<value>
 							<li>CombatExtended.ITab_Inventory</li>
@@ -103,7 +103,7 @@
 						<value>
 							<li Class="CombatExtended.CompProperties_Inventory" />
 						</value>
-					</li>
+					</li> -->
 					
 			</operations>		
 		</match>
