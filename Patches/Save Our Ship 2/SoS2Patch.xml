@@ -11,7 +11,7 @@
 					<li Class="PatchOperationAddModExtension">
 						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienQuarian"]</xpath>
 						<value>
-							<li Class="RimeffectRaces.DefModExt_HasSpacesuit" />
+							<li Class="RimeffectRaces.DefModExt_SpaceCapable" />
 						</value>
 					</li>
 					
@@ -24,14 +24,14 @@
 					<li Class="PatchOperationAddModExtension">
 						<xpath>/Defs/ThingDef[@Name="BaseGethRER"]</xpath>
 						<value>
-							<li Class="RimeffectRaces.DefModExt_HasSpacesuit" />
+							<li Class="RimeffectRaces.DefModExt_SpaceCapable" />
 						</value>
 					</li>
 					
 					<li Class="PatchOperationAddModExtension">
 						<xpath>/Defs/ThingDef[@Name="BaseReaper"]</xpath>
 						<value>
-							<li Class="RimeffectRaces.DefModExt_HasSpacesuit" />
+							<li Class="RimeffectRaces.DefModExt_SpaceCapable" />
 						</value>
 					</li>
 			</operations>		
