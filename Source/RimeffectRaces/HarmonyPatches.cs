@@ -31,20 +31,21 @@ namespace RimeffectRaces
 
         public static void SaveOurShip2_CompatibilityHook(Harmony harmony)
         {
-            harmony.Patch(AccessTools.Method(typeof(SaveOurShip2.ShipInteriorMod2), "hasSpaceSuit"), null, new HarmonyMethod(typeof(HarmonyPatches), "SOS2CompatibilityHook_hasSpaceSuit_Postfix"));
+                harmony.Patch(AccessTools.Method(typeof(SaveOurShip2.ShipInteriorMod2), "HasSpaceSuitSlow"), null, new HarmonyMethod(typeof(HarmonyPatches), "SOS2CompatibilityHook_HasSpaceSuit_Postfix"));
         }
-        public static void SOS2CompatibilityHook_hasSpaceSuit_Postfix(Pawn thePawn, ref bool __result)
+
+        public static void SOS2CompatibilityHook_HasSpaceSuit_Postfix(Pawn pawn, ref bool __result)
         {
-            if (thePawn != null && __result == false)
+            if (pawn != null && __result == false)
             {
-                if (thePawn.def.HasModExtension<DefModExt_HasSpacesuit>())
+                if (pawn.def.HasModExtension<DefModExt_SpaceCapable>())
                 {
                     __result = true;
                 }
-                else if (thePawn.apparel != null)
+                else if (pawn.apparel != null)
                 {
                     bool raceSpaceCapable = false;
-                    if (thePawn.def.HasModExtension<DefModExt_HasSpacesuit>())
+                    if (pawn.def.HasModExtension<DefModExt_SpaceCapable>())
                     {
                         raceSpaceCapable = true;
                     }

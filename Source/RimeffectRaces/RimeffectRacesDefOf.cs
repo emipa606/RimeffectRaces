@@ -21,7 +21,6 @@ namespace RimeffectRaces
 
         public static FactionDef AsariFaction;
         public static RaceSettings AsariRaceSettings;
-        public static PawnKindDef AsariPlayer;
 
         public static FactionDef BatarianFaction;
         public static RaceSettings batarianRaceSettings;

@@ -10,7 +10,7 @@ using HarmonyLib;
 
 namespace RimeffectRaces
 {
-    public class DefModExt_HasSpacesuit : DefModExtension
+    public class DefModExt_SpaceCapable : DefModExtension
     {
     }
 
