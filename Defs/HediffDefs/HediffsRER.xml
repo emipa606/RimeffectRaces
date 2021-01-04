@@ -202,6 +202,13 @@ Krogan can recover from all but the most grevious of injuries, and organ redunda
 
 					<HungerCost>.07</HungerCost>
 					<RestCost>.08</RestCost>
+					
+					<!--
+					Optionnal
+					<TargetedHediffDefs>
+						<li>GutWorms</li>
+					</TargetedHediffDefs>
+					-->
 
 					<MoteDef>Mote_TendingDisease</MoteDef>
 				</RegularDiseaseTendingParams>

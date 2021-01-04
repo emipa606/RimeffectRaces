@@ -156,6 +156,13 @@ Don't much care for food quality, comfort or surroundings.</description>
 					</li>
 				</colorChannels>
 		</alienPartGenerator>
+		
+		<disallowedTraits>
+			<li>
+				<defName>Nudist</defName>
+			</li>
+		</disallowedTraits>
+		
 	</generalSettings>    
 
 	<graphicPaths>
@@ -185,8 +192,23 @@ Don't much care for food quality, comfort or surroundings.</description>
 		<li>NeedComfort</li>
 		<li>SleptInBarracks</li>
 		<li>SleptInBedroom</li>
+		<li>ApparelDamaged</li>
+		<li>WrongApparelGender</li>
+		<li>DeadMansApparel</li>
 		</cannotReceiveThoughts>
-		<restrictedThoughts><li>VorchaFood</li><li>VorchaFoodBad</li><li>VorchaAteWithoutTable</li><li>VorchaSleptOnGround</li><li>VorchaNeedBeauty</li><li>VorchaNeedComfort</li><li>VorchaSleptIn</li></restrictedThoughts>
+		<restrictedThoughts>
+			<li>VorchaFood</li>
+			<li>VorchaFoodBad</li>
+			<li>VorchaAteWithoutTable</li>
+			<li>VorchaSleptOnGround</li>
+			<li>VorchaNeedBeauty</li>
+			<li>VorchaNeedComfort</li>
+			<li>VorchaSleptInBarracks</li>
+			<li>VorchaSleptInBedroom</li>
+			<li>VorchaApparelDamaged</li> 
+			<li>VorchaWrongApparelGender</li> 
+			<li>VorchaDeadMansApparel</li>
+		</restrictedThoughts>
 		<ateThoughtSpecific></ateThoughtSpecific>
 
 		<replacerList>
@@ -235,12 +257,24 @@ Don't much care for food quality, comfort or surroundings.</description>
 			<replacer>VorchaNeedComfort</replacer> 
 		</li>
 		<li>
+			<original>ApparelDamaged</original>
+			<replacer>VorchaApparelDamaged</replacer> 
+		</li>
+		<li>
+			<original>WrongApparelGender</original>
+			<replacer>VorchaWrongApparelGender</replacer> 
+		</li>
+		<li>
+			<original>DeadMansApparel</original>
+			<replacer>VorchaDeadMansApparel</replacer> 
+		</li>
+		<li>
 			<original>SleptInBarracks</original>
-			<replacer>VorchaSleptIn</replacer> 
+			<replacer>VorchaSleptInBarracks</replacer> 
 		</li>
 		<li>
 			<original>SleptInBedroom</original>
-			<replacer>VorchaSleptIn</replacer> 
+			<replacer>VorchaSleptInBedroom</replacer> 
 		</li>
 		</replacerList>
 	</thoughtSettings>
