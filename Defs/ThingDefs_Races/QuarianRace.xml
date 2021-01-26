@@ -187,8 +187,8 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
 			<li>Apparel_PsychicInsanityLance</li>
 			<li>Apparel_ShieldBelt</li>
 			<li>Apparel_SmokepopBelt</li>
-			<li>Apparel_PackJump</li>
-			<li>Apparel_PackBroadshield</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
 			<li MayRequire="dninemfive.advancedshieldbelts">Apparel_QRShieldBelt</li>
 			<li MayRequire="dninemfive.advancedshieldbelts">Apparel_HeavyShieldBelt</li>
 			<li MayRequire="dninemfive.advancedshieldbelts">Apparel_RangedShieldBelt</li>
