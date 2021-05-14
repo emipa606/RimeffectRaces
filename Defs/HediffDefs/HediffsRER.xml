@@ -93,6 +93,7 @@ Krogan can recover from all but the most grevious of injuries, and organ redunda
 				<painFactor>0.7</painFactor>
 				<naturalHealingFactor>6</naturalHealingFactor>
 				<totalBleedFactor>0.7</totalBleedFactor>
+				<foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
 			</li>
 		</stages>
 		<modExtensions>
