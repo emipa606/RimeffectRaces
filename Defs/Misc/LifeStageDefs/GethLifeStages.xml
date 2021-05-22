@@ -2,7 +2,7 @@
 <Defs>
   
   <LifeStageDef>
-    <defName>Geth</defName>
+    <defName>GethRER</defName>
     <label>Geth</label>
   </LifeStageDef>
    </Defs>

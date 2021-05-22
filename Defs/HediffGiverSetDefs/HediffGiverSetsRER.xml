@@ -113,7 +113,7 @@
 	</HediffGiverSetDef>
   
 	<HediffGiverSetDef>
-		<defName>GethHediffs</defName>
+		<defName>GethHediffsRER</defName>
 		<hediffGivers>
 			<li Class="YORHG.YourOwnRace_HediffGiver">
 				<hediff>GethPain</hediff>

@@ -45,7 +45,7 @@
   </SoundDef>
   
       <SoundDef>
-    <defName>PulseRifle</defName>  
+    <defName>PulseRifleRER</defName>  
     <context>MapOnly</context>
 	 <sustain>False</sustain>  
     <eventNames />  
@@ -54,7 +54,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>PulseRifle</clipPath>
+            <clipPath>PulseRifleRER</clipPath>
           </li>
         </grains>    
         <volumeRange>
@@ -66,7 +66,7 @@
   </SoundDef>
   
         <SoundDef>
-    <defName>PulseShotgun</defName>  
+    <defName>PulseShotgunRER</defName>  
     <context>MapOnly</context>
 	 <sustain>False</sustain>  
     <eventNames />  
@@ -75,7 +75,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>PulseShotgun</clipPath>
+            <clipPath>PulseShotgunRER</clipPath>
           </li>
         </grains>    
         <volumeRange>
@@ -87,7 +87,7 @@
   </SoundDef>
 
         <SoundDef>
-    <defName>M76Revenant</defName>  
+    <defName>M76RevenantRER</defName>  
     <context>MapOnly</context>
 	 <sustain>False</sustain>  
     <eventNames />  
@@ -96,7 +96,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>M76Revenant</clipPath>
+            <clipPath>M76RevenantRER</clipPath>
           </li>
         </grains>    
         <volumeRange>

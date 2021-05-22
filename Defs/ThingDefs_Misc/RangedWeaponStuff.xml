@@ -143,10 +143,10 @@
   <!-- GethPulseRifle -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_GethPulseRifle</defName>
+    <defName>Bullet_GethPulseRifleRER</defName>
     <label>pulse rifle shot</label>
     <graphicData>
-      <texPath>Projectile/Bullet_Pulse</texPath>
+      <texPath>Projectile/Bullet_PulseRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -158,11 +158,11 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseGunWithQuality">
-    <defName>Gun_GethPulseRifle</defName>
+    <defName>Gun_GethPulseRifleRER</defName>
     <label>pulse rifle</label>
     <description>A pulse rifle that fires a rapid stream of light-weight slugs which are wrapped in a phasic envelope to increase their damage.</description>
     <graphicData>
-      <texPath>Weapons/GethPulseRifle</texPath>
+      <texPath>Weapons/GethPulseRifleRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -182,18 +182,18 @@
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
 	<weaponTags>
-      <li>GethPulseRifle</li>
+      <li>GethPulseRifleRER</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_GethPulseRifle</defaultProjectile>
+        <defaultProjectile>Bullet_GethPulseRifleRER</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <range>26</range>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <burstShotCount>20</burstShotCount>
-        <soundCast>PulseRifle</soundCast>
+        <soundCast>PulseRifleRER</soundCast>
         <muzzleFlashScale>2</muzzleFlashScale>
       </li>
     </verbs>
@@ -212,10 +212,10 @@
     <!-- GethPlasmaShotgun -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_PlasmaShotgun</defName>
+    <defName>Bullet_PlasmaShotgunRER</defName>
     <label>plasma shotgun shot</label>
     <graphicData>
-      <texPath>Projectile/Pellets_Plasma</texPath>
+      <texPath>Projectile/Pellets_PlasmaRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -227,11 +227,11 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseGunWithQuality">
-    <defName>Gun_GethPlasmaShotgun</defName>
+    <defName>Gun_GethPlasmaShotgunRER</defName>
     <label>Plasma Shotgun</label>
 	<description>A three-barrelled geth weapon that fires miniature but potent cluster rounds of superconducting projectiles.</description>
     <graphicData>
-      <texPath>Weapons/GethPlasmaShotgun</texPath>
+      <texPath>Weapons/GethPlasmaShotgunRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>0.9</drawSize>
     </graphicData>
@@ -252,16 +252,16 @@
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
 	<weaponTags>
-      <li>GethPlasmaShotgun</li>
+      <li>GethPlasmaShotgunRER</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_PlasmaShotgun</defaultProjectile>
+        <defaultProjectile>Bullet_PlasmaShotgunRER</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>6</range>
-        <soundCast>PulseShotgun</soundCast>
+        <soundCast>PulseShotgunRER</soundCast>
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
     </verbs>
@@ -288,10 +288,10 @@
   <!-- M76Revenant -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_M76Revenant</defName>
+    <defName>Bullet_M76RevenantRER</defName>
     <label>M-76 Revenant shot</label>
     <graphicData>
-      <texPath>Projectile/Bullet_High</texPath>
+      <texPath>Projectile/Bullet_HighRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -303,11 +303,11 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseGunWithQuality">
-    <defName>Gun_M76Revenant</defName>
+    <defName>Gun_M76RevenantRER</defName>
     <label>M-76 Revenant</label>
     <description>A sophisticated assault rifle that unleashes a storm of deadly high-velocity slugs.</description>
 	<graphicData>
-      <texPath>Weapons/M76Revenant</texPath>
+      <texPath>Weapons/M76RevenantRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.1</drawSize>
     </graphicData>
@@ -328,18 +328,18 @@
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
 	<weaponTags>
-      <li>M76Revenant</li>
+      <li>M76RevenantRER</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_M76Revenant</defaultProjectile>
+        <defaultProjectile>Bullet_M76RevenantRER</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>26</range>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <burstShotCount>60</burstShotCount>
-        <soundCast>M76Revenant</soundCast>
+        <soundCast>M76RevenantRER</soundCast>
         <muzzleFlashScale>3</muzzleFlashScale>
       </li>
     </verbs>

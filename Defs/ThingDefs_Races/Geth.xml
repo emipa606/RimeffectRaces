@@ -21,7 +21,7 @@
   </ThingDef>
 
   <PawnKindDef Name="BaseGethKindRER" Abstract="True">
-    <defaultFactionType>Geth</defaultFactionType>
+    <defaultFactionType>GethRER</defaultFactionType>
     <aiAvoidCover>false</aiAvoidCover>
     <destroyGearOnDrop>true</destroyGearOnDrop>
   </PawnKindDef>
@@ -29,7 +29,7 @@
   <!-- Geth Trooper -->
   
   <ThingDef ParentName="BaseGethRER">
-    <defName>GethTrooper</defName>
+    <defName>GethTrooperRER</defName>
     <label>Geth Trooper</label>
     <description>The Geth are synthetic tools of war using networked artifical intelligence to coordinate their efforts.</description>
     <statBases>
@@ -45,7 +45,7 @@
         </capacities>
         <power>7</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>GethLeftArm</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>GethLeftArmRER</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -62,7 +62,7 @@
         </capacities>
         <power>7</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>GethRightArm</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>GethRightArmRER</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -91,12 +91,12 @@
       <baseHealthScale>1.0</baseHealthScale>
       <lifeStageAges>
         <li>
-          <def>Geth</def>
+          <def>GethRER</def>
           <minAge>1</minAge>
         </li>
       </lifeStageAges>
       <hediffGiverSets>
-        <li>GethHediffs</li>
+        <li>GethHediffsRER</li>
       </hediffGiverSets>
 	  <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -108,14 +108,14 @@
   </ThingDef>
 
   <PawnKindDef ParentName="BaseGethKindRER">
-    <defName>GethTrooper</defName>
+    <defName>GethTrooperRER</defName>
     <label>Geth Trooper</label>
-    <race>GethTrooper</race>
+    <race>GethTrooperRER</race>
 	<combatPower>90</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
-		  <texPath>Geth/Trooper/GethTrooper</texPath>
+		  <texPath>Geth/Trooper/GethTrooperRER</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.8, 0.4)</volume>
@@ -129,14 +129,14 @@
       <max>99999</max>
     </weaponMoney>
     <weaponTags>
-      <li>GethPulseRifle</li>
+      <li>GethPulseRifleRER</li>
     </weaponTags>
   </PawnKindDef>
   
     <!-- Geth Hunter -->
   
   <ThingDef ParentName="BaseGethRER">
-    <defName>GethHunter</defName>
+    <defName>GethHunterRER</defName>
     <label>Geth Hunter</label>
     <description>The Geth are synthetic tools of war using networked artifical intelligence to coordinate their efforts.</description>
     <statBases>
@@ -152,7 +152,7 @@
         </capacities>
         <power>10</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>GethLeftArm</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>GethLeftArmRER</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -169,7 +169,7 @@
         </capacities>
         <power>10</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>GethRightArm</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>GethRightArmRER</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -198,12 +198,12 @@
       <baseHealthScale>1.5</baseHealthScale>
       <lifeStageAges>
         <li>
-          <def>Geth</def>
+          <def>GethRER</def>
           <minAge>1</minAge>
         </li>
       </lifeStageAges>
       <hediffGiverSets>
-        <li>GethHediffs</li>
+        <li>GethHediffsRER</li>
       </hediffGiverSets>
 	  <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -215,14 +215,14 @@
   </ThingDef>
 
   <PawnKindDef ParentName="BaseGethKindRER">
-    <defName>GethHunter</defName>
+    <defName>GethHunterRER</defName>
     <label>Geth Hunter</label>
-    <race>GethHunter</race>
+    <race>GethHunterRER</race>
 	<combatPower>120</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
-		  <texPath>Geth/Hunter/GethHunter</texPath>
+		  <texPath>Geth/Hunter/GethHunterRER</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.8, 0.4)</volume>
@@ -236,14 +236,14 @@
       <max>99999</max>
     </weaponMoney>
     <weaponTags>
-      <li>GethPlasmaShotgun</li>
+      <li>GethPlasmaShotgunRER</li>
     </weaponTags>
   </PawnKindDef>
   
       <!-- Geth Prime -->
   
   <ThingDef ParentName="BaseGethRER">
-    <defName>GethPrime</defName>
+    <defName>GethPrimeRER</defName>
     <label>Geth Prime</label>
     <description>The Geth are synthetic tools of war using networked artifical intelligence to coordinate their efforts.</description>
     <statBases>
@@ -259,7 +259,7 @@
         </capacities>
         <power>13</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>GethLeftArm</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>GethLeftArmRER</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -276,7 +276,7 @@
         </capacities>
         <power>13</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>GethRightArm</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>GethRightArmRER</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -305,12 +305,12 @@
       <baseHealthScale>2</baseHealthScale>
       <lifeStageAges>
         <li>
-          <def>Geth</def>
+          <def>GethRER</def>
           <minAge>1</minAge>
         </li>
       </lifeStageAges>
       <hediffGiverSets>
-        <li>GethHediffs</li>
+        <li>GethHediffsRER</li>
       </hediffGiverSets>
 	  <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -322,14 +322,14 @@
   </ThingDef>
 
   <PawnKindDef ParentName="BaseGethKindRER">
-    <defName>GethPrime</defName>
+    <defName>GethPrimeRER</defName>
     <label>Geth Prime</label>
-    <race>GethPrime</race>
+    <race>GethPrimeRER</race>
 	<combatPower>160</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
-		  <texPath>Geth/Prime/GethPrime</texPath>
+		  <texPath>Geth/Prime/GethPrimeRER</texPath>
           <drawSize>1.8</drawSize>
           <shadowData>
             <volume>(0.3, 0.8, 0.4)</volume>
@@ -343,7 +343,7 @@
       <max>99999</max>
     </weaponMoney>
     <weaponTags>
-      <li>M76Revenant</li>
+      <li>M76RevenantRER</li>
     </weaponTags>
   </PawnKindDef>
   
