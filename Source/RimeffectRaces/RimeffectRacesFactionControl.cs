@@ -143,10 +143,10 @@ namespace RimeffectRaces
                 RimeffectRacesDefOf.WhiteHandFaction.maxCountAtGameStart = 0;
             }
 
-            if (!settings.Geth)
+            if (!settings.GethRER)
             {
-                RimeffectRacesDefOf.Geth.requiredCountAtGameStart = 0;
-                RimeffectRacesDefOf.Geth.maxCountAtGameStart = 0;
+                RimeffectRacesDefOf.GethRER.requiredCountAtGameStart = 0;
+                RimeffectRacesDefOf.GethRER.maxCountAtGameStart = 0;
             }
 
             if (!settings.Reapers)

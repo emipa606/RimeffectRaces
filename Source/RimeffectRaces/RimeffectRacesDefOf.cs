@@ -29,7 +29,7 @@ namespace RimeffectRaces
         public static RaceSettings drellRaceSettings;
         public static RaceSettings hanarRaceSettings;
 
-        public static FactionDef Geth;
+        public static FactionDef GethRER;
 
         public static FactionDef KroganFaction;
         public static RaceSettings kroganRaceSettings;

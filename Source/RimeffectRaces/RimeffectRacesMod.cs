@@ -43,7 +43,7 @@ namespace RimeffectRaces
             listingStandard.CheckboxLabeled("White Hand", ref settings.WhiteHandFaction, "The White Hand");
             listingStandard.Label("Permanently Hostile Factions");
             listingStandard.CheckboxLabeled("Reapers", ref settings.Reapers, "Reaper Onslaught");
-            listingStandard.CheckboxLabeled("Geth", ref settings.Geth, "Geth Collective");
+            listingStandard.CheckboxLabeled("Geth", ref settings.GethRER, "Geth Collective");
             listingStandard.End();
             base.DoSettingsWindowContents(inRect);
         }
@@ -55,7 +55,7 @@ namespace RimeffectRaces
         public bool AsariFaction = true;
         public bool BatarianFaction = true;
         public bool EnkindlerFaction = true;
-        public bool Geth = true;
+        public bool GethRER = true;
         public bool KroganFaction = true;
         public bool QuarianFaction = true;
         public bool Reapers = true;
@@ -70,7 +70,7 @@ namespace RimeffectRaces
             Scribe_Values.Look(ref AsariFaction, "Asari_Union", true);
             Scribe_Values.Look(ref BatarianFaction, "Batarian_Expatriates", true);
             Scribe_Values.Look(ref EnkindlerFaction, "Enkindlers_Legacy", true);
-            Scribe_Values.Look(ref Geth, "Geth_Collective", true);
+            Scribe_Values.Look(ref GethRER, "Geth_Collective", true);
             Scribe_Values.Look(ref KroganFaction, "Krogan_Castaways", true);
             Scribe_Values.Look(ref QuarianFaction, "Quarian_Colony", true);
             Scribe_Values.Look(ref Reapers, "Reaper_Onslaught", true);
