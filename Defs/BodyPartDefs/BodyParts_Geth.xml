@@ -4,7 +4,7 @@
 <!-- GETH -->
 
 	<BodyPartDef>
-		<defName>GethHead</defName>
+		<defName>GethHeadRER</defName>
 		<label>head</label>
 		<hitPoints>20</hitPoints>
 		<skinCovered>false</skinCovered>
@@ -15,7 +15,7 @@
 	</BodyPartDef>
   
 	<BodyPartDef>
-		<defName>GethEye</defName>
+		<defName>GethEyeRER</defName>
 		<label>eye</label>
 		<hitPoints>20</hitPoints>
 		<bleedRate>0</bleedRate>
@@ -27,7 +27,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>GethComputationUnit</defName>
+		<defName>GethComputationUnitRER</defName>
 		<label>computation unit</label>
 		<bleedRate>0</bleedRate>
 		<hitPoints>10</hitPoints>
@@ -38,7 +38,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>GethTorso</defName>
+		<defName>GethTorsoRER</defName>
 		<label>torso</label>
 		<bleedRate>0</bleedRate>
 		<hitPoints>40</hitPoints>
@@ -47,7 +47,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>GethArm</defName>
+		<defName>GethArmRER</defName>
 		<label>arm</label>
 		<bleedRate>0</bleedRate>
 		<hitPoints>30</hitPoints>
@@ -58,7 +58,7 @@
 	</BodyPartDef>
   
     <BodyPartDef>
-		<defName>GethLeg</defName>
+		<defName>GethLegRER</defName>
 		<label>leg</label>
 		<bleedRate>0</bleedRate>
 		<hitPoints>30</hitPoints>
@@ -69,7 +69,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>GethAppendeena</defName>
+		<defName>GethAppendeenaRER</defName>
 		<label>apendeena</label>
 		<hitPoints>1</hitPoints>
 		<bleedRate>0</bleedRate>

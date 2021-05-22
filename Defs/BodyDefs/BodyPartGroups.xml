@@ -56,13 +56,13 @@
   </BodyPartGroupDef>
   
       <BodyPartGroupDef>
-    <defName>GethLeftArm</defName>
+    <defName>GethLeftArmRER</defName>
     <label>left hand</label>
     <labelShort>hand</labelShort>
   </BodyPartGroupDef>
 
   <BodyPartGroupDef>
-    <defName>GethRightArm</defName>
+    <defName>GethRightArmRER</defName>
     <label>right hand</label>
     <labelShort>hand</labelShort>
   </BodyPartGroupDef>

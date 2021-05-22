@@ -2,7 +2,7 @@
 <Defs>
 
   <FactionDef>
-    <defName>Geth</defName>
+    <defName>GethRER</defName>
     <label>geth</label>
     <pawnSingular>geth</pawnSingular>
     <pawnsPlural>geth</pawnsPlural>
@@ -44,9 +44,9 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <GethTrooper>900</GethTrooper>
-		  <GethHunter>250</GethHunter>
-		  <GethPrime>100</GethPrime>
+          <GethTrooperRER>900</GethTrooperRER>
+		  <GethHunterRER>250</GethHunterRER>
+		  <GethPrimeRER>100</GethPrimeRER>
         </options>
       </li>
     </pawnGroupMakers>
