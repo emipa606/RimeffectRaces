@@ -2310,7 +2310,7 @@
 					</li>
 					
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName="GethTrooper"]/tools</xpath> 
+						<xpath>/Defs/ThingDef[defName="GethTrooperRER"]/tools</xpath> 
 						<value>
 							<tools>
 								<li Class="CombatExtended.ToolCE">
@@ -2320,7 +2320,7 @@
 									</capacities>
 									<power>1</power>
 									<cooldownTime>1.26</cooldownTime>
-									<linkedBodyPartsGroup>GethLeftArm</linkedBodyPartsGroup>
+									<linkedBodyPartsGroup>GethLeftArmRER</linkedBodyPartsGroup>
 									<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
 								</li>
 								<li Class="CombatExtended.ToolCE">
@@ -2330,7 +2330,7 @@
 									</capacities>
 									<power>1</power>
 									<cooldownTime>1.26</cooldownTime>
-									<linkedBodyPartsGroup>GethRightArm</linkedBodyPartsGroup>
+									<linkedBodyPartsGroup>GethRightArmRER</linkedBodyPartsGroup>
 									<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
 								</li>
 								<li Class="CombatExtended.ToolCE">
@@ -2349,7 +2349,7 @@
 					</li>
 					
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName="GethHunter"]/tools</xpath> 
+						<xpath>/Defs/ThingDef[defName="GethHunterRER"]/tools</xpath> 
 						<value>
 							<tools>
 								<li Class="CombatExtended.ToolCE">
@@ -2359,7 +2359,7 @@
 									</capacities>
 									<power>2</power>
 									<cooldownTime>1.26</cooldownTime>
-									<linkedBodyPartsGroup>GethLeftArm</linkedBodyPartsGroup>
+									<linkedBodyPartsGroup>GethLeftArmRER</linkedBodyPartsGroup>
 									<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
 								</li>
 								<li Class="CombatExtended.ToolCE">
@@ -2369,7 +2369,7 @@
 									</capacities>
 									<power>2</power>
 									<cooldownTime>1.26</cooldownTime>
-									<linkedBodyPartsGroup>GethRightArm</linkedBodyPartsGroup>
+									<linkedBodyPartsGroup>GethRightArmRER</linkedBodyPartsGroup>
 									<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
 								</li>
 								<li Class="CombatExtended.ToolCE">
@@ -2388,7 +2388,7 @@
 					</li>
 					
 					<li Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName="GethPrime"]/tools</xpath> 
+						<xpath>/Defs/ThingDef[defName="GethPrimeRER"]/tools</xpath> 
 						<value>
 							<tools>
 								<li Class="CombatExtended.ToolCE">
@@ -2398,7 +2398,7 @@
 									</capacities>
 									<power>3</power>
 									<cooldownTime>1.26</cooldownTime>
-									<linkedBodyPartsGroup>GethLeftArm</linkedBodyPartsGroup>
+									<linkedBodyPartsGroup>GethLeftArmRER</linkedBodyPartsGroup>
 									<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
 								</li>
 								<li Class="CombatExtended.ToolCE">
@@ -2408,7 +2408,7 @@
 									</capacities>
 									<power>3</power>
 									<cooldownTime>1.26</cooldownTime>
-									<linkedBodyPartsGroup>GethRightArm</linkedBodyPartsGroup>
+									<linkedBodyPartsGroup>GethRightArmRER</linkedBodyPartsGroup>
 									<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
 								</li>
 								<li Class="CombatExtended.ToolCE">
