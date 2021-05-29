@@ -198,7 +198,7 @@
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>ReaperCannibal</body>
-      <baseHealthScale>1</baseHealthScale>
+      <baseHealthScale>1.5</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>ReaperMutant</def>
@@ -314,7 +314,7 @@
 	  <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>ReaperBrute</body>
-      <baseHealthScale>2.5</baseHealthScale>
+      <baseHealthScale>3.5</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>ReaperMutant</def>
@@ -388,7 +388,7 @@
 	  <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>ReaperMarauder</body>
-      <baseHealthScale>1</baseHealthScale>
+      <baseHealthScale>1.4</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>ReaperMutant</def>

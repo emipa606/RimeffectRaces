@@ -195,7 +195,7 @@
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>GethRER</body>
-      <baseHealthScale>1.5</baseHealthScale>
+      <baseHealthScale>1.7</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>GethRER</def>
@@ -302,7 +302,7 @@
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>GethRER</body>
-      <baseHealthScale>2</baseHealthScale>
+      <baseHealthScale>2.8</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>GethRER</def>
