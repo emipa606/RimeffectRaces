@@ -3,5 +3,7 @@
   <v1.2>
     <li>/</li>
     <li IfModLoaded="Combat Extended">Combat_Extended</li>
+	<li IfModLoaded="SafeJobWorld">HandHolding</li>
+	<li IfModLoaded="RimJobWorld">HandHolding</li>
   </v1.2>
 </loadFolders>
