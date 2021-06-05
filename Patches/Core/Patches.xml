@@ -26,22 +26,31 @@
 		</match>
 	</Operation>
 	
-	<Operation Class="PatchOperationConditional">
-		<xpath>*/ThingDef[defName="Gun_TripleRocket"]/weaponTags</xpath>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>*/ThingDef[defName="Gun_TripleRocket"]</xpath>
-			<value>
-				<weaponTags>
-					<li>RERHeavy</li>
-				</weaponTags>
-			</value>
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+				<li Class="PatchOperationConditional">
+					<xpath>*/ThingDef[defName="Gun_TripleRocket"]/weaponTags</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName="Gun_TripleRocket"]</xpath>
+						<value>
+							<weaponTags>
+								<li>RERHeavy</li>
+							</weaponTags>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/ThingDef[defName="Gun_TripleRocket"]/weaponTags</xpath>
+						<value>
+							<li>RERHeavy</li>
+						</value>
+					</match>
+				</li>
+			</operations>
 		</nomatch>
-		<match Class="PatchOperationAdd">
-			<xpath>*/ThingDef[defName="Gun_TripleRocket"]/weaponTags</xpath>
-			<value>
-				<li>RERHeavy</li>
-			</value>
-		</match>
 	</Operation>
 	
     <Operation Class="PatchOperationFindMod">
@@ -55,7 +64,7 @@
                     <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
                     <value>
                         <li>
-                            <factionDef>AsariUnion</factionDef>
+                            <factionDef>AsariFaction</factionDef>
                             <pawnKinds>
                                 <li>AsariColonist</li>
 								<li>AsariColonist</li>
@@ -200,7 +209,7 @@
                     <xpath>/Defs/QuestScriptDef/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
                     <value>
                         <li>
-                            <factionDef>AsariUnion</factionDef>
+                            <factionDef>AsariFaction</factionDef>
                             <pawnKinds>
 								<li>AsariHuntress</li>
 								<li>AsariHuntress</li>
