@@ -286,7 +286,7 @@ Krogan can recover from all but the most grevious of injuries, and organ redunda
 
 					<BPMaxHealth>.1</BPMaxHealth>
 					<RegenBodyPartChildrenAtOnce>false</RegenBodyPartChildrenAtOnce>
-					<techHediffTag>Simple</techHediffTag>
+					<techHediffTag>Natural</techHediffTag>
 
 					<MoteDef>Mote_RegenBodyPart</MoteDef>
 				</BodyPartRegenParams>
