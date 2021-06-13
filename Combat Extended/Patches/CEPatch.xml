@@ -82,6 +82,22 @@
 					</li>
 					
 					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienAsari"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienAsari"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
 						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienAsari"]/comps</xpath>
 						<value>
 							<li>
@@ -90,20 +106,6 @@
 							<li Class="CombatExtended.CompProperties_Suppressable" />
 						</value>
 					</li>
-
-		<!--		<li Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[@Name="BaseAsariPawn"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
-						<value>
-							<li>CombatExtended.ITab_Inventory</li>
-						</value>
-					</li>
-
-					<li Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[@Name="BaseAsariPawn"]/comps</xpath>
-						<value>
-							<li Class="CombatExtended.CompProperties_Inventory" />
-						</value>
-					</li> -->
 					
 			</operations>		
 		</match>
@@ -270,6 +272,22 @@
 							</value>
 							</li>
 						</operations>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienBatarian"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienBatarian"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
 					</li>
 					
 					<li Class="PatchOperationAdd">
@@ -522,6 +540,22 @@
 							</value>
 							</li>
 						</operations>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienDrell"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienDrell"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
 					</li>
 					
 					<li Class="PatchOperationAdd">
@@ -826,6 +860,22 @@
 					</li>
 					
 					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienHanar"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienHanar"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
 						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienHanar"]/comps</xpath>
 						<value>
 							<li>
@@ -949,6 +999,22 @@
 							</value>
 							</li>
 						</operations>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienKrogan"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienKrogan"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
 					</li>
 					
 					<li Class="PatchOperationAdd">
@@ -1256,6 +1322,22 @@
 					</li>
 					
 					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienQuarian"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienQuarian"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
 						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienQuarian"]/comps</xpath>
 						<value>
 							<li>
@@ -1505,6 +1587,22 @@
 							</value>
 							</li>
 						</operations>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienSalarian"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienSalarian"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
 					</li>
 					
 					<li Class="PatchOperationAdd">
@@ -1796,6 +1894,22 @@
 					</li>
 					
 					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienTurian"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienTurian"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
 						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienTurian"]/comps</xpath>
 						<value>
 							<li>
@@ -2026,6 +2140,22 @@
 							</value>
 							</li>
 						</operations>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienVorcha"]</xpath>
+						<value>
+						<inspectorTabs>
+							<li>CombatExtended.ITab_Inventory</li>
+						</inspectorTabs>				
+						</value>
+					</li>
+
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="AlienVorcha"]/comps</xpath>
+						<value>
+							<li Class="CombatExtended.CompProperties_Inventory" />
+						</value>
 					</li>
 					
 					<li Class="PatchOperationAdd">
