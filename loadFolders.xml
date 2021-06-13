@@ -2,8 +2,8 @@
 <loadFolders>
   <v1.2>
     <li>/</li>
-    <li IfModLoaded="Combat Extended">CombatExtended</li>
-	<li IfModLoaded="SafeJobWorld">HandHolding</li>
-	<li IfModLoaded="RimJobWorld">HandHolding</li>
+    <li IfModActive="CETeam.CombatExtended">CombatExtended</li>
+	<li IfModActive="Safe.Job.World">HandHolding</li>
+	<li IfModActive="rim.job.world">HandHolding</li>
   </v1.2>
 </loadFolders>

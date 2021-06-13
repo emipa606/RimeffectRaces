@@ -2870,7 +2870,7 @@
 					<Bulk>5</Bulk>
 				</statBases>
 				<Properties>
-					<recoilAmount>0.44</recoilAmount>
+					<recoilAmount>2.44</recoilAmount>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				    <hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>Bullet_GethPulseRifleRER</defaultProjectile>
@@ -2961,7 +2961,7 @@
 					<Bulk>5</Bulk>
 				</statBases>
 				<Properties>
-					<recoilAmount>1.24</recoilAmount>
+					<recoilAmount>5.24</recoilAmount>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				    <hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>Bullet_PlasmaShotgunRER</defaultProjectile>
@@ -3053,7 +3053,7 @@
 					<Bulk>5</Bulk>
 				</statBases>
 				<Properties>
-					<recoilAmount>1.24</recoilAmount>
+					<recoilAmount>3.24</recoilAmount>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				    <hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>Bullet_M76RevenantRER</defaultProjectile>
