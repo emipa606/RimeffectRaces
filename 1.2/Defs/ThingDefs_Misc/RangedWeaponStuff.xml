@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- CannibalRifle -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Cannibal</defName>
+    <label>cannibal rifle shot</label>
+    <graphicData>
+      <texPath>Projectile/Bullet_Red</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>250</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Gun_CannibalRifle</defName>
+    <label>cannibal rifle</label>
+    <description>A micro-scaled mass accelerator rifle used by the cannibal mutants.</description>
+	<graphicData>
+      <texPath>Weapons/CannibalRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.9</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>15</Mass>
+      <AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.40</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <menuHidden>True</menuHidden>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <costList>
+      <ComponentSpacer>1000</ComponentSpacer>
+    </costList>
+	<weaponTags>
+      <li>CannibalRifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Cannibal</defaultProjectile>
+        <warmupTime>1.65</warmupTime>
+        <range>25</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>CannibalArmCannon</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- MarauderRifle -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Marauder</defName>
+    <label>marauder rifle shot</label>
+    <graphicData>
+      <texPath>Projectile/Bullet_Blue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <speed>250</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Gun_MarauderRifle</defName>
+    <label>marauder rifle</label>
+    <description>A micro-scaled mass accelerator rifle used by the marauder mutants.</description>
+    <graphicData>
+      <texPath>Weapons/MarauderRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>15</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <menuHidden>True</menuHidden>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <costList>
+      <ComponentSpacer>1000</ComponentSpacer>
+    </costList>
+	<weaponTags>
+      <li>MarauderRifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Marauder</defaultProjectile>
+        <warmupTime>1.65</warmupTime>
+        <range>30</range>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>10</burstShotCount>
+        <soundCast>Phaeston</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- GethPulseRifle -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_GethPulseRifleRER</defName>
+    <label>pulse rifle shot</label>
+    <graphicData>
+      <texPath>Projectile/Bullet_PulseRER</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>250</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Gun_GethPulseRifleRER</defName>
+    <label>pulse rifle</label>
+    <description>A pulse rifle that fires a rapid stream of light-weight slugs which are wrapped in a phasic envelope to increase their damage.</description>
+    <graphicData>
+      <texPath>Weapons/GethPulseRifleRER</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>15</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.42</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.28</AccuracyLong>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <menuHidden>True</menuHidden>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <costList>
+      <ComponentSpacer>1000</ComponentSpacer>
+    </costList>
+	<weaponTags>
+      <li>GethPulseRifleRER</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_GethPulseRifleRER</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>26</range>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>20</burstShotCount>
+        <soundCast>PulseRifleRER</soundCast>
+        <muzzleFlashScale>2</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+    <!-- GethPlasmaShotgun -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PlasmaShotgunRER</defName>
+    <label>plasma shotgun shot</label>
+    <graphicData>
+      <texPath>Projectile/Pellets_PlasmaRER</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>250</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Gun_GethPlasmaShotgunRER</defName>
+    <label>Plasma Shotgun</label>
+	<description>A three-barrelled geth weapon that fires miniature but potent cluster rounds of superconducting projectiles.</description>
+    <graphicData>
+      <texPath>Weapons/GethPlasmaShotgunRER</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.9</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>15</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.38</AccuracyMedium>
+      <AccuracyLong>0.28</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <menuHidden>True</menuHidden>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <costList>
+      <ComponentSpacer>1000</ComponentSpacer>
+    </costList>
+	<weaponTags>
+      <li>GethPlasmaShotgunRER</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_PlasmaShotgunRER</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>6</range>
+        <soundCast>PulseShotgunRER</soundCast>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.5</cooldownTime>
+	    <surpriseAttack>
+		 <extraMeleeDamages>
+		  <li>
+		  <def>Stun</def>
+		  <amount>16</amount>
+		  </li>
+		 </extraMeleeDamages>
+		</surpriseAttack>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- M76Revenant -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_M76RevenantRER</defName>
+    <label>M-76 Revenant shot</label>
+    <graphicData>
+      <texPath>Projectile/Bullet_HighRER</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>300</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Gun_M76RevenantRER</defName>
+    <label>M-76 Revenant</label>
+    <description>A sophisticated assault rifle that unleashes a storm of deadly high-velocity slugs.</description>
+	<graphicData>
+      <texPath>Weapons/M76RevenantRER</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>15</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+	<techLevel>Spacer</techLevel>
+    <menuHidden>True</menuHidden>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+    <costList>
+      <ComponentSpacer>1000</ComponentSpacer>
+    </costList>
+	<weaponTags>
+      <li>M76RevenantRER</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_M76RevenantRER</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>26</range>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>60</burstShotCount>
+        <soundCast>M76RevenantRER</soundCast>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

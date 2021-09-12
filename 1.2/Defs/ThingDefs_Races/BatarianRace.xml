@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>AlienBatarian</defName>
+    <label>Batarian</label>
+    
+    <description>The Batarians are a race of four-eyed humainoids. They are known to be shrewd businessmen, slavers and pirates. They are rightfully stereotyped as thugs due to their hostile activities within the galaxy, although not every Batarian pursues such lifestyle.
+
+Longer than human lifespan</description>
+        
+    <statBases>
+		<PsychicSensitivity>1.0</PsychicSensitivity>
+		<ToxicSensitivity>1.0</ToxicSensitivity>
+		<ComfyTemperatureMin>14</ComfyTemperatureMin>
+		<ComfyTemperatureMax>30</ComfyTemperatureMax>
+		<LeatherAmount>50</LeatherAmount>
+		<MarketValue>1300</MarketValue>
+		<MoveSpeed>4.6</MoveSpeed>
+		<Flammability>1.0</Flammability>
+		
+		<CarryingCapacity>75</CarryingCapacity>
+
+		<SocialImpact>1.0</SocialImpact>
+		<PlantWorkSpeed>1.0</PlantWorkSpeed>
+		<PlantHarvestYield>1.0</PlantHarvestYield>
+		<ResearchSpeed>1.0</ResearchSpeed>
+		
+		<MiningSpeed>1.0</MiningSpeed>
+		<MiningYield>1.0</MiningYield>
+		<ConstructionSpeed>1.0</ConstructionSpeed>
+		<ConstructSuccessChance>1.0</ConstructSuccessChance>
+		<DrugCookingSpeed>1.0</DrugCookingSpeed>		
+		<DrugSynthesisSpeed>1.0</DrugSynthesisSpeed>	
+		<GeneralLaborSpeed>1.0</GeneralLaborSpeed>
+
+		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+
+		<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+		<MeleeHitChance>1.0</MeleeHitChance>
+		<MeleeDodgeChance>1.0</MeleeDodgeChance>
+		
+    </statBases>
+
+	<tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+	</tools>
+
+	<alienRace>
+
+	<generalSettings>
+		<humanRecipeImport>true</humanRecipeImport>
+		<allowHumanBios>False</allowHumanBios>
+		<alienPartGenerator>
+			<!-- -->
+			<alienbodytypes>
+				<li>Female</li>
+				<li>Male</li>
+			</alienbodytypes>
+			<!-- -->
+			<useGenderedHeads>true</useGenderedHeads>
+			<useGenderedBodies>false</useGenderedBodies>
+			<aliencrowntypes>
+                    <li>Average_Normal_01</li>
+					<li>Average_Normal_02</li>
+					<li>Average_Normal_03</li>
+					<li>Average_Normal_04</li>
+					<li>Average_Normal_05</li>
+					<li>Average_Normal_06</li>
+					<li>Average_Normal_07</li>
+					<li>Average_Normal_08</li>
+					<li>Average_Normal_09</li>
+			</aliencrowntypes>
+				 <customDrawSize>(1.0, 1.0)</customDrawSize>
+                 <customHeadDrawSize>(0.90, 0.90)</customHeadDrawSize>
+				 <customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+                 <customPortraitHeadDrawSize>(0.90, 0.90)</customPortraitHeadDrawSize>
+			<colorChannels>
+				<li>
+					<name>skin</name>
+					<first Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>2</weight>
+								<only>RGBA(1.0,1.0,1.0,1)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>RGBA(1.000, 0.894, 0.769,1)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>RGBA(0.678, 0.847, 0.902,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(1.000, 0.627, 0.478,1)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>RGBA(0.678, 0.847, 0.902,1)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(0.663, 0.663, 0.663,1)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>RGBA(0.690, 0.878, 0.902,1)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>RGBA(1.000, 0.894, 0.710,1)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>RGBA(1.000, 0.844, 0.729,1)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>RGBA(0.638, 0.807, 0.862,1)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>RGBA(1.000, 0.587, 0.438,1)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>RGBA(1.000, 0.854, 0.842,1)</only>
+							</li>
+							<li>
+								<weight>5</weight>
+								<only>RGBA(0.623, 0.623, 0.623,1)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>RGBA(0.787, 0.787, 0.787,1)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>RGBA(0.741, 0.718, 0.420,1)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>RGBA(0.235, 0.702, 0.443,1)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>RGBA(0.565, 0.933, 0.565,1)</only>
+							</li>
+						</options>
+					</first>
+				</li>
+			</colorChannels>
+			
+		</alienPartGenerator>
+
+		<maleGenderProbability>.9</maleGenderProbability>    
+		<forcedRaceTraitEntries>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>30</chance>
+			</li>
+		</forcedRaceTraitEntries>
+	</generalSettings>    
+
+	<graphicPaths>
+		<li>
+			<headOffset>(0,    0.015)</headOffset>
+			<head>Batarian/HeadBase/</head>
+		</li>
+	</graphicPaths>
+
+	<hairSettings>
+		<hasHair>false</hasHair>
+	</hairSettings>
+
+</alienRace>
+    
+<race>
+	<thinkTreeMain>Humanlike</thinkTreeMain>
+	<nameGenerator>NamerPersonBatarian</nameGenerator>
+	<nameGeneratorFemale>NamerPersonBatarianFemale</nameGeneratorFemale>
+	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+	<intelligence>Humanlike</intelligence>
+	<makesFootprints>true</makesFootprints>
+	<lifeExpectancy>130</lifeExpectancy>
+	<bloodDef></bloodDef>
+	<nameCategory>HumanStandard</nameCategory>
+	<body>Batarian</body>
+	<baseBodySize>1.0</baseBodySize>
+	<baseHealthScale>1.0</baseHealthScale>
+	<baseHungerRate>1.0</baseHungerRate>
+	<foodType>OmnivoreHuman</foodType>
+	<leatherDef>Leather_Batarian</leatherDef>
+
+	<gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+		<points>
+		<li>(0.5, 0)</li>
+		<li>(1, 1)</li>
+		<li>(1.01, 0.02)</li>
+		<li>(3.5, 0)</li>
+		</points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>5</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+		<li>
+          <def>HumanlikeOld</def>
+          <minAge>95</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(20,0)</li>
+          <li>(22,30)</li>
+          <li>(50,30)</li>
+          <li>(70,30)</li>
+		  <li>(85,30)</li>
+		  <li>(100,30)</li>
+		  <li>(120,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+		<li>Human</li>
+      </hediffGiverSets>
+</race>
+    <recipes>
+
+		<li>InstallPowerClaw</li>
+		<li>InstallBionicEye</li>
+		<li>InstallBionicArm</li>
+		<li>InstallBionicLeg</li>
+		<li>InstallSimpleProstheticArm</li>
+		<li>InstallSimpleProstheticLeg</li>
+		<li>InstallPegLeg</li>
+		<li>InstallDenture</li>
+		<li>InstallJoywire</li>
+		<li>InstallPainstopper</li>
+		<li>InstallNaturalHeart</li>
+		<li>InstallNaturalLung</li>
+		<li>InstallNaturalKidney</li>
+		<li>InstallNaturalLiver</li>
+		<li>AdministerMechSerumHealer</li>
+		<li>ExciseCarcinoma</li>
+		<li>RemoveBodyPart</li>
+		<li>Euthanize</li>
+		<li>Anesthetize</li>
+    </recipes>
+    
+</AlienRace.ThingDef_AlienRace>
+</Defs>

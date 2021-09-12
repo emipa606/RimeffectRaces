@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonVorcha</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[VorchaMfirst]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>VorchaMfirst</keyword>
+          <path>NameBanks/Names_First_Vorcha</path>
+        </li>
+	  </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerPersonVorchaFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[VorchaFfirst]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>VorchaFfirst</keyword>
+          <path>NameBanks/Names_First_Vorcha</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>
+

@@ -1,0 +1,285 @@
+<Defs>
+    <ThoughtDef>
+		<defName>VorchaFood</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>ate bad food</label>
+				<description>Ate food disliked by most, but vorcha don't much care.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+     
+	<ThoughtDef>
+		<defName>VorchaFoodBad</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>ate something terrible</label>
+				<description>Ate food not suitable even for the Vorcha.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+ 
+    <ThoughtDef>
+		<defName>VorchaAteWithoutTable</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>ate without a table</label>
+				<description>Ate without a table, but vorcha don't much care.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>VorchaSleptOnGround</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>slept on the ground.</label>
+				<description>Slept on the ground, but vorcha don't much care.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+	<ThoughtDef>
+		<defName>VorchaSleptOutside</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>slept outside.</label>
+				<description>Slept outside, but vorcha don't much care.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+    </ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>VorchaNeedBeauty</defName>
+		<workerClass>ThoughtWorker_NeedBeauty</workerClass>
+		<stages>
+			<li>
+				<label>hideous environment</label>
+				<description>Vorcha don't care about his surroundings... much.</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>very ugly environment</label>
+				<description>Vorcha don't care about his surroundings... much.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>ugly environment</label>
+				<description>Vorcha don't care about his surroundings... much.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>pleasant environment</label>
+				<description>Vorcha don't care about his surroundings... much.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>very pleasant environment</label>
+				<description>Vorcha don't care about his surroundings... much.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>beautiful environment</label>
+				<description>Vorcha don't care about his surroundings... much.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+	<ThoughtDef>
+		<defName>VorchaNeedComfort</defName>
+		<workerClass>ThoughtWorker_NeedComfort</workerClass>
+		<stages>
+			<li>
+				<label>uncomfortable</label>
+				<description>Vorcha don't much care about comfort.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>comfortable</label>
+				<description>Vorcha don't much care about comfort.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>very comfortable</label>
+				<description>Vorcha don't much care about comfort.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>extremely comfortable</label>
+				<description>Vorcha don't much care about comfort.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+			<li>
+				<label>luxuriantly comfortable</label>
+				<description>Vorcha don't much care about comfort.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>VorchaApparelDamaged</defName>
+		<workerClass>ThoughtWorker_ApparelDamaged</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>isn't concerned by clothing.</label>
+				<description>Vorcha don't care about clothing.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>VorchaWrongApparelGender</defName>
+		<workerClass>ThoughtWorker_WrongApparelGender</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>isn't concerned by clothing.</label>
+				<description>Vorcha don't care about clothing.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>VorchaDeadMansApparel</defName>
+		<workerClass>ThoughtWorker_DeadMansApparel</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>isn't concerned by clothing.</label>
+				<description>Vorcha don't care about clothing.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+	<ThoughtDef>
+		<defName>VorchaSleptInBarracks</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>awful barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>dull barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>mediocre barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>decent barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>slightly impressive barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>impressive barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>very impressive barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>extremely impressive barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>unbelievably impressive barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>wondrously impressive barrack</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>VorchaSleptInBedroom</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>awful bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li IsNull="True" />
+			  <!-- dull -->
+			<li IsNull="True" />
+			  <!-- mediocre -->
+			<li>
+				<label>decent bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>slightly impressive bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>impressive bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>very impressive bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>extremely impressive bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>unbelievably impressive bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+			<li>
+				<label>wondrously impressive bedroom</label>
+				<description>Vorcha don't care where they sleep.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+  </Defs>

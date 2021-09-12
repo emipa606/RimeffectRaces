@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonKrogan</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[KroganMfirst] [Kroganlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>KroganMfirst</keyword>
+          <path>NameBanks/Names_First_KroganM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Kroganlast</keyword>
+          <path>NameBanks/Names_Last_Krogan</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerPersonKroganFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[KroganFfirst] [Kroganlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>KroganFfirst</keyword>
+          <path>NameBanks/Names_First_KroganF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Kroganlast</keyword>
+          <path>NameBanks/Names_Last_Krogan</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>
+

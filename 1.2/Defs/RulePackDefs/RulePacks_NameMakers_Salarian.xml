@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonSalarian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[SalarianMfirst] [Salarianlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>SalarianMfirst</keyword>
+          <path>NameBanks/Names_First_SalarianM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Salarianlast</keyword>
+          <path>NameBanks/Names_Last_Salarian</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerPersonSalarianFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[SalarianFfirst] [Salarianlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>SalarianFfirst</keyword>
+          <path>NameBanks/Names_First_SalarianF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Salarianlast</keyword>
+          <path>NameBanks/Names_Last_Salarian</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>
+

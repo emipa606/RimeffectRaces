@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>AlienQuarian</defName>
+    <label>Quarian</label>
+    
+    <description>The Quarians are a dextro-amino race currently confined to the Migrant Fleet, a travelling flotilla of starships that escaped the destruction of their homeworld at the hands of their own machine creations. Most Quarians that galactic society sees are either on their Pilgrimage, a rite of passage where they find something to bring back to the Flotilla, are exiled for crimes they committed, or have left voluntarily. Physically, they are somewhat less sturdy and strong than the average human, but are faster thanks to their unique leg structure.
+	
+Envirosuit provides "natural" armor and temp resistances, but unable to wear normal clothing
++5% Move Speed
++50% Toxic Resistance
++30% Fire Resistance
++20% General Labor Speed
++50% Mining Speed, Yield
++50% Construction Speed, Construction Success Chance
++80% Research Speed
++10% Shooting Accuracy
++30% Melee Dodge Chance
+-20% Melee Hit Chance
+-20% Health
+-15% Immunity Gain Speed
+-20% Social Impact</description>
+        
+    <statBases>
+		<PsychicSensitivity>1.0</PsychicSensitivity>
+		<ToxicSensitivity>.5</ToxicSensitivity>
+		<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+		<ComfyTemperatureMax>45</ComfyTemperatureMax>
+		<LeatherAmount>50</LeatherAmount>
+		<MarketValue>1400</MarketValue>
+		<MoveSpeed>4.8</MoveSpeed>
+		<Flammability>0.7</Flammability>
+		<ImmunityGainSpeed>0.85</ImmunityGainSpeed>
+		
+		<CarryingCapacity>60</CarryingCapacity>
+
+		<SocialImpact>0.8</SocialImpact>
+		<PlantWorkSpeed>1.2</PlantWorkSpeed>
+		<PlantHarvestYield>1.2</PlantHarvestYield>
+		<ResearchSpeed>1.8</ResearchSpeed>
+		
+		<MiningSpeed>1.5</MiningSpeed>
+		<MiningYield>1.5</MiningYield>
+		<ConstructionSpeed>1.5</ConstructionSpeed>
+		<ConstructSuccessChance>1.5</ConstructSuccessChance>
+		<DrugCookingSpeed>1.0</DrugCookingSpeed>		
+		<DrugSynthesisSpeed>1.0</DrugSynthesisSpeed>	
+		<GeneralLaborSpeed>1.2</GeneralLaborSpeed>
+		
+		<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.22</ArmorRating_Heat>
+
+		<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+		<MeleeHitChance>0.8</MeleeHitChance>
+		<MeleeDodgeChance>1.3</MeleeDodgeChance>
+		
+    </statBases>
+
+	<tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+	</tools>
+
+	<alienRace>
+
+	<generalSettings>
+		<allowHumanBios>False</allowHumanBios>
+		<humanRecipeImport>true</humanRecipeImport>
+		<alienPartGenerator>
+			<!-- -->
+			<alienbodytypes>
+				<li>Female</li>
+				<li>Male</li>
+			</alienbodytypes>
+			<!-- -->
+			<useGenderedHeads>true</useGenderedHeads>
+			<aliencrowntypes>
+                    <li>Average_Normal</li>
+			</aliencrowntypes>
+			
+			    <customDrawSize>(1.0, 1.0)</customDrawSize>
+                <customHeadDrawSize>(0.75, 0.75)</customHeadDrawSize>
+				<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+                <customPortraitHeadDrawSize>(0.75, 0.75)</customPortraitHeadDrawSize>
+				<headOffset>(0,-0.02)</headOffset>
+				<colorChannels>
+					<li>
+						<name>skin</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+								<!--Greyscale-->
+								<li><weight>2</weight><only>RGBA(255, 255, 255, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(153, 153, 153, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(51, 51, 51, 255)</only></li>
+								<!--purples-->
+								<li><weight>2</weight><only>RGBA(138, 43, 226, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(75, 0, 130, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(139, 0, 139, 255)</only></li>
+								<!--Reds-->
+								<li><weight>2</weight><only>RGBA(128, 0, 0, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(128, 0, 32, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(178, 34, 34, 255)</only></li>
+								<!--Greens-->
+								<li><weight>2</weight><only>RGBA(0, 100, 0, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(85, 107, 47, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(32, 178, 170, 255)</only></li>
+								<!--Blues-->
+								<li><weight>2</weight><only>RGBA(70, 130, 180, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(0, 0, 128, 255)</only></li>
+								<li><weight>2</weight><only>RGBA(65, 105, 225, 255)</only></li>
+							</options>
+						</first>
+					</li>
+				</colorChannels>
+			
+		</alienPartGenerator>
+
+		<maleGenderProbability>.5</maleGenderProbability>
+		
+		<disallowedTraits>
+            <li>
+				<defName>Nudist</defName>
+			</li>
+			<li>
+				<defName>BodyPurist</defName>
+			</li>
+        </disallowedTraits>
+	</generalSettings>    
+
+	<graphicPaths>
+		<li>
+			<head>Quarian/HeadBase/</head>
+			<body>Quarian/Body/</body>
+		</li>
+	</graphicPaths>
+
+	<hairSettings>
+		<hasHair>false</hasHair>
+	</hairSettings>
+
+	<thoughtSettings>
+		<cannotReceiveThoughts><li>Naked</li></cannotReceiveThoughts>
+		<ateThoughtSpecific></ateThoughtSpecific>
+	</thoughtSettings>
+
+    <raceRestriction>
+		<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel> 
+		<apparelList>
+			<li>Apparel_ArmoredExosuit</li>
+		</apparelList>
+		<whiteApparelList>
+			<li>Apparel_PsychicShockLance</li>
+			<li>Apparel_PsychicInsanityLance</li>
+			<li>Apparel_ShieldBelt</li>
+			<li>Apparel_SmokepopBelt</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+			<li MayRequire="dninemfive.advancedshieldbelts">Apparel_QRShieldBelt</li>
+			<li MayRequire="dninemfive.advancedshieldbelts">Apparel_HeavyShieldBelt</li>
+			<li MayRequire="dninemfive.advancedshieldbelts">Apparel_RangedShieldBelt</li>
+		</whiteApparelList>
+	</raceRestriction>
+
+</alienRace>
+    
+<race>
+	<thinkTreeMain>Humanlike</thinkTreeMain>
+	<nameGenerator>NamerPersonQuarian</nameGenerator>
+	<nameGeneratorFemale>NamerPersonQuarianFemale</nameGeneratorFemale>
+	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+	<intelligence>Humanlike</intelligence>
+	<makesFootprints>true</makesFootprints>
+	<lifeExpectancy>80</lifeExpectancy>
+	<bloodDef>Filth_Blood</bloodDef>
+	<nameCategory>HumanStandard</nameCategory>
+	<body>Quarian</body>
+	<baseBodySize>1.0</baseBodySize>
+	<baseHealthScale>0.8</baseHealthScale>
+	<baseHungerRate>1.0</baseHungerRate>
+	<foodType>OmnivoreHuman</foodType>
+	<leatherDef>Leather_Quarian</leatherDef>
+
+	<gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+		<points>
+		<li>(0.5, 0)</li>
+		<li>(1, 1)</li>
+		<li>(1.01, 0.02)</li>
+		<li>(3.5, 0)</li>
+		</points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>5</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+		<li>
+          <def>HumanlikeOld</def>
+          <minAge>60</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.3)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(14,2)</li>
+          <li>(18,2)</li>
+		  <li>(22,40)</li>
+		  <li>(25,50)</li>
+		  <li>(28,35)</li>
+		  <li>(31,5)</li>
+		  <li>(35,5)</li>
+		  <li>(40,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+		<li>Human</li>
+      </hediffGiverSets>
+</race>
+    <recipes>
+
+		<li>InstallPowerClaw</li>
+		<li>InstallBionicEye</li>
+		<li>InstallBionicArm</li>
+		<li>InstallBionicLeg</li>
+		<li>InstallSimpleProstheticArm</li>
+		<li>InstallSimpleProstheticLeg</li>
+		<li>InstallPegLeg</li>
+		<li>InstallDenture</li>
+		<li>InstallJoywire</li>
+		<li>InstallPainstopper</li>
+		<li>InstallNaturalHeart</li>
+		<li>InstallNaturalLung</li>
+		<li>InstallNaturalKidney</li>
+		<li>InstallNaturalLiver</li>
+		<li>AdministerMechSerumHealer</li>
+		<li>ExciseCarcinoma</li>
+		<li>RemoveBodyPart</li>
+		<li>Euthanize</li>
+		<li>Anesthetize</li>
+    </recipes>
+    
+</AlienRace.ThingDef_AlienRace>
+</Defs>
