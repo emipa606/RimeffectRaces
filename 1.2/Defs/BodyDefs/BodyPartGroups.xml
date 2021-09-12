@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartGroupDef>
+    <defName>HuskLeftHand</defName>
+    <label>left hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>HuskRightHand</defName>
+    <label>right hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+  
+  <BodyPartGroupDef>
+    <defName>HuskJaw</defName>
+    <label>husk jaw</label>
+    <labelShort>jaw</labelShort>
+  </BodyPartGroupDef>
+  
+    <BodyPartGroupDef>
+    <defName>CannibalLeftHand</defName>
+    <label>left hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>CannibalRightHand</defName>
+    <label>right hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+  
+    <BodyPartGroupDef>
+    <defName>BruteLeftHand</defName>
+    <label>left hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+  
+    <BodyPartGroupDef>
+    <defName>BruteImpaler</defName>
+    <label>impaler</label>
+    <labelShort>impaler</labelShort>
+  </BodyPartGroupDef>
+  
+    <BodyPartGroupDef>
+    <defName>MarauderLeftHand</defName>
+    <label>left hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>MarauderRightHand</defName>
+    <label>right hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+  
+      <BodyPartGroupDef>
+    <defName>GethLeftArmRER</defName>
+    <label>left hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>GethRightArmRER</defName>
+    <label>right hand</label>
+    <labelShort>hand</labelShort>
+  </BodyPartGroupDef>
+  
+	<BodyPartGroupDef>
+    <defName>LeftMandible</defName>
+    <label>left mandible</label>
+    <labelShort>mandible</labelShort>
+  </BodyPartGroupDef>
+  
+    <BodyPartGroupDef>
+    <defName>RightMandible</defName>
+    <label>right mandible</label>
+    <labelShort>mandible</labelShort>
+  </BodyPartGroupDef>
+  
+</Defs>

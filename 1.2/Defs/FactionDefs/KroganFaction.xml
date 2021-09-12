@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef>
+		<defName>KroganFaction</defName>
+		<label>Krogan Castaways</label>
+		<description>A long time ago a krogan convoy crashed onto this planet and after being unable to get back into space, they decided to settle here and return to their original(albeit primitive) way of living.</description>
+		<pawnsPlural>Krogan</pawnsPlural>
+		<fixedName>Krogan Castaways</fixedName>
+		
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		
+		<factionIconPath>World/WorldObjects/KroganFlag01</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/KroganFlag01</settlementTexturePath>
+		
+		<canMakeRandomly>true</canMakeRandomly>
+		<canStageAttacks>true</canStageAttacks>
+        <canSiege>true</canSiege>
+		
+		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<techLevel>Industrial</techLevel>
+		<backstoryCategories><li>KroganBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>KroganHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>-80</min>
+			<max>10</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-80</min>
+			<max>10</max>
+		</naturalColonyGoodwill>
+
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<caravanTraderKinds>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		
+        <colorSpectrum>
+         <li>(1.000, 0.627, 0.478)</li>
+		 <li>(1.000, 0.714, 0.757)</li>
+		 <li>(1.000, 0.937, 0.835)</li>
+		 <li>(0.416, 0.353, 0.804)</li>
+		 <li>(0.565, 0.933, 0.565)</li>
+		 <li>(0.957, 0.643, 0.376)</li>
+		 <li>(1.000, 0.647, 0.000)</li>
+		 <li>(0.741, 0.718, 0.420)</li>
+		 <li>(0.251, 0.878, 0.816)</li>
+		 <li>(0.753, 0.753, 0.753)</li>
+		 <li>(0.596, 0.984, 0.596)</li>
+	     <li>(0.196, 0.804, 0.196)</li>
+		 <li>(0.576, 0.439, 0.859)</li>
+	     <li>(0.855, 0.439, 0.839)</li>
+		 <li>(0.914, 0.588, 0.478)</li>
+		 <li>(0.859, 0.439, 0.576)</li>
+	     <li>(0.686, 0.933, 0.933)</li>
+		 <li>(0.498, 1.000, 0.831)</li>
+        </colorSpectrum>
+
+		<mustStartOneEnemy>false</mustStartOneEnemy>
+		<leaderTitle>Leader</leaderTitle>
+
+		<allowedArrivalTemperatureRange>
+			<min>-25</min>
+			<max>45</max>
+		</allowedArrivalTemperatureRange>
+		
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,50)</li>
+        <li>(50, 50)</li>
+        <li>(1000, 1000)</li>
+        <li>(10000, 10000)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+		
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <KroganColonist01>30</KroganColonist01>
+		  <KroganSoldier01>60</KroganSoldier01>
+		  <KroganBrawler01>30</KroganBrawler01>
+		  <KroganVeteran01>35</KroganVeteran01>
+		  <KroganVeteranBrawler01>20</KroganVeteranBrawler01>
+		  <KroganElite01>20</KroganElite01>
+	   	  <KroganLeader01>1</KroganLeader01>
+        </options>
+      </li>
+	        <li>
+        <kindDef>Combat</kindDef>
+        <commonality>25</commonality>
+		<options>
+		  <KroganGrenadier01>15</KroganGrenadier01>
+		  <KroganBrawler01>60</KroganBrawler01>
+		  <KroganVeteranBrawler01>35</KroganVeteranBrawler01>
+        </options>
+      </li>
+	  <li>
+      <kindDef>Trader</kindDef>
+        <traders>
+          <KroganTrader01>1</KroganTrader01>
+        </traders>
+        <carriers>
+          <Muffalo>1</Muffalo>
+		  <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <KroganColonist01>90</KroganColonist01>
+		  <KroganSoldier01>60</KroganSoldier01>
+          <KroganBrawler01>40</KroganBrawler01>
+		</guards>
+      </li>
+	  <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <KroganColonist01>50</KroganColonist01>
+		  <KroganSoldier01>60</KroganSoldier01>
+		  <KroganBrawler01>40</KroganBrawler01>
+		  <KroganVeteran01>25</KroganVeteran01>
+		  <KroganVeteranBrawler01>25</KroganVeteranBrawler01>
+		  <KroganElite01>10</KroganElite01>
+	   	  <KroganLeader01>1</KroganLeader01>
+        </options>
+      </li>
+	  <li>
+        <kindDef>Peaceful</kindDef>
+        <maxTotalPoints>300</maxTotalPoints>
+		<options>
+          <KroganColonist01>50</KroganColonist01>
+        </options>
+      </li>
+    </pawnGroupMakers>
+	</FactionDef>
+	  
+	
+</Defs>

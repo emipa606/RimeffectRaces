@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="XAsariXFactionBase">
+  <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="XAsariXFactionBase">
+    <defName>AsariPlayerColony</defName>
+    <label>Asari Colony</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>AsariPlayer</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryFilters>
+      <li>
+      <categories>
+			<li>Civil</li>
+			<li>Outlander</li>
+      </categories>
+      </li>
+  	</backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+		<li>AsariHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+  </FactionDef>
+  
+    <FactionDef Parent="XAsariXFactionBase">
+    <defName>AsariPlayerColonyTribal</defName>
+    <label>Asari Tribal</label>
+    <description>Asari Tribal Start.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>AsariPlayer</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryFilters>
+      <li>
+      <categories>
+      <li>Civil</li>
+      <li>Tribal</li>
+      </categories>
+      </li>
+  	</backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+</Defs>
