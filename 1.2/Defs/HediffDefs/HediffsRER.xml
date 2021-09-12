@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef Name="ReaperPainBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0,0,0.5)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef ParentName="ReaperPainBase">
+		<defName>ReaperPain</defName>
+		<label>Exanimate and unyielding</label>
+		<description>Exanimate and unyielding</description>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="YORHG.HediffDefModExtension">
+			</li>
+		</modExtensions>
+	</HediffDef>
+  
+    <HediffDef Name="GethPainBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0,0,0.5)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef ParentName="GethPainBase">
+		<defName>GethPain</defName>
+		<label>Artificial and unyielding</label>
+		<description>Artificial and unyielding</description>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<painFactor>0</painFactor>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="YORHG.HediffDefModExtension">
+			</li>
+		</modExtensions>
+	</HediffDef>
+
+    <HediffDef Name="HanarStomachBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0,0.75,0)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef ParentName="HanarStomachBase">
+		<defName>HanarBiology</defName>
+		<label>Moderate disease immunity</label>
+		<description>Moderate disease immunity</description>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<minSeverity>0.0</minSeverity>
+				<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+				<makeImmuneTo>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+				</makeImmuneTo>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="YORHG.HediffDefModExtension">
+			</li>
+		</modExtensions>
+	</HediffDef>
+  
+	<HediffDef Name="KroganPainBase" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0,0.75,0)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+  
+  	<HediffDef ParentName="KroganPainBase">
+		<defName>KroganPain</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Hardy and Durable</label>
+		<description>Krogan possess both a high tolerance for pain and prodigious regeneration, making them difficult to kill or even disable.
+		
+Krogan can recover from all but the most grevious of injuries, and organ redundancy can keep them going even after having several internal organs destroyed or removed.</description>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<painFactor>0.7</painFactor>
+				<naturalHealingFactor>6</naturalHealingFactor>
+				<totalBleedFactor>0.7</totalBleedFactor>
+				<foodPoisoningChanceFactor>0.3</foodPoisoningChanceFactor>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="YORHG.HediffDefModExtension">
+			</li>
+		</modExtensions>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>BloodRage</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Blood Rage</label>
+		<defaultLabelColor>(170, 20, 0)</defaultLabelColor>
+		<description>A genetic defect present in all modern Krogan, the Blood Rage has been both their curse and blessing.
+		
+		While under its sway, Krogan are nearly unstoppable, becoming impervious to pain and noticably faster, but lose all sense of self preservation and most higher cognitive functions.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-4.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<painFactor>0.0</painFactor>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.40</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.35</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.45</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.20</offset>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.70</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>VorchaPain</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Adaptable</label>
+		<description>Vorcha are famously able to adapt to nearly any environment, and possess a greatly enhanced healing factor, even allowing them to regrow lost limbs given enough time.</description>
+		<defaultLabelColor>(0,0.75,0)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<naturalHealingFactor>4</naturalHealingFactor>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="YORHG.HediffDefModExtension">
+			</li>
+		</modExtensions>
+		<comps>
+			<li Class="MoharRegeneration.HediffCompProperties_Regeneration">
+
+				<CheckingTicksPeriod>300</CheckingTicksPeriod>
+
+				<!-- Tending -->
+				<BloodLossTendingParams>
+					<TreatmentLabel>blood loss tending</TreatmentLabel>
+
+					<PeriodBase>600~900</PeriodBase>
+					<HealingQuality>.25~.75</HealingQuality>
+
+					<HungerCost>.06</HungerCost>
+					<RestCost>.08</RestCost>
+
+					<MoteDef>Mote_TendingBloodloss</MoteDef>
+				</BloodLossTendingParams>
+
+				<ChronicHediffTendingParams>
+					<TreatmentLabel>chronic disease tending</TreatmentLabel>
+
+					<PeriodBase>180~240</PeriodBase>
+					<HealingQuality>.25~1.75</HealingQuality>
+
+					<HungerCost>.05</HungerCost>
+					<RestCost>.06</RestCost>
+
+					<MoteDef>Mote_TendingChronicDisease</MoteDef>
+				</ChronicHediffTendingParams>
+
+				<RegularDiseaseTendingParams>
+					<TreatmentLabel>disease tending</TreatmentLabel>
+
+					<PeriodBase>300~360</PeriodBase>
+					<HealingQuality>.25~1.75</HealingQuality>
+
+					<HungerCost>.07</HungerCost>
+					<RestCost>.08</RestCost>
+					
+					<!--
+					Optionnal
+					<TargetedHediffDefs>
+						<li>GutWorms</li>
+					</TargetedHediffDefs>
+					-->
+
+					<MoteDef>Mote_TendingDisease</MoteDef>
+				</RegularDiseaseTendingParams>
+
+				<!-- Hediff removal -->
+				<PhysicalInjuryRegenParams>
+					<TreatmentLabel>organ healing</TreatmentLabel>
+
+					<PeriodBase>300~360</PeriodBase>
+					<HealingQuality>.00005~.0001</HealingQuality>
+					<TargetedHediffDefs>
+						<li>Bite</li>
+						<li>Bruise</li>
+						<li>Burn</li>
+						<li>ChemicalBurn</li>
+						<li>Crush</li>
+						<li>Crack</li>
+						<li>Cut</li>
+						<li>ExecutionCut</li>
+						<li>Frostbite</li>
+						<li>Gunshot</li>
+						<li>Shredded</li>
+						<li>Scratch</li>
+						<li>Stab</li>
+						<li>SurgicalCut</li>
+					</TargetedHediffDefs>
+
+					<HungerCost>.0008</HungerCost>
+					<RestCost>.001</RestCost>
+
+					<MoteDef>Mote_HealingInjury</MoteDef>
+				</PhysicalInjuryRegenParams>
+
+				<ChemicalHediffRegenParams>
+					<TreatmentLabel>chemical removal</TreatmentLabel>
+
+					<PeriodBase>300~360</PeriodBase>
+					<HealingQuality>.00005~.0001</HealingQuality>
+
+					<TargetedHediffDefs>
+						<li>ToxicBuildup</li>
+						<li>DrugOverdose</li>
+					</TargetedHediffDefs>
+
+					<HungerCost>.0008</HungerCost>
+					<RestCost>.001</RestCost>
+
+					<MoteDef>Mote_HealingChemicals</MoteDef>
+				</ChemicalHediffRegenParams>
+
+				<!-- scars removal -->
+				<PermanentInjuryRegenParams>
+					<TreatmentLabel>scar removal</TreatmentLabel>
+
+					<PeriodBase>300~360</PeriodBase>
+					<HealingQuality>.00005~.0001</HealingQuality>
+
+					<HungerCost>.017</HungerCost>
+					<RestCost>.019</RestCost>
+
+					<!-- <BPMaxHealth>1</BPMaxHealth> -->
+
+					<MoteDef>Mote_RegenScare</MoteDef>
+				</PermanentInjuryRegenParams>
+
+				<!-- body part regen -->
+				<BodyPartRegenParams>
+					<TreatmentLabel>missing part regeneration</TreatmentLabel>
+
+					<PeriodBase>36000~72000</PeriodBase>
+
+					<HungerCost>.29</HungerCost>
+					<RestCost>.31</RestCost>
+
+					<BPMaxHealth>.1</BPMaxHealth>
+					<RegenBodyPartChildrenAtOnce>false</RegenBodyPartChildrenAtOnce>
+					<techHediffTag>Natural</techHediffTag>
+
+					<MoteDef>Mote_RegenBodyPart</MoteDef>
+				</BodyPartRegenParams>
+
+				<debug>false</debug>
+			</li>
+		</comps>
+	</HediffDef>
+	
+</Defs>

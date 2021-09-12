@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <LifeStageDef>
+    <defName>VorchaBabyStage</defName>
+    <label>juvenile</label>
+    <bodySizeFactor>0.32</bodySizeFactor>
+	<foodMaxFactor>1.5</foodMaxFactor>
+    <healthScaleFactor>0.4</healthScaleFactor>
+    <hungerRateFactor>0.4</hungerRateFactor>
+    <marketValueFactor>0.7</marketValueFactor>
+	<meleeDamageFactor>0.6</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.3</MoveSpeed>
+	  <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>VorchaChildStage</defName>
+    <label>adolescent</label>
+	<reproductive>true</reproductive>
+    <bodySizeFactor>0.85</bodySizeFactor>
+    <healthScaleFactor>1.2</healthScaleFactor>
+	<meleeDamageFactor>0.85</meleeDamageFactor>
+	<statFactors>
+	  <MoveSpeed>0.95</MoveSpeed>
+      <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+	</statFactors>
+  </LifeStageDef>
+
+
+  <LifeStageDef>
+    <defName>VorchaAdultStage1</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <healthScaleFactor>1.7</healthScaleFactor>
+	<statFactors>
+      <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+	  </statFactors>
+	<reproductive>true</reproductive>
+  </LifeStageDef>
+  
+    <LifeStageDef>
+    <defName>VorchaAdultStage2</defName>
+    <label>weak adult</label>
+    <visible>false</visible>
+    <healthScaleFactor>1.2</healthScaleFactor>
+	<statFactors>
+      <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+	  </statFactors>
+	<reproductive>true</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>VorchaOldStage1</defName>
+    <label>old</label>
+    <visible>false</visible>
+    <healthScaleFactor>1.0</healthScaleFactor>
+		<statFactors>
+	  <ImmunityGainSpeed>0.85</ImmunityGainSpeed>
+	  </statFactors>
+	<reproductive>false</reproductive>
+  </LifeStageDef>
+
+    <LifeStageDef>
+    <defName>VorchaOldStage2</defName>
+    <label>very old</label>
+    <visible>false</visible>
+    <healthScaleFactor>0.7</healthScaleFactor>
+	<statFactors>
+      <MoveSpeed>0.85</MoveSpeed>
+	  <ImmunityGainSpeed>0.6</ImmunityGainSpeed>
+	  </statFactors>
+	<reproductive>false</reproductive>
+  </LifeStageDef>
+
+   </Defs>
