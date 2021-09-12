@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rimeffect Races [1.2]</name>
+	<name>Rimeffect Races [1.2+]</name>
 	<author>Troopersmith1</author>
 	<url></url>
 	<supportedVersions>
 		<li>1.2</li>
+		<li>1.3</li>
 	</supportedVersions>
 	<description>Uses resources from Mass Muffect Races by Tasrook, with permission.
-Uses resources from my other ME mod, Rimeffect: Asari of the Rims Continued [1.1][1.2]
+Uses resources from my other ME mod, Rimeffect: Asari of the Rims Continued [1.1+]
 	
 A race mod using the Humanoid Alien Framework which adds many of the races of the Mass Effect Franchise. All have unique textures and features to set them apart from both humans and each other.
 
