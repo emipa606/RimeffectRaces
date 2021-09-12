@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================ VorchaBase ========================== -->
+
+	<PawnKindDef Name="VorchaBase" Abstract="True">
+		<defaultFactionType>VorchaFaction</defaultFactionType>
+		<chemicalAddictionChance>0.25</chemicalAddictionChance>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<backstoryCategories>
+			<li>VorchaBackstory</li>
+		</backstoryCategories>
+		<combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>
+			<min>0</min>
+			<max>2</max>
+		</combatEnhancingDrugsCount>
+	</PawnKindDef>
+  
+  <!-- ============================ Poor Vorchas ========================== -->
+
+	<PawnKindDef Name="VorchaPoorBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>45</combatPower>
+		<race>AlienVorcha</race>
+		<initialWillRange>2~6</initialWillRange>
+		<initialResistanceRange>12~17</initialResistanceRange>
+		<itemQuality>Poor</itemQuality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>
+			<min>0.2</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>900</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>150</min>
+			<max>180</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>MedievalMeleeBasic</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaPoorBase">
+		<defName>VorchaSlave01</defName>
+		<label>slave</label>
+	</PawnKindDef>
+
+  <!-- ============================ Colonist Vorchas ========================== -->
+	<PawnKindDef Name="VorchaColonistBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>45</combatPower>
+		<race>AlienVorcha</race>
+		<gearHealthRange>
+			<min>0.3</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>600</min>
+			<max>600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>200</min>
+			<max>400</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>MedievalMeleeBasic</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaColonistBase">
+		<defName>VorchaColonist01</defName>
+		<label>colonist</label>
+	</PawnKindDef>
+
+
+  <!-- ============================ Soldier Vorchas ========================== -->
+	<PawnKindDef Name="VorchaSoldierBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>75</combatPower>
+		<race>AlienVorcha</race>
+		<initialWillRange>4~8</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>600</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaSoldierBase">
+		<defName>VorchaSoldier01</defName>
+		<label>soldier</label>
+	</PawnKindDef>
+
+  
+    <!-- ============================ Veteran Vorchas ========================== -->
+	<PawnKindDef Name="VorchaVeteranBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>105</combatPower>
+		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<gearHealthRange>
+			<min>0.6</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>600</min>
+			<max>1200</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>600</min>
+			<max>1200</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaVeteranBase">
+		<defName>VorchaVeteran01</defName>
+		<label>veteran soldier</label>
+	</PawnKindDef>
+	
+	<!-- ============================ Trader Vorchas ========================== -->
+	<PawnKindDef Name="VorchaTraderBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>105</combatPower>
+		<race>AlienVorcha</race>
+		<gearHealthRange>
+			<min>0.6</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>800</min>
+			<max>1500</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>800</min>
+			<max>1200</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<invNutrition>2.55</invNutrition>
+		<inventoryOptions>
+		    <subOptionsChooseOne>
+				<li>
+					<choiceChance>90</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>25</min>
+						<max>70</max>
+					</countRange>
+				</li>
+				<li>
+					<choiceChance>10</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>500</min>
+						<max>800</max>
+					</countRange>
+				</li>
+		    </subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaTraderBase">
+		<defName>VorchaTrader01</defName>
+		<label>colony trader</label>
+	</PawnKindDef>
+  
+  <!-- ============================ Brawler Vorchas ========================== -->
+  
+	<PawnKindDef Name="VorchaBrawlerBase" ParentName="VorchaBase" Abstract="True">
+		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+		<combatPower>95</combatPower>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<race>AlienVorcha</race>
+		<gearHealthRange>
+			<min>0.6</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>400</min>
+			<max>800</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>400</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>NeolithicMeleeAdvanced</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaBrawlerBase">
+		<defName>VorchaBrawler01</defName>
+		<label>brawler</label>
+	</PawnKindDef>
+
+    <!-- ============================ Grenadier Vorchas ========================== -->
+  
+    <PawnKindDef Name="VorchaGrenadierBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>75</combatPower>
+		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>600</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaGrenadierBase">
+		<defName>VorchaGrenadier01</defName>
+		<label>grenadier</label>
+	</PawnKindDef>
+
+  
+	<PawnKindDef Name="VorchaChiefBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>60</combatPower>
+		<race>AlienVorcha</race>
+		<gearHealthRange>
+			<min>0.7</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>600</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+ 
+	<PawnKindDef ParentName="VorchaChiefBase">
+		<defName>VorchaChief01</defName>
+		<label>chief</label>
+		<labelPlural>chiefs</labelPlural>
+		<initialWillRange>13~17</initialWillRange>
+		<initialResistanceRange>19~29</initialResistanceRange>
+		<factionLeader>true</factionLeader>
+		<minGenerationAge>8</minGenerationAge>
+		<maxGenerationAge>12</maxGenerationAge>
+	</PawnKindDef>
+
+ <!--    WHITE HAND    -->   
+
+	<PawnKindDef Name="VorchaWhiteHandSoldierBase" ParentName="VorchaBase" Abstract="True">
+		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+		<combatPower>75</combatPower>
+		<initialWillRange>4~8</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<race>AlienVorcha</race>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>150</min>
+			<max>450</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>200</min>
+			<max>200</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaWhiteHandSoldierBase">
+		<defName>VorchaWhiteHandSoldier01</defName>
+		<label>soldier</label>
+	</PawnKindDef>
+
+  
+    <PawnKindDef Name="VorchaWhiteHandVeteranBase" ParentName="VorchaBase" Abstract="True">
+		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+		<combatPower>105</combatPower>
+		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<gearHealthRange>
+			<min>0.6</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>400</min>
+			<max>800</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>400</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaWhiteHandVeteranBase">
+		<defName>VorchaWhiteHandVeteran01</defName>
+		<label>veteran soldier</label>
+	</PawnKindDef>
+  
+    <PawnKindDef Name="VorchaWhiteHandBrawlerBase" ParentName="VorchaBase" Abstract="True">
+		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
+		<combatPower>95</combatPower>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<race>AlienVorcha</race>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>
+			<min>0.6</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>400</min>
+			<max>800</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>400</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>NeolithicMeleeAdvanced</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaWhiteHandBrawlerBase">
+		<defName>VorchaWhiteHandBrawler01</defName>
+		<label>brawler</label>
+	</PawnKindDef>
+  
+    <PawnKindDef Name="VorchaWhiteHandGrenadierBase" ParentName="VorchaBase" Abstract="True">
+		<combatPower>75</combatPower>
+		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>
+			<min>0.5</min>
+			<max>1.0</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>600</max>
+		</apparelMoney>
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Outlander</li>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<weaponMoney>
+			<min>300</min>
+			<max>600</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Pemmican</thingDef>
+					<countRange>
+						<min>15</min>
+						<max>30</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="VorchaWhiteHandGrenadierBase">
+		<defName>VorchaWhiteHandGrenadier01</defName>
+		<label>grenadier</label>
+	</PawnKindDef>
+  
+ </Defs>

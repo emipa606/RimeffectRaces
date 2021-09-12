@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Abstract="True" Name="BatarianPlayerBase">
+		<race>AlienBatarian</race>
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BatarianPlayerBase">
+		<defName>PlayerBatarian</defName>
+		<label>colonist</label>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryCategories>
+			<li>BatarianBackstory</li>
+		</backstoryCategories>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>600</min>
+			<max>600</max>
+		</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+
+</Defs>

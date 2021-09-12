@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Abstract="True" Name="HanarPlayerBase">
+		<race>AlienHanar</race>
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+		<initialWillRange>7~12</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<isFighter>false</isFighter>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="HanarPlayerBase">
+		<defName>PlayerHanar</defName>
+		<label>colonist</label>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryCategories>
+			<li>HanarBackstory</li>
+		</backstoryCategories>
+		<backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+
+</Defs>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================ HanarBase ========================== -->
+
+	<PawnKindDef Name="HanarBase" Abstract="True">
+		<defaultFactionType>HanarFaction</defaultFactionType>
+		<race>AlienHanar</race>
+		<chemicalAddictionChance>0.10</chemicalAddictionChance>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
+		<backstoryCategories>
+			<li>HanarBackstory</li>
+		</backstoryCategories>
+		<apparelMoney>
+			<min>150</min>
+			<max>500</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>HanarSweaters</li>
+		</apparelTags>
+    </PawnKindDef>
+  
+  <!-- ============================ Poor Hanar ========================== -->
+
+	<PawnKindDef Name="HanarPoorBase" ParentName="HanarBase" Abstract="True">
+		<combatPower>50</combatPower>
+		<race>AlienHanar</race>
+		<isFighter>false</isFighter>
+		<initialWillRange>2~6</initialWillRange>
+		<initialResistanceRange>12~17</initialResistanceRange>
+		<invNutrition>1.0</invNutrition>
+		<inventoryOptions>
+			<skipChance>0.75</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>50</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>25</min>
+						<max>70</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="HanarPoorBase">
+		<defName>HanarSlave01</defName>
+		<label>slave</label>
+	</PawnKindDef>
+
+  <!-- ============================ Colonist Hanar ========================== -->
+	<PawnKindDef Name="HanarColonistBase" ParentName="HanarBase" Abstract="True">
+		<combatPower>50</combatPower>
+		<race>AlienHanar</race>
+		<invNutrition>1.0</invNutrition>
+		<inventoryOptions>
+			<skipChance>0.75</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>50</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>120</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="HanarColonistBase">
+		<defName>HanarColonist01</defName>
+		<label>colonist</label>
+	</PawnKindDef>
+  
+    <!-- ============================ Beacon Hanar ========================== -->
+	<PawnKindDef Name="HanarBeaconBase" ParentName="HanarBase" Abstract="True">
+		<combatPower>50</combatPower>
+		<race>AlienHanar</race>
+		<invNutrition>1.0</invNutrition>
+		<inventoryOptions>
+			<skipChance>0.75</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>50</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>120</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="HanarBeaconBase">
+		<defName>HanarBeacon01</defName>
+		<label>colonist</label>
+		<factionLeader>true</factionLeader>
+		<initialWillRange>13~17</initialWillRange>
+		<initialResistanceRange>19~29</initialResistanceRange>
+		<minGenerationAge>200</minGenerationAge>
+		<maxGenerationAge>250</maxGenerationAge>
+	</PawnKindDef>
+  
+        <!-- ============================ Trader Hanar ========================== -->
+	<PawnKindDef Name="HanarTraderBase" ParentName="HanarBase" Abstract="True">
+	<combatPower>50</combatPower>
+		<race>AlienHanar</race>
+		<invNutrition>1.0</invNutrition>
+		<inventoryOptions>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>300</min>
+						<max>700</max>
+					</countRange>
+				</li>      
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+  
+	<PawnKindDef ParentName="HanarTraderBase"> 																																				<!-- Made by Clythoris -->					
+		<defName>HanarTrader01</defName>
+		<trader>true</trader>
+		<label>colony trader</label>
+	</PawnKindDef>
+ 
+  </Defs>
