@@ -1,0 +1,265 @@
+﻿nar 
+Zaalazi
+nar 
+Fukor
+nar 
+Canbay
+nar 
+Gurah
+vas 
+Haayya
+vas 
+Hechol
+vas 
+Rowal
+nar 
+Sholeya
+vas Yaarah
+vas Zuzay
+vas Maleya
+vas Leegro
+vas Caavum
+vas Gadin
+
+nar Merah
+
+nar Yaaworp
+
+nar Fidin
+vas Caewan
+
+nar Nefirn
+vas Javo
+vas Yureh
+vas Minil
+vas Zeeram
+vas Seepan
+
+nar Siron
+vas Reenna
+
+nar Wofis
+
+nar Gora
+
+nar Haareh
+
+nar Geegro
+
+nar Sazay
+
+nar Shaazay
+
+nar Reekor
+
+nar Woreh
+
+nar Caanna
+vas Shirah
+
+nar Hirark
+vas Wefirn
+
+nar Jizay
+
+nar Laaca
+vas Tochol
+vas Luwa
+vas Zaemorn
+vas Shadir
+vas Yurah
+vas Zeca
+vas Toyya
+vas Xemorn
+
+nar Sisost
+
+nar Jaewa
+vas Misost
+vas Jigro
+vas Heereh
+vas Velarm
+
+nar Malarm
+vas Shurah
+
+nar Xaezay
+
+nar Raebra
+vas Tatalir
+
+nar Heehala
+
+nar Zaador
+
+nar Nuwib
+
+nar Weleya
+
+nar Voma
+vas Xaadin
+vas Gimorn
+
+nar Maaram
+vas Rewan
+vas Mivo
+vas Sijol
+vas Segro
+
+nar Girah
+
+nar Haanbay
+vas Xaanna
+
+nar Xedarum
+vas Heejol
+vas Gajol
+
+nar Jodoruk
+
+nar Yezay
+
+nar Tuwib
+
+nar Saajol
+
+nar Haaca
+
+nar Vaadolor
+
+nar Gaedor
+vas Tidir
+
+nar Neram
+
+nar Fura
+
+nar Ceekor
+vas Mujol
+vas Halazi
+
+nar Faagro
+vas Minil
+
+nar Nodolor
+vas Zoram
+
+nar Xaelazi
+
+nar Vuzorn
+vas Waawal
+
+nar Gaavo
+
+nar Xomorn
+
+nar Yowal
+
+nar Ridir
+vas Coraka
+vas Suji
+vas Ceeram
+
+nar Feworp
+
+nar Taakor
+
+nar Taalari
+
+nar Yazay
+
+nar Jaafirn
+
+nar Vaafis
+vas Higro
+vas Gaetalir
+vas Seraka
+
+nar Foyya
+
+nar Shaeron
+
+nar Sefirn
+vas Shizay
+vas Suwib
+vas Shaalarm
+
+nar Hawib
+vas Fonna
+vas Vedor
+vas Zaama
+vas Tidin
+
+nar Cunil
+vas Yaaraka
+vas Shonna
+
+nar Jaaraka
+
+nar Sichol
+vas Haavo
+
+nar Cowa
+
+nar Teehala
+vas Meeyya
+
+nar Veedoruk
+
+nar Giron
+vas Wozal
+
+nar Fiwan
+
+nar Weevum
+vas Zeevo
+vas Saejol
+
+nar Saedin
+vas Leelazi
+
+nar Fewib
+vas Reenna
+vas Sogro
+
+nar Haewal
+vas Regro
+
+nar Sogro
+vas Gewa
+vas Faara
+vas Xudolor
+vas Natalir
+vas Weeca
+vas Mesost
+
+nar Laavo
+
+nar Logro
+vas Mochol
+
+nar Taevum
+
+nar Zaarah
+vas Xaaca
+
+nar Rayya
+vas Rayya
+
+nar Neema
+vas Neema
+
+nar Tonbay
+vas Tonbay
+
+nar Moreh
+vas Moreh
+
+nar Anba
+vas Anba
+
+nar Idenna
+vas Idenna
+
+nar Qwib-Qwib
+vas Qwib-Qwib
