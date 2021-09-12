@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonTurian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TurianMfirst] [Turianlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TurianMfirst</keyword>
+          <path>NameBanks/Names_First_TurianM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Turianlast</keyword>
+          <path>NameBanks/Names_Last_Turian</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerPersonTurianFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TurianFfirst] [Turianlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TurianFfirst</keyword>
+          <path>NameBanks/Names_First_TurianF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Turianlast</keyword>
+          <path>NameBanks/Names_Last_Turian</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  </Defs>
+

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonBatarian</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[BatarianMfirst] [Batarianlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>BatarianMfirst</keyword>
+          <path>NameBanks/Names_First_BatarianM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Batarianlast</keyword>
+          <path>NameBanks/Names_Last_Batarian</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+<RulePackDef>
+    <defName>NamerPersonBatarianFemale</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[BatarianFfirst] [Batarianlast]</li>
+        </rulesStrings>
+        <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>BatarianFfirst</keyword>
+          <path>NameBanks/Names_First_BatarianF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Batarianlast</keyword>
+          <path>NameBanks/Names_Last_Batarian</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
+

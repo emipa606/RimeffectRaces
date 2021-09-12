@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>AlienSalarian</defName>
+    <label>Salarian</label>
+    
+    <description>The Salarians are warm-blooded amphibians who posses hyperactive metabolism; they think fast, talk fast and move fast. To Salarians, other species seem sluggish and dull-witted. Unfortunately, their metabolic speed leavs them with a relatively short lifespan; salarians over the age of 40 are a rarity.
+
++10% Move Speed
++20% Skilled Labor Speed
++25% Shooting Accuracy
+-50% Psychic Resistance
+-50% Toxic Resistance
+-20% Health
+-20% Immunity Gain Speed
+Like Insect Meat</description>
+        
+    <statBases>
+		<PsychicSensitivity>1.5</PsychicSensitivity>
+		<ToxicSensitivity>1.5</ToxicSensitivity>
+		<ComfyTemperatureMin>12</ComfyTemperatureMin>
+		<ComfyTemperatureMax>30</ComfyTemperatureMax>
+		<LeatherAmount>50</LeatherAmount>
+		<MarketValue>1900</MarketValue>
+		<MoveSpeed>5.0</MoveSpeed>
+		<Flammability>1.0</Flammability>
+		<ImmunityGainSpeed>0.9</ImmunityGainSpeed>
+		<RoyalFavorValue>3</RoyalFavorValue>
+		
+		<CarryingCapacity>60</CarryingCapacity>
+
+		<SocialImpact>1.2</SocialImpact>
+		<PlantWorkSpeed>1.2</PlantWorkSpeed>
+		<PlantHarvestYield>1.2</PlantHarvestYield>
+		<ResearchSpeed>1.2</ResearchSpeed>
+		
+		<MiningSpeed>1.2</MiningSpeed>
+		<MiningYield>1.2</MiningYield>
+		<ConstructionSpeed>1.2</ConstructionSpeed>
+		<ConstructSuccessChance>1.2</ConstructSuccessChance>
+		<DrugCookingSpeed>1.2</DrugCookingSpeed>		
+		<DrugSynthesisSpeed>1.2</DrugSynthesisSpeed>	
+		<GeneralLaborSpeed>1.2</GeneralLaborSpeed>
+
+		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+
+		<ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
+		<MeleeHitChance>1.1</MeleeHitChance>
+		<MeleeDodgeChance>1.1</MeleeDodgeChance>
+		<RestRateMultiplier>4</RestRateMultiplier>
+		
+    </statBases>
+
+	<tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+	</tools>
+
+	<alienRace>
+
+	<generalSettings>
+		<minAgeForAdulthood>12</minAgeForAdulthood>
+		<allowHumanBios>False</allowHumanBios>
+		<humanRecipeImport>true</humanRecipeImport>
+		<alienPartGenerator>
+			<!-- -->
+			<alienbodytypes>
+				<li>Thin</li>
+			</alienbodytypes>
+			<!-- -->
+			<useGenderedHeads>true</useGenderedHeads>
+			<useGenderedBodies>false</useGenderedBodies>
+			<aliencrowntypes>
+                    <li>Average_Normal_01</li>
+					<li>Average_Normal_02</li>
+					<li>Average_Normal_03</li>
+					<li>Average_Normal_04</li>
+					<li>Average_Normal_05</li>
+					<li>Average_Normal_06</li>
+					<li>Average_Normal_07</li>
+					<li>Average_Normal_08</li>
+					<li>Average_Normal_09</li>
+			        <li>Average_Normal_10</li>
+					<li>Average_Normal_11</li>
+					<li>Average_Normal_12</li>
+					<li>Average_Normal_13</li>
+					<li>Average_Normal_14</li>
+					<li>Average_Normal_15</li>
+					<li>Average_Normal_16</li>
+			</aliencrowntypes>
+			
+			     <customDrawSize>(1.3, 1.1)</customDrawSize>
+                 <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+				 <customPortraitDrawSize>(1.3, 1.1)</customPortraitDrawSize>
+                 <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+				<colorChannels>
+					<li>
+						<name>skin</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+								<li><weight>2</weight><only>RGBA(1.0,1.0,1.0,1)</only></li>
+								<li><weight>2</weight><only>RGBA(1.000, 0.980, 0.804,1)</only></li>
+								<li><weight>2</weight><only>RGBA(1.000, 0.894, 0.710,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.400, 0.754, 0.667,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.400, 0.804, 0.667,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.450, 0.854, 0.717,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.500, 0.904, 0.767,1)</only></li>
+								<li><weight>2</weight><only>RGBA(1.000, 0.922, 0.804,1)</only></li>
+								<li><weight>2</weight><only>RGBA(1.000, 0.894, 0.769,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.863, 0.863, 0.863,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.827, 0.827, 0.827,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.690, 0.878, 0.902,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.740, 0.928, 0.952,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.640, 0.828, 0.852,1)</only></li>
+								<li><weight>2</weight><only>RGBA(0.961, 0.871, 0.702,1)</only></li>
+							</options>
+						</first>
+					</li>
+				</colorChannels>
+			<anchorReplacements>
+				<!-- South -->
+				<li>
+					<originalTag>RightEye</originalTag>
+					<replacement>
+						<rotation>South</rotation>
+						<tag>RightEye</tag>
+						<canMirror>false</canMirror>
+						<crownType>Average</crownType>
+						<offset>(-0.1,0,-0.30)</offset>
+						<range>0</range>
+						<layer>Head</layer>
+						<debugColor>(0,0,0,1)</debugColor>
+					</replacement>
+					<offsets>
+						<south>
+							<bodyTypes>
+								<Thin>(-0.09,0.33)</Thin>
+							</bodyTypes>
+						</south>
+					</offsets>
+				</li>
+				<li>
+					<originalTag>LeftEye</originalTag>
+					<replacement>
+						<rotation>South</rotation>
+						<tag>LeftEye</tag>
+						<canMirror>false</canMirror>
+						<crownType>Average</crownType>
+						<offset>(-0.1,0,-0.30)</offset>
+						<range>0</range>
+						<layer>Head</layer>
+						<debugColor>(0,0,0,1)</debugColor>
+					</replacement>
+					<offsets>
+						<south>
+							<bodyTypes>
+								<Thin>(0.09,0.33)</Thin>
+							</bodyTypes>
+						</south>
+					</offsets>
+				</li>
+				<!-- East -->
+				<li>
+					<originalTag>RightEye</originalTag>
+					<replacement>
+						<rotation>East</rotation>
+						<tag>RightEye</tag>
+						<canMirror>false</canMirror>
+						<crownType>Average</crownType>
+						<offset>(0.2,0,-0.30)</offset>
+						<range>0</range>
+						<layer>Head</layer>
+						<debugColor>(0,0,0,1)</debugColor>
+					</replacement>
+					<offsets>
+						<east>
+							<bodyTypes>
+								<Thin>(0.15,0.32)</Thin>
+							</bodyTypes>
+						</east>
+					</offsets>
+				</li>
+				<!-- West -->
+				<li>
+					<originalTag>LeftEye</originalTag>
+					<replacement>
+						<rotation>West</rotation>
+						<tag>LeftEye</tag>
+						<canMirror>false</canMirror>
+						<crownType>Average</crownType>
+						<offset>(-0.2,0,-0.30)</offset>
+						<range>0</range>
+						<layer>Head</layer>
+						<debugColor>(0,0,0,1)</debugColor>
+					</replacement>
+					<offsets>
+						<west>
+							<bodyTypes>
+								<Thin>(-0.15,0.32)</Thin>
+							</bodyTypes>
+						</west>
+					</offsets>
+				</li>
+			</anchorReplacements>
+		</alienPartGenerator>
+
+		<maleGenderProbability>.95</maleGenderProbability>    
+		<!--<forcedRaceTraitEntries>
+			<li><defName>Bloodlust</defName><chance>10</chance></li>
+			</forcedRaceTraitEntries>-->
+	</generalSettings>    
+
+	<graphicPaths>
+		<li>
+			<headOffset>(0,    0.02)</headOffset>
+			<body>Salarian/Body/</body>
+			<head>Salarian/HeadBase/</head>
+		</li>
+	</graphicPaths>
+	<styleSettings>
+		<li>
+			<key>HairDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+				<styleTagsOverride>
+					<li>NoHair</li>
+				</styleTagsOverride>
+			</value>
+		</li>
+		<li>
+			<key>TattooDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+				<styleTagsOverride>
+					<li>NoTattoo</li>
+				</styleTagsOverride>
+			</value>
+		</li>
+		<li>
+			<key>BeardDef</key>
+			<value>
+				<hasStyle>false</hasStyle>
+				<styleTagsOverride>
+					<li>NoBeard</li>
+				</styleTagsOverride>
+			</value>
+		</li>
+	</styleSettings>
+
+
+	<thoughtSettings>
+		<cannotReceiveThoughts>
+		<li>AteInsectMeatAsIngredient</li>
+		<li>AteInsectMeatDirect</li>
+		</cannotReceiveThoughts>
+		<ateThoughtSpecific></ateThoughtSpecific>
+		<restrictedThoughts><li>SalarianInsectMeat</li><li>SalarianInsectMeat</li></restrictedThoughts>
+		<replacerList>
+		<li>
+			<original>AteInsectMeatAsIngredient</original>
+			<replacer>SalarianInsectMeat</replacer> 
+		</li>
+		<li>
+			<original>AteInsectMeatDirect</original>
+			<replacer>SalarianInsectMeat</replacer> 
+		</li>
+	    </replacerList>
+	</thoughtSettings>
+
+	<raceRestriction>
+	</raceRestriction>
+
+</alienRace>
+    
+<race>
+	<thinkTreeMain>Humanlike</thinkTreeMain>
+	<nameGenerator>NamerPersonSalarian</nameGenerator>
+	<nameGeneratorFemale>NamerPersonSalarianFemale</nameGeneratorFemale>
+	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+	<intelligence>Humanlike</intelligence>
+	<makesFootprints>true</makesFootprints>
+	<lifeExpectancy>40</lifeExpectancy>
+	<bloodDef>FilthBloodSalarian</bloodDef>
+	<nameCategory>HumanStandard</nameCategory>
+	<body>Quarian</body>
+	<baseBodySize>1.0</baseBodySize>
+	<baseHealthScale>0.8</baseHealthScale>
+	<baseHungerRate>1.0</baseHungerRate>
+	<foodType>OmnivoreHuman</foodType>
+	<leatherDef>Leather_Salarian</leatherDef>
+
+	<gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+		<points>
+		<li>(0.5, 0)</li>
+		<li>(1, 0.7)</li>
+		<li>(2, 1.0)</li>
+		<li>(3, 0.7)</li>
+		<li>(4, 0.4)</li>
+		<li>(5.5, 0)</li>
+		</points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>8</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>12</minAge>
+        </li>
+		<li>
+          <def>HumanlikeOld</def>
+          <minAge>30</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.3)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(11.5,0)</li>
+          <li>(14,35)</li>
+          <li>(18,55)</li>
+		  <li>(22,60)</li>
+		  <li>(25,40)</li>
+		  <li>(28,25)</li>
+		  <li>(31,5)</li>
+		  <li>(35,5)</li>
+		  <li>(40,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+		<li>Human</li>
+      </hediffGiverSets>
+</race>
+    <recipes>
+
+		<li>InstallPowerClaw</li>
+		<li>InstallBionicEye</li>
+		<li>InstallBionicArm</li>
+		<li>InstallBionicLeg</li>
+		<li>InstallSimpleProstheticArm</li>
+		<li>InstallSimpleProstheticLeg</li>
+		<li>InstallPegLeg</li>
+		<li>InstallDenture</li>
+		<li>InstallJoywire</li>
+		<li>InstallPainstopper</li>
+		<li>InstallNaturalHeart</li>
+		<li>InstallNaturalLung</li>
+		<li>InstallNaturalKidney</li>
+		<li>InstallNaturalLiver</li>
+		<li>AdministerMechSerumHealer</li>
+		<li>ExciseCarcinoma</li>
+		<li>RemoveBodyPart</li>
+		<li>Euthanize</li>
+		<li>Anesthetize</li>
+    </recipes>
+    
+</AlienRace.ThingDef_AlienRace>
+</Defs>
