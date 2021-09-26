@@ -38,10 +38,6 @@ Resistant to high temperatures.</description>
 
 		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-
-		<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
-		<MeleeHitChance>1.0</MeleeHitChance>
-		<MeleeDodgeChance>1.0</MeleeDodgeChance>
 		
     </statBases>
 

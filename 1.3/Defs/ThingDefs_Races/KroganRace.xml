@@ -47,9 +47,9 @@
 		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
 
-		<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
-		<MeleeHitChance>1.1</MeleeHitChance>
-		<MeleeDodgeChance>0.8</MeleeDodgeChance>
+		<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+		<MeleeHitChance>0.1</MeleeHitChance>
+		<MeleeDodgeChance>-0.2</MeleeDodgeChance>
 		
     </statBases>
 

@@ -46,9 +46,9 @@ Like Insect Meat</description>
 		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 
-		<ShootingAccuracyPawn>1.25</ShootingAccuracyPawn>
-		<MeleeHitChance>1.1</MeleeHitChance>
-		<MeleeDodgeChance>1.1</MeleeDodgeChance>
+		<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+		<MeleeHitChance>0.1</MeleeHitChance>
+		<MeleeDodgeChance>0.1</MeleeDodgeChance>
 		<RestRateMultiplier>4</RestRateMultiplier>
 		
     </statBases>

@@ -42,9 +42,7 @@ Dislikes the cold, and likes the heat</description>
 		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 
-		<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
-		<MeleeHitChance>1.0</MeleeHitChance>
-		<MeleeDodgeChance>1.0</MeleeDodgeChance>
+		<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
 		
     </statBases>
 

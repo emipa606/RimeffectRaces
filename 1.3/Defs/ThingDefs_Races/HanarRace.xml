@@ -42,10 +42,6 @@ Eat only raw meat.</description>
 		<DrugCookingSpeed>1.0</DrugCookingSpeed>		
 		<DrugSynthesisSpeed>1.0</DrugSynthesisSpeed>		
 		<GeneralLaborSpeed>1.0</GeneralLaborSpeed>
-
-		<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
-		<MeleeHitChance>1.0</MeleeHitChance>
-		<MeleeDodgeChance>1.0</MeleeDodgeChance>
 		
     </statBases>
 
