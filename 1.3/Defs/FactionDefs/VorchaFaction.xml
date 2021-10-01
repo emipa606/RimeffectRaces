@@ -1,34 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>VorchaFaction</defName>
 		<label>Vorcha Tribes</label>
 		<description>It's unknown if the independent Vorcha on this world are former mercenaries, stowaways, or pirates. What is known is that the prolific Vorcha have spread all across the planet and become a constant nuisance for anyone living here.</description>
 		<pawnsPlural>Vorcha</pawnsPlural>
 		<fixedName>Vorcha Tribes</fixedName>
-		<allowedCultures><li>VorchaCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/VorchaFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/VorchaFlag01</settlementTexturePath>
 		
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>true</canStageAttacks>
         <canSiege>true</canSiege>
-		<requiredMemes>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
-		</requiredMemes>
-		<disallowedMemes>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>		
+		
 		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategories><li>VorchaBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>VorchaHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>-80</min>
+			<max>-25</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-80</min>
+			<max>-20</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

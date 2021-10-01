@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef Abstract="True" Name="VorchaFactionBase">
-		<factionIconPath>World/WorldObjects/Defaultbase</factionIconPath>
-		<!-- green -->
+
+	<FactionDef ParentName="FactionBase">
+		<defName>VorchaPlayerColony</defName>
+		<label>Vorcha Colony</label>
+		<description>Your own community</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>PlayerVorcha</basicMemberKind>
+		<pawnsPlural>Vorcha</pawnsPlural>
 		<colorSpectrum>
 		<!--
 			<li>(204, 255, 51)</li>
@@ -14,22 +19,12 @@
 			<!-- red -->
 			<li>(190, 0, 40)</li>
 		</colorSpectrum>
-	</FactionDef>
-
-	<FactionDef ParentName="VorchaFactionBase">
-		<defName>VorchaPlayerColony</defName>
-		<label>Player base</label>
-		<description>Your own community</description>
-		<isPlayer>true</isPlayer>
-		<basicMemberKind>PlayerVorcha</basicMemberKind>
-		<pawnsPlural>Vorcha</pawnsPlural>
-		
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<backstoryCategories><li>VorchaBackstory</li></backstoryCategories>
 
-		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/VorchaFlag01</settlementTexturePath>
 <!-- techLevel : Industrial Medieval Neolithic -->		
 <!-- StartingResearchTag : TribalStart ClassicStart -->
@@ -38,16 +33,9 @@
 			<li>ClassicStart</li>
 		</startingResearchTags>		
 		
-		<raidLootValueFromPointsCurve>
-		  <points>
-			<li>(35,     15)</li>
-			<li>(100,   120)</li>
-			<li>(1000,  500)</li>
-			<li>(2000,  800)</li>
-			<li>(4000, 1000)</li>
-		  </points>
-		</raidLootValueFromPointsCurve>
-
+		<hairTags>
+			<li>VorchaHair</li>
+		</hairTags>
 						
 	</FactionDef>
 	

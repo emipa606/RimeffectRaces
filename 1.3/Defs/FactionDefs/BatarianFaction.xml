@@ -1,34 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>BatarianFaction</defName>
 		<label>Batarian Expatriates</label>
 		<description>A batarian slave company used to have one of their largest warehouses on this planet, until a law enforcement presence forced them into hiding for decades. Due to that the batarians had to stay on this planet and after a while they just settled here, forgetting about their space piracy ways.</description>
 		<pawnsPlural>Batarian</pawnsPlural>
 		<fixedName>Batarian Expatriates</fixedName>
-		<allowedCultures><li>BatarianCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/BatarianFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/BatarianFlag01</settlementTexturePath>
+		
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>true</canStageAttacks>
         <canSiege>true</canSiege>
-		<disallowedMemes>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>
-		<disallowedPrecepts>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
-		</disallowedPrecepts>		
+		
 		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategories><li>BatarianBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>BatarianHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>-80</min>
+			<max>-25</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-80</min>
+			<max>-20</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

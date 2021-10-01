@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>HanarFaction</defName>
 		<label>Hanar</label>
 		<description>This faction should not exist.</description>
 		<pawnsPlural>hanar</pawnsPlural>
 		<fixedName>Hanar</fixedName>
 		<hidden>true</hidden>
-		<allowedCultures><li>EnkindlerCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>0</requiredCountAtGameStart>
-		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/HanarFlag01</settlementTexturePath>
 		
@@ -23,6 +21,19 @@
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategories><li>HanarBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>HanarHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>0</min>
+			<max>69</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>0</min>
+			<max>69</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

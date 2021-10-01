@@ -1,30 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>KroganFaction</defName>
 		<label>Krogan Castaways</label>
 		<description>A long time ago a krogan convoy crashed onto this planet and after being unable to get back into space, they decided to settle here and return to their original(albeit primitive) way of living.</description>
 		<pawnsPlural>Krogan</pawnsPlural>
 		<fixedName>Krogan Castaways</fixedName>
-		<allowedCultures><li>KroganCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/KroganFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/KroganFlag01</settlementTexturePath>
 		
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>true</canStageAttacks>
         <canSiege>true</canSiege>
-    <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-    </disallowedMemes>		
+		
 		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategories><li>KroganBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>KroganHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>-80</min>
+			<max>10</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-80</min>
+			<max>10</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

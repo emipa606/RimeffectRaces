@@ -1,30 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>TurianFaction</defName>
 		<label>Turian Militants</label>
 		<description>The turians created a military installation on this planet a time ago to keep watch over the activities around this sector. After a while this sector has become quiet and the outpost was forgotten about. Some turians left for their homeworlds, but most remained and settled in.</description>
 		<pawnsPlural>Turian</pawnsPlural>
 		<fixedName>Turian Militants</fixedName>
-		<allowedCultures><li>TurianCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/TurianFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/TurianFlag01</settlementTexturePath>
 		
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>true</canStageAttacks>
         <canSiege>true</canSiege>
-		<disallowedMemes>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>		
+		
 		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategories><li>TurianBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>TurianHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>-80</min>
+			<max>40</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-80</min>
+			<max>40</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

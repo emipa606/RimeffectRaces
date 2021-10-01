@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>DrellFaction</defName>
 		<label>Drell</label>
 		<description>This faction should not exist.</description>
 		<pawnsPlural>Drell</pawnsPlural>
 		<fixedName>Drell</fixedName>
 		<hidden>true</hidden>
-		<allowedCultures><li>EnkindlerCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>0</settlementGenerationWeight>
 		<requiredCountAtGameStart>0</requiredCountAtGameStart>
-		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/TurianFlag01</settlementTexturePath>
 		
@@ -24,6 +22,19 @@
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategories><li>DrellBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>DrellHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>-80</min>
+			<max>40</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-80</min>
+			<max>40</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

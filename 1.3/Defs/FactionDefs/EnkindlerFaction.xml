@@ -1,33 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>EnkindlerFaction</defName>
 		<label>Enkindler's legacy</label>
 		<description>A detachment of the Enkindler's legacy faith originated from the Hanar and Drell homeworlds.</description>
 		<pawnsPlural>disciples</pawnsPlural>
 		<fixedName>Enkindler's legacy</fixedName>
-		<allowedCultures><li>EnkindlerCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>0.02</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/EnkindlerFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/EnkindlerFlag01</settlementTexturePath>
 		
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>false</canStageAttacks>
 		<canSiege>false</canSiege>
-		<requiredMemes>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
-		</requiredMemes>
-		<disallowedMemes>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>		
+		
 		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategories><li>HanarBackstory</li></backstoryCategories>		
+
+		<hairTags>
+			<li>HanarHair</li>
+		</hairTags>
+		
+		<startingGoodwill>
+			<min>0</min>
+			<max>69</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>0</min>
+			<max>69</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

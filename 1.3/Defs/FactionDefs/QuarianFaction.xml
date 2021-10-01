@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="FactionBase">
+	<FactionDef>
 		<defName>QuarianFaction</defName>
 		<label>Quarian Colony</label>
 		<description>A mixture of exiles, pilgrims, and those who simply left the Flotilla to find a better life, the various Quarian villages on this world still stick together where it counts, despite their differences.</description>
 		<pawnsPlural>Quarian</pawnsPlural>
 		<fixedName>Quarian Settlements</fixedName>
-		<allowedCultures><li>QuarianCulture</li></allowedCultures>
+		
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>10</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/QuarianFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>true</canStageAttacks>
         <canSiege>true</canSiege>
-		<disallowedMemes>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-		</disallowedMemes>
 		
 		<!--<factionNameMaker>NamerFactionOutlander</factionNameMaker>-->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -32,6 +27,20 @@
             </categories>
             </li>
         </backstoryFilters>
+
+		<hairTags>
+			<li>QuarianHair</li>
+		</hairTags>		
+
+		
+		<startingGoodwill>
+			<min>-50</min>
+			<max>80</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-50</min>
+			<max>80</max>
+		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>
