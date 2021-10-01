@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef Abstract="True" Name="QuarianFactionBase">
-		<factionIconPath>World/WorldObjects/Defaultbase</factionIconPath>
-		<!-- green -->
+
+	<FactionDef ParentName="FactionBase">
+		<defName>QuarianPlayerColony</defName>
+		<label>Quarian Colony</label>
+		<description>Your own community</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>PlayerQuarian</basicMemberKind>
+		<pawnsPlural>Quarians</pawnsPlural>
 		<colorSpectrum>
 		<!--
 			<li>(204, 255, 51)</li>
@@ -14,16 +19,6 @@
 			<!-- red -->
 			<li>(190, 0, 40)</li>
 		</colorSpectrum>
-	</FactionDef>
-
-	<FactionDef ParentName="QuarianFactionBase">
-		<defName>QuarianPlayerColony</defName>
-		<label>Player base</label>
-		<description>Your own community</description>
-		<isPlayer>true</isPlayer>
-		<basicMemberKind>PlayerQuarian</basicMemberKind>
-		<pawnsPlural>Quarians</pawnsPlural>
-		
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -39,7 +34,7 @@
 			<li>QuarianHair</li>
 		</hairTags>
 
-		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/QuarianFlag01</settlementTexturePath>
 <!-- techLevel : Industrial Medieval Neolithic -->		
 <!-- StartingResearchTag : TribalStart ClassicStart -->

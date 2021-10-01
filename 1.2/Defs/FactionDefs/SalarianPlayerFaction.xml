@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef Abstract="True" Name="SalarianFactionBase">
-		<factionIconPath>World/WorldObjects/Defaultbase</factionIconPath>
-		<!-- green -->
+
+	<FactionDef ParentName="FactionBase">
+		<defName>SalarianPlayerColony</defName>
+		<label>Salarian Colony</label>
+		<description>Your own community</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>PlayerSalarian</basicMemberKind>
+		<pawnsPlural>Salarian</pawnsPlural>
 		<colorSpectrum>
 		<!--
 			<li>(204, 255, 51)</li>
@@ -14,22 +19,12 @@
 			<!-- red -->
 			<li>(190, 0, 40)</li>
 		</colorSpectrum>
-	</FactionDef>
-
-	<FactionDef ParentName="SalarianFactionBase">
-		<defName>SalarianPlayerColony</defName>
-		<label>Player base</label>
-		<description>Your own community</description>
-		<isPlayer>true</isPlayer>
-		<basicMemberKind>PlayerSalarian</basicMemberKind>
-		<pawnsPlural>Salarian</pawnsPlural>
-		
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<backstoryCategories><li>SalarianBackstory</li></backstoryCategories>
 
-		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/SalarianFlag01</settlementTexturePath>
 <!-- techLevel : Industrial Medieval Neolithic -->		
 <!-- StartingResearchTag : TribalStart ClassicStart -->
