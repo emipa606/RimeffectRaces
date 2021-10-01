@@ -1,40 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef>
+	<FactionDef ParentName="FactionBase">
 		<defName>SalarianFaction</defName>
 		<label>Salarian Settlers</label>
 		<description>Following the implosion of their star, the salarian council moved some of the population onto this planet to colonize it. Because of a life presence scanner malfunction they didn't realize that the planet was occupied until they have already gotten here. A vote was struck to settle here after the strenuous journey they had just undergone. 
 	The salarian residence here is quite new, but has spread tall and wide very quickly.</description>
 		<pawnsPlural>Salarian</pawnsPlural>
 		<fixedName>Salarian Settlers</fixedName>
-		
+		<allowedCultures><li>SalarianCulture</li></allowedCultures>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>10</configurationListOrderPriority>
 		<factionIconPath>World/WorldObjects/SalarianFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/SalarianFlag01</settlementTexturePath>
 		
 		<canMakeRandomly>true</canMakeRandomly>
 		<canStageAttacks>true</canStageAttacks>
         <canSiege>true</canSiege>
-		
+		<disallowedMemes>
+		  <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+		  <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>		
 		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategories><li>SalarianBackstory</li></backstoryCategories>		
-
-		<hairTags>
-			<li>SalarianHair</li>
-		</hairTags>
-		
-		<startingGoodwill>
-			<min>-80</min>
-			<max>50</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-80</min>
-			<max>50</max>
-		</naturalColonyGoodwill>
 
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>

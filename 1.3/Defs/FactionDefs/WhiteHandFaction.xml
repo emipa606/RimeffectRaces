@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef>
+	<FactionDef ParentName="FactionBase">
 		<defName>WhiteHandFaction</defName>
 		<label>White Hand</label>
 		<description>The White Hand is a amalgamation of krogan and vorcha led by the Shaman of the White Hand.
@@ -8,10 +8,11 @@
 They mostly live simple lives. Doing agricultural work, hunting and foraging. However, these "tribals" enjoy firing guns and smashing skulls which leads them to often raid nearby civiliziations.</description>
 		<pawnsPlural>Tribals</pawnsPlural>
 		<fixedName>White Hand</fixedName>
-		
+		<allowedCultures><li>WhiteHandCulture</li></allowedCultures>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>10</configurationListOrderPriority>
 		<factionIconPath>World/WorldObjects/HandFlag01</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/HandFlag01</settlementTexturePath>
 		
@@ -23,20 +24,11 @@ They mostly live simple lives. Doing agricultural work, hunting and foraging. Ho
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategories><li>KroganBackstory</li></backstoryCategories>	
-
-		<hairTags>
-			<li>KroganHair</li>
-		</hairTags>
-		
-		<startingGoodwill>
-			<min>-100</min>
-			<max>-90</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-100</min>
-			<max>-90</max>
-		</naturalColonyGoodwill>
-
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
 		<visitorTraderKinds>
 			<li>Visitor_Neolithic_Standard</li>
 		</visitorTraderKinds>
