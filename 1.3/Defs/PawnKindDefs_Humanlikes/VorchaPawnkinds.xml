@@ -7,6 +7,8 @@
 		<defaultFactionType>VorchaFaction</defaultFactionType>
 		<chemicalAddictionChance>0.25</chemicalAddictionChance>
 		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<initialWillRange>3~7</initialWillRange>
+		<initialResistanceRange>15~23</initialResistanceRange>
 		<backstoryCategories>
 			<li>VorchaBackstory</li>
 		</backstoryCategories>
@@ -20,8 +22,10 @@
   <!-- ============================ Poor Vorchas ========================== -->
 
 	<PawnKindDef Name="VorchaPoorBase" ParentName="VorchaBase" Abstract="True">
-		<combatPower>35</combatPower>
+		<combatPower>45</combatPower>
 		<race>AlienVorcha</race>
+		<initialWillRange>2~6</initialWillRange>
+		<initialResistanceRange>12~17</initialResistanceRange>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>
@@ -109,8 +113,10 @@
 
   <!-- ============================ Soldier Vorchas ========================== -->
 	<PawnKindDef Name="VorchaSoldierBase" ParentName="VorchaBase" Abstract="True">
-		<combatPower>65</combatPower>
+		<combatPower>75</combatPower>
 		<race>AlienVorcha</race>
+		<initialWillRange>4~8</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<gearHealthRange>
 			<min>0.5</min>
 			<max>1.0</max>
@@ -154,8 +160,10 @@
   
     <!-- ============================ Veteran Vorchas ========================== -->
 	<PawnKindDef Name="VorchaVeteranBase" ParentName="VorchaBase" Abstract="True">
-		<combatPower>95</combatPower>
+		<combatPower>105</combatPower>
 		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<gearHealthRange>
 			<min>0.6</min>
 			<max>1.0</max>
@@ -197,7 +205,7 @@
 	
 	<!-- ============================ Trader Vorchas ========================== -->
 	<PawnKindDef Name="VorchaTraderBase" ParentName="VorchaBase" Abstract="True">
-		<combatPower>95</combatPower>
+		<combatPower>105</combatPower>
 		<race>AlienVorcha</race>
 		<gearHealthRange>
 			<min>0.6</min>
@@ -244,6 +252,7 @@
   
 	<PawnKindDef ParentName="VorchaTraderBase">
 		<defName>VorchaTrader01</defName>
+		<trader>true</trader>
 		<label>colony trader</label>
 	</PawnKindDef>
   
@@ -251,7 +260,9 @@
   
 	<PawnKindDef Name="VorchaBrawlerBase" ParentName="VorchaBase" Abstract="True">
 		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
-		<combatPower>85</combatPower>
+		<combatPower>95</combatPower>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<race>AlienVorcha</race>
 		<gearHealthRange>
 			<min>0.6</min>
@@ -298,8 +309,10 @@
     <!-- ============================ Grenadier Vorchas ========================== -->
   
     <PawnKindDef Name="VorchaGrenadierBase" ParentName="VorchaBase" Abstract="True">
-		<combatPower>65</combatPower>
+		<combatPower>75</combatPower>
 		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<gearHealthRange>
 			<min>0.5</min>
@@ -343,7 +356,7 @@
 
   
 	<PawnKindDef Name="VorchaChiefBase" ParentName="VorchaBase" Abstract="True">
-		<combatPower>50</combatPower>
+		<combatPower>60</combatPower>
 		<race>AlienVorcha</race>
 		<gearHealthRange>
 			<min>0.7</min>
@@ -382,6 +395,8 @@
 		<defName>VorchaChief01</defName>
 		<label>chief</label>
 		<labelPlural>chiefs</labelPlural>
+		<initialWillRange>13~17</initialWillRange>
+		<initialResistanceRange>19~29</initialResistanceRange>
 		<factionLeader>true</factionLeader>
 		<minGenerationAge>8</minGenerationAge>
 		<maxGenerationAge>12</maxGenerationAge>
@@ -391,7 +406,9 @@
 
 	<PawnKindDef Name="VorchaWhiteHandSoldierBase" ParentName="VorchaBase" Abstract="True">
 		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
-		<combatPower>65</combatPower>
+		<combatPower>75</combatPower>
+		<initialWillRange>4~8</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<race>AlienVorcha</race>
 		<gearHealthRange>
 			<min>0.5</min>
@@ -436,8 +453,10 @@
   
     <PawnKindDef Name="VorchaWhiteHandVeteranBase" ParentName="VorchaBase" Abstract="True">
 		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
-		<combatPower>95</combatPower>
+		<combatPower>105</combatPower>
 		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<gearHealthRange>
 			<min>0.6</min>
 			<max>1.0</max>
@@ -480,7 +499,9 @@
   
     <PawnKindDef Name="VorchaWhiteHandBrawlerBase" ParentName="VorchaBase" Abstract="True">
 		<baseRecruitDifficulty>0.95</baseRecruitDifficulty>
-		<combatPower>85</combatPower>
+		<combatPower>95</combatPower>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<race>AlienVorcha</race>
 		<canBeSapper>true</canBeSapper>
 		<gearHealthRange>
@@ -526,8 +547,10 @@
 	</PawnKindDef>
   
     <PawnKindDef Name="VorchaWhiteHandGrenadierBase" ParentName="VorchaBase" Abstract="True">
-		<combatPower>65</combatPower>
+		<combatPower>75</combatPower>
 		<race>AlienVorcha</race>
+		<initialWillRange>6~12</initialWillRange>
+		<initialResistanceRange>18~26</initialResistanceRange>
 		<canBeSapper>true</canBeSapper>
 		<gearHealthRange>
 			<min>0.5</min>
