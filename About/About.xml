@@ -1,33 +1,121 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rimeffect Races [1.2+]</name>
-	<author>Troopersmith1</author>
-	<url></url>
-	<supportedVersions>
-		<li>1.2</li>
-		<li>1.3</li>
-	</supportedVersions>
-	<description>Uses resources from Mass Muffect Races by Tasrook, with permission.
-Uses resources from my other ME mod, Rimeffect: Asari of the Rims Continued [1.1+]
+  <name>Rimeffect Races (Continued)</name>
+  <packageId>Mlie.RimeffectRaces</packageId>
+  <author>Troopersmith1</author>
+  <url>https://github.com/emipa606/RimeffectRaces</url>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>goudaquiche.MoharFramework</packageId>
+      <displayName>MoHAR framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2057001924</steamWorkshopUrl>
+      <downloadUrl>https://github.com/goudaQuiche/MoharFramework/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>goudaquiche.MoharFramework</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Troopersmith1s mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2240993715
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/RimeffectRaces][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/kbYsPSO.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
 	
-A race mod using the Humanoid Alien Framework which adds many of the races of the Mass Effect Franchise. All have unique textures and features to set them apart from both humans and each other.
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[b]Updates to 1.4 will be postponed until further notice. If someone wants to update to 1.4 you are welcome to do so. Source code is available on github. Link in description.[/b]
+
+[h1]Description[/h1]
+
+Uses resources from Mass Muffect Races by Tasrook, with permission.
+(Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2013915598 )
+Uses resources from my other ME mod, Rimeffect: Asari of the Rims Continued [1.1][1.2]
+(Original Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2210522775 )
+Makes use of the MoHAR hediffs mod, made by Gouda quiche, ( https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924 ) so head over and give that mod a positive rating as well if you like this mod.
+
+	
+A race mod using the Humanoid Alien Framework which adds many of the races of the Mass Effect Franchise. All have unique textures and features to set them apart from both humans and each other. They also have factions added, with a combined faction for the Drell and Hanar, and an extra faction that combines the Krogan and Vorcha.
 
 Includes the Asari, Batarians, Drell, Hanar, Krogan, Quarians, Salarians, Turians, and Vorcha.
 
 Also included as non-playlable races are the Geth (Heretics) and the Reapers.
 
+Includes settings to disable/enable each race.
+
+[h1]Race Details[/h1]
+
+[b]Asari:[/b] Similar to humans in most respects, but live hundreds of years.
+
+[b]Batarians:[/b] Again, mostly similar to humans, but have four eyes, and a somewhat longer lifespan.
+
+[b]Drell:[/b] Resistant to higher temperature due to their desert homeworld.
+
+[b]Hanar:[/b] Have a unique biology different from other races, with different internal organs, somewhat limited in the tasks they can perform and the clothes they can wear.
+
+[b]Krogan:[/b] Very durable, possess redundant organs, have high pain tolerance, and heal rapidly. Strong immune systems, somewhat higher temperature tolerances, natural armor and resistance to toxins and fire. Slower to perform most tasks, except for mining and farming.
+
+[b]Quarians:[/b] Slightly faster movement speed, increased melee dodge chance, increased ranged weapon accuracy, but reduced melee hit chance, slightly lower health, and a penalty to immunity gain speed. Suit provides some armor, as well as protecting against heat, cold, toxins, and fire, but Quarians are unable to use normal clothing and armor. Able to perform most tasks faster than others, particularly good at research, construction, and mining, but have reduced social impact due to the faceplates of their suits.
+
+[b]Salarians:[/b] Quick movement speed, perform all tasks faster, improved shooting accuracy, as well as increased melee hit and dodge chances. However, are more vulnerable to disease, toxins, and psychic energy, and have noticeably shorter lifespans.
+
+[b]Turians:[/b] Improved shooting accuracy, as well as having natural weapons (talons) and a tough hide. Able to read others well, making them more effective in social situations. Comfortable in the heat, but dislike the cold. Very picky about their food.
+
+[b]Vorcha:[/b] More of a nuisance than anything, the Vorcha breed fast, and die young. Highly resistant to disease, temperatures, and possess incredible regenerative abilities. It's said that a Vorcha can even regrow lost limbs given enough time. Mostly indifferent to comfort, surroundings, and food quality. Their lower intelligence makes it so they are slower to perform nearly any task, save basic manual labor, and their status in the galaxy at large means most races are dismissive of the Vorcha, for good or ill.
+
+
+[h1]Non-Steam Version[/h1]
+
+https://github.com/troopersmith1/RimeffectRaces/releases
+
+
+[h1]Compatibility[/h1]
 
 Includes a patch for Combat Extended
-(Geth and Reaper Weapons not patched yet, if anyone familiar with CE patching would be willing to give me a hand, I'd appreciate it.)</description>
-    <packageId>Troopersmith1.RimeffectRaces</packageId>
-<modDependencies>
-   <li>
-      <packageId>erdelf.HumanoidAlienRaces</packageId>
-      <displayName>Humanoid Alien Races 2.0</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
-   </li>
-</modDependencies>
-<loadAfter>
-<li>erdelf.HumanoidAlienRaces</li>
-</loadAfter>
+
+Compatible with Save Our Ship 2
+
+Compatible with Playable Geth
+
+Patch to allow these races to use gear from Rim-Effect
+https://steamcommunity.com/sharedfiles/filedetails/?id=2527583317
+
+[h1]Known Issues[/h1]
+
+Batarians are currently exempt from the WoundAnchor system because I can't figure out how to make it work with four eyed races. So they won't show Bionic or Archotech eyes, or show when they are blinded.
+
+
+If you like what I do, consider buying me a coffee. Thanks!
+[url=https://ko-fi.com/troopersmith1] [img]https://i.imgur.com/icRN3dW.png[/img] [/url]
+	
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
 </ModMetaData>

@@ -1,13 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RulePackDef>
     <defName>NamerPersonDrell</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[DrellMfirst] [Drelllast]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[DrellMfirst] [Drelllast]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>DrellMfirst</keyword>
           <path>NameBanks/Names_First_TurianM</path>
@@ -19,14 +18,13 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>NamerPersonDrellFemale</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[DrellFfirst] [Drelllast]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[DrellFfirst] [Drelllast]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>DrellFfirst</keyword>
           <path>NameBanks/Names_First_TurianF</path>
@@ -38,6 +36,4 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
-  </Defs>
-
+</Defs>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
   <FactionDef Parent="FactionBase">
     <defName>AsariPlayerColony</defName>
     <label>Asari Colony</label>
@@ -9,19 +8,19 @@
     <basicMemberKind>AsariPlayer</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <techLevel>Ultra</techLevel>
     <backstoryFilters>
       <li>
-      <categories>
-			<li>Civil</li>
-			<li>Outlander</li>
-      </categories>
+        <categories>
+          <li>Civil</li>
+          <li>Outlander</li>
+        </categories>
       </li>
-  	</backstoryFilters>
+    </backstoryFilters>
     <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
-	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <colorSpectrum>
       <li>(0, 0.737, 0.847)</li>
     </colorSpectrum>
@@ -29,14 +28,12 @@
       <li>ClassicStart</li>
     </startingResearchTags>
     <hairTags>
-		<li>AsariHair</li>
+      <li>AsariHair</li>
     </hairTags>
     <apparelStuffFilter>
       <thingDefs>
         <li>Synthread</li>
       </thingDefs>
     </apparelStuffFilter>
-
   </FactionDef>
-
 </Defs>

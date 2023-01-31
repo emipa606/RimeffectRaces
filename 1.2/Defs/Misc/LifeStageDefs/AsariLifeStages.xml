@@ -1,20 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
   <LifeStageDef>
     <defName>AsariBaby</defName>
     <label>baby</label>
     <bodySizeFactor>0.2</bodySizeFactor>
     <healthScaleFactor>0.2</healthScaleFactor>
-	<foodMaxFactor>1.5</foodMaxFactor>
+    <foodMaxFactor>1.5</foodMaxFactor>
     <hungerRateFactor>0.2</hungerRateFactor>
     <marketValueFactor>0.5</marketValueFactor>
-	<meleeDamageFactor>0.5</meleeDamageFactor>
+    <meleeDamageFactor>0.5</meleeDamageFactor>
     <statFactors>
       <MoveSpeed>0.2</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-  
   <LifeStageDef>
     <defName>AsariToddler</defName>
     <label>toddler</label>
@@ -28,7 +26,6 @@
       <MoveSpeed>0.3</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-
   <LifeStageDef>
     <defName>AsariChild</defName>
     <label>child</label>
@@ -36,12 +33,11 @@
     <healthScaleFactor>0.5</healthScaleFactor>
     <hungerRateFactor>0.6</hungerRateFactor>
     <marketValueFactor>0.9</marketValueFactor>
-	<meleeDamageFactor>0.7</meleeDamageFactor>
+    <meleeDamageFactor>0.7</meleeDamageFactor>
     <statFactors>
       <MoveSpeed>0.65</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-  
   <LifeStageDef>
     <defName>AsariTeenager</defName>
     <label>teenager</label>
@@ -54,32 +50,28 @@
       <MoveSpeed>0.95</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-
   <LifeStageDef>
     <defName>AsariMaiden</defName>
     <label>maiden stage</label>
-	<adjective>maiden</adjective>
+    <adjective>maiden</adjective>
     <visible>false</visible>
     <reproductive>true</reproductive>
   </LifeStageDef>
-
   <LifeStageDef>
     <defName>AsariMatron</defName>
     <label>matron stage</label>
-	<adjective>matron</adjective>
+    <adjective>matron</adjective>
     <visible>false</visible>
     <reproductive>true</reproductive>
   </LifeStageDef>
-  
   <LifeStageDef>
     <defName>AsariMatriarch</defName>
     <label>matriarch stage</label>
-	<adjective>matriarch</adjective>
+    <adjective>matriarch</adjective>
     <visible>false</visible>
     <reproductive>true</reproductive>
-	<statFactors>
-	  <ImmunityGainSpeed>0.92</ImmunityGainSpeed>
-	</statFactors>
+    <statFactors>
+      <ImmunityGainSpeed>0.92</ImmunityGainSpeed>
+    </statFactors>
   </LifeStageDef>
-
 </Defs>

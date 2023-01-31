@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_01</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_01</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_02</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_02</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_03</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_03</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_04</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_04</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_05</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_05</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_06</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_06</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_07</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_07</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_08</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_08</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Vorcha_Average_Normal_09</defName>
+    <graphicPath>Vorcha/HeadBase/Average_Normal_09</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+</Defs>

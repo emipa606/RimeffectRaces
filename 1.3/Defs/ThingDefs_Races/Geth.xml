@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BasePawn" Name="BaseGethRER" Abstract="True">
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <statBases>
@@ -12,22 +11,19 @@
       <MeatAmount>0</MeatAmount>
     </statBases>
     <race>
-	  <needsRest>false</needsRest>
+      <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>
       <lifeExpectancy>5500</lifeExpectancy>
       <fleshType>Mechanoid</fleshType>
     </race>
   </ThingDef>
-
   <PawnKindDef Name="BaseGethKindRER" Abstract="True">
     <defaultFactionType>GethRER</defaultFactionType>
     <aiAvoidCover>false</aiAvoidCover>
     <destroyGearOnDrop>true</destroyGearOnDrop>
   </PawnKindDef>
-
   <!-- Geth Trooper -->
-  
   <ThingDef ParentName="BaseGethRER">
     <defName>GethTrooperRER</defName>
     <label>Geth Trooper</label>
@@ -37,7 +33,7 @@
       <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
     </statBases>
-	<tools>
+    <tools>
       <li>
         <label>left fist</label>
         <capacities>
@@ -72,7 +68,7 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-	  <li>
+      <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
@@ -80,11 +76,11 @@
         <power>7</power>
         <cooldownTime>3</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-		<chanceFactor>0.2</chanceFactor>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
       </li>
-	</tools>
-	<race>
+    </tools>
+    <race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>GethRER</body>
@@ -98,7 +94,7 @@
       <hediffGiverSets>
         <li>GethHediffsRER</li>
       </hediffGiverSets>
-	  <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
     </race>
@@ -106,25 +102,24 @@
       <Plasteel>2</Plasteel>
     </butcherProducts>
   </ThingDef>
-
   <PawnKindDef ParentName="BaseGethKindRER">
     <defName>GethTrooperRER</defName>
     <label>Geth Trooper</label>
     <race>GethTrooperRER</race>
-	<combatPower>90</combatPower>
+    <combatPower>90</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
-		  <texPath>Geth/Trooper/GethTrooperRER</texPath>
+          <texPath>Geth/Trooper/GethTrooperRER</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.8, 0.4)</volume>
-			<offset>(0,0,-0.45)</offset>
+            <offset>(0,0,-0.45)</offset>
           </shadowData>
         </bodyGraphicData>
       </li>
     </lifeStages>
-		<weaponMoney>
+    <weaponMoney>
       <min>9999</min>
       <max>99999</max>
     </weaponMoney>
@@ -132,9 +127,7 @@
       <li>GethPulseRifleRER</li>
     </weaponTags>
   </PawnKindDef>
-  
-    <!-- Geth Hunter -->
-  
+  <!-- Geth Hunter -->
   <ThingDef ParentName="BaseGethRER">
     <defName>GethHunterRER</defName>
     <label>Geth Hunter</label>
@@ -144,7 +137,7 @@
       <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.33</ArmorRating_Sharp>
     </statBases>
-	<tools>
+    <tools>
       <li>
         <label>left fist</label>
         <capacities>
@@ -179,7 +172,7 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-	  <li>
+      <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
@@ -187,11 +180,11 @@
         <power>9</power>
         <cooldownTime>3</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-		<chanceFactor>0.2</chanceFactor>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
       </li>
-	</tools>
-	<race>
+    </tools>
+    <race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>GethRER</body>
@@ -205,7 +198,7 @@
       <hediffGiverSets>
         <li>GethHediffsRER</li>
       </hediffGiverSets>
-	  <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
     </race>
@@ -213,25 +206,24 @@
       <Plasteel>4</Plasteel>
     </butcherProducts>
   </ThingDef>
-
   <PawnKindDef ParentName="BaseGethKindRER">
     <defName>GethHunterRER</defName>
     <label>Geth Hunter</label>
     <race>GethHunterRER</race>
-	<combatPower>120</combatPower>
+    <combatPower>120</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
-		  <texPath>Geth/Hunter/GethHunterRER</texPath>
+          <texPath>Geth/Hunter/GethHunterRER</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.8, 0.4)</volume>
-			<offset>(0,0,-0.45)</offset>
+            <offset>(0,0,-0.45)</offset>
           </shadowData>
         </bodyGraphicData>
       </li>
     </lifeStages>
-		<weaponMoney>
+    <weaponMoney>
       <min>9999</min>
       <max>99999</max>
     </weaponMoney>
@@ -239,9 +231,7 @@
       <li>GethPlasmaShotgunRER</li>
     </weaponTags>
   </PawnKindDef>
-  
-      <!-- Geth Prime -->
-  
+  <!-- Geth Prime -->
   <ThingDef ParentName="BaseGethRER">
     <defName>GethPrimeRER</defName>
     <label>Geth Prime</label>
@@ -251,7 +241,7 @@
       <ArmorRating_Blunt>0.52</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.43</ArmorRating_Sharp>
     </statBases>
-	<tools>
+    <tools>
       <li>
         <label>left fist</label>
         <capacities>
@@ -286,7 +276,7 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-	  <li>
+      <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
@@ -294,11 +284,11 @@
         <power>11</power>
         <cooldownTime>3</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-		<chanceFactor>0.2</chanceFactor>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
       </li>
-	</tools>
-	<race>
+    </tools>
+    <race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>GethRER</body>
@@ -312,7 +302,7 @@
       <hediffGiverSets>
         <li>GethHediffsRER</li>
       </hediffGiverSets>
-	  <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
     </race>
@@ -320,25 +310,24 @@
       <Plasteel>6</Plasteel>
     </butcherProducts>
   </ThingDef>
-
   <PawnKindDef ParentName="BaseGethKindRER">
     <defName>GethPrimeRER</defName>
     <label>Geth Prime</label>
     <race>GethPrimeRER</race>
-	<combatPower>160</combatPower>
+    <combatPower>160</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
-		  <texPath>Geth/Prime/GethPrimeRER</texPath>
+          <texPath>Geth/Prime/GethPrimeRER</texPath>
           <drawSize>1.8</drawSize>
           <shadowData>
             <volume>(0.3, 0.8, 0.4)</volume>
-			<offset>(0,0,-0.45)</offset>
+            <offset>(0,0,-0.45)</offset>
           </shadowData>
         </bodyGraphicData>
       </li>
     </lifeStages>
-		<weaponMoney>
+    <weaponMoney>
       <min>9999</min>
       <max>99999</max>
     </weaponMoney>
@@ -346,5 +335,4 @@
       <li>M76RevenantRER</li>
     </weaponTags>
   </PawnKindDef>
-  
 </Defs>

@@ -1,11 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RulePackDef>
     <defName>NamerPersonAsari</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[First] [Last]</li>
+        <li>name-&gt;[First] [Last]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -19,5 +18,4 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
 </Defs>

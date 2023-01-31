@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_01</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_01</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_02</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_02</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_03</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_03</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_04</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_04</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_05</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_05</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_06</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_06</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_07</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_07</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_08</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_08</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_09</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_09</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_10</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_10</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_11</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_11</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_12</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_12</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_13</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_13</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_14</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_14</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_15</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_15</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_16</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_16</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_17</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_17</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_18</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_18</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_19</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_19</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_20</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_20</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_21</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_21</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_22</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_22</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_23</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_23</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_24</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_24</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_25</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_25</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_26</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_26</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_27</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_27</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_28</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_28</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_29</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_29</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_30</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_30</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_31</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_31</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_32</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_32</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_33</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_33</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_34</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_34</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_35</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_35</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_36</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_36</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_37</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_37</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_38</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_38</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_39</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_39</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Male_Average_Normal_40</defName>
+    <graphicPath>Turian/HeadBase/Male_Average_Normal_40</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_01</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_01</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_02</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_02</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_03</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_03</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_04</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_04</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_05</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_05</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_06</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_06</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_07</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_07</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_08</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_08</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_09</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_09</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_10</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_10</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_11</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_11</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_12</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_12</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_13</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_13</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_14</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_14</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_15</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_15</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_16</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_16</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_17</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_17</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_18</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_18</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_19</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_19</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_20</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_20</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_21</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_21</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_22</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_22</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_23</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_23</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_24</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_24</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_25</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_25</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_26</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_26</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_27</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_27</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_28</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_28</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_29</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_29</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_30</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_30</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_31</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_31</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_32</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_32</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_33</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_33</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_34</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_34</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_35</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_35</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_36</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_36</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_37</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_37</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_38</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_38</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_39</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_39</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Turian_Female_Average_Normal_40</defName>
+    <graphicPath>Turian/HeadBase/Female_Average_Normal_40</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+</Defs>

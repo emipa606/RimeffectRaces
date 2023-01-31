@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!-- CannibalRifle -->
-
+  <!-- CannibalRifle -->
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Cannibal</defName>
     <label>cannibal rifle shot</label>
@@ -17,15 +15,14 @@
       <speed>250</speed>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseGunWithQuality">
     <defName>Gun_CannibalRifle</defName>
     <label>cannibal rifle</label>
     <description>A micro-scaled mass accelerator rifle used by the cannibal mutants.</description>
-	<graphicData>
+    <graphicData>
       <texPath>Weapons/CannibalRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>0.9</drawSize>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>1000</MarketValue>
@@ -43,7 +40,7 @@
     <costList>
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
-	<weaponTags>
+    <weaponTags>
       <li>CannibalRifle</li>
     </weaponTags>
     <verbs>
@@ -70,9 +67,7 @@
       </li>
     </tools>
   </ThingDef>
-
-<!-- MarauderRifle -->
-
+  <!-- MarauderRifle -->
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Marauder</defName>
     <label>marauder rifle shot</label>
@@ -87,7 +82,6 @@
       <speed>250</speed>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseGunWithQuality">
     <defName>Gun_MarauderRifle</defName>
     <label>marauder rifle</label>
@@ -112,7 +106,7 @@
     <costList>
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
-	<weaponTags>
+    <weaponTags>
       <li>MarauderRifle</li>
     </weaponTags>
     <verbs>
@@ -139,9 +133,7 @@
       </li>
     </tools>
   </ThingDef>
-  
   <!-- GethPulseRifle -->
-
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_GethPulseRifleRER</defName>
     <label>pulse rifle shot</label>
@@ -156,7 +148,6 @@
       <speed>250</speed>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseGunWithQuality">
     <defName>Gun_GethPulseRifleRER</defName>
     <label>pulse rifle</label>
@@ -181,7 +172,7 @@
     <costList>
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
-	<weaponTags>
+    <weaponTags>
       <li>GethPulseRifleRER</li>
     </weaponTags>
     <verbs>
@@ -208,9 +199,7 @@
       </li>
     </tools>
   </ThingDef>
-  
-    <!-- GethPlasmaShotgun -->
-
+  <!-- GethPlasmaShotgun -->
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_PlasmaShotgunRER</defName>
     <label>plasma shotgun shot</label>
@@ -225,15 +214,14 @@
       <speed>250</speed>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseGunWithQuality">
     <defName>Gun_GethPlasmaShotgunRER</defName>
     <label>Plasma Shotgun</label>
-	<description>A three-barrelled geth weapon that fires miniature but potent cluster rounds of superconducting projectiles.</description>
+    <description>A three-barrelled geth weapon that fires miniature but potent cluster rounds of superconducting projectiles.</description>
     <graphicData>
       <texPath>Weapons/GethPlasmaShotgunRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>0.9</drawSize>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>1000</MarketValue>
@@ -251,7 +239,7 @@
     <costList>
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
-	<weaponTags>
+    <weaponTags>
       <li>GethPlasmaShotgunRER</li>
     </weaponTags>
     <verbs>
@@ -273,20 +261,18 @@
         </capacities>
         <power>10</power>
         <cooldownTime>2.5</cooldownTime>
-	    <surpriseAttack>
-		 <extraMeleeDamages>
-		  <li>
-		  <def>Stun</def>
-		  <amount>16</amount>
-		  </li>
-		 </extraMeleeDamages>
-		</surpriseAttack>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>16</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
     </tools>
   </ThingDef>
-
   <!-- M76Revenant -->
-
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_M76RevenantRER</defName>
     <label>M-76 Revenant shot</label>
@@ -301,15 +287,14 @@
       <speed>300</speed>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseGunWithQuality">
     <defName>Gun_M76RevenantRER</defName>
     <label>M-76 Revenant</label>
     <description>A sophisticated assault rifle that unleashes a storm of deadly high-velocity slugs.</description>
-	<graphicData>
+    <graphicData>
       <texPath>Weapons/M76RevenantRER</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>1.1</drawSize>
+      <drawSize>1.1</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>1000</MarketValue>
@@ -320,14 +305,14 @@
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
     </statBases>
-	<techLevel>Spacer</techLevel>
+    <techLevel>Spacer</techLevel>
     <menuHidden>True</menuHidden>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <costList>
       <ComponentSpacer>1000</ComponentSpacer>
     </costList>
-	<weaponTags>
+    <weaponTags>
       <li>M76RevenantRER</li>
     </weaponTags>
     <verbs>
@@ -354,5 +339,4 @@
       </li>
     </tools>
   </ThingDef>
-
 </Defs>

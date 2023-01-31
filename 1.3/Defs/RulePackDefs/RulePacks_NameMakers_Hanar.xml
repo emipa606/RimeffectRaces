@@ -1,13 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RulePackDef>
     <defName>NamerPersonHanar</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[HanarMfirst]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[HanarMfirst]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>HanarMfirst</keyword>
           <path>NameBanks/Names_First_Hanar</path>
@@ -15,14 +14,13 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>NamerPersonHanarFemale</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[HanarFfirst]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[HanarFfirst]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>HanarFfirst</keyword>
           <path>NameBanks/Names_First_Hanar</path>
@@ -30,6 +28,4 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
-  </Defs>
-
+</Defs>

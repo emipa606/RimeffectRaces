@@ -1,139 +1,137 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-  <defName>AlienAsari</defName>
+    <defName>AlienAsari</defName>
     <label>asari</label>
     <description>A mono-gender race, the asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.</description>
-      <alienRace>
-        <generalSettings>
-			<minAgeForAdulthood>50</minAgeForAdulthood>
-			<humanRecipeImport>true</humanRecipeImport>
-			<maleGenderProbability>0</maleGenderProbability>
-			<immuneToAge>false</immuneToAge>
-			<forcedRaceTraitEntries>
-			  <li>
-				 <defName>Beauty</defName>
-				 <degree>2</degree>
-				 <chance>50</chance>
-			  </li>
-			   <li>
-				<defName>Bisexual</defName>
-				<chance>60</chance>
-			   </li>
-			</forcedRaceTraitEntries>
-			<alienPartGenerator>
-				<colorChannels>
-					<li>
-						<name>skin</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li>
-									<weight>30</weight>
-									<only>RGBA(70, 94, 156, 255)</only>
-								</li>
-								<li>
-									<weight>20</weight>
-									<only>RGBA(105, 76, 162, 255)</only> 
-								</li>
-								<li>
-									<weight>30</weight>
-									<only>RGBA(119, 163, 165, 255)</only>
-								</li>
-								<li>
-									<weight>10</weight>
-									<only>RGBA(77, 88, 55, 255)</only>
-								</li>
-							</options>
-						</first>
-					</li>
-					<li>
-						<name>tattoo</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li>
-									<weight>30</weight>
-									<only>RGBA(240, 240, 230, 255)</only>
-								</li>
-							</options>
-						</first>
-					</li>
-				</colorChannels>
-			    <aliencrowntypes>
-					<li>Average_Normal</li>
-                </aliencrowntypes>
-				<alienbodytypes>
-					<li>Thin</li>
-					<li>Female</li>
-                </alienbodytypes>
-				<bodyAddons>
-					<li>
-						<path>Asari/Paint/tattoo</path>
-						<bodyPart>Head</bodyPart>
-						<inFrontOfBody>true</inFrontOfBody>
-						<layerInvert>false</layerInvert>
-						<layerOffset>-0.27</layerOffset>
-						<drawnInBed>true</drawnInBed>
-						<colorChannel>tattoo</colorChannel>
-						<offsets>
-							<south>
-								<bodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</bodyTypes>
-								<portraitBodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</portraitBodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.41,0.55)</Average_Normal>
-								</crownTypes>
-								<portraitCrownTypes>
-									<Average_Normal>(-0.41,0.55)</Average_Normal>
-								</portraitCrownTypes>
-							</south>
-							<north>
-								<bodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.41,0.55)</Average_Normal>
-								</crownTypes>
-							</north>
-							<east>
-								<bodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.5, 0.55)</Average_Normal>
-								</crownTypes>
-							</east>
-						</offsets>
-					</li>
-				</bodyAddons>
-			</alienPartGenerator>
-			<chemicalSettings>	
-		    </chemicalSettings>
-		</generalSettings>
-		<graphicPaths>
-			<li>
-				<head>Asari/Head/</head>
-				<body>Asari/Body/</body>
-			</li>
-		</graphicPaths>
-        <hairSettings>
-            <hasHair>false</hasHair>
-        </hairSettings>
-        <relationSettings>
-        </relationSettings>
-			<thoughtSettings>
-				<cannotReceiveThoughts>
-				</cannotReceiveThoughts>
-			</thoughtSettings>
+    <alienRace>
+      <generalSettings>
+        <minAgeForAdulthood>50</minAgeForAdulthood>
+        <humanRecipeImport>true</humanRecipeImport>
+        <maleGenderProbability>0</maleGenderProbability>
+        <immuneToAge>false</immuneToAge>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Beauty</defName>
+            <degree>2</degree>
+            <chance>50</chance>
+          </li>
+          <li>
+            <defName>Bisexual</defName>
+            <chance>60</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>30</weight>
+                    <only>RGBA(70, 94, 156, 255)</only>
+                  </li>
+                  <li>
+                    <weight>20</weight>
+                    <only>RGBA(105, 76, 162, 255)</only>
+                  </li>
+                  <li>
+                    <weight>30</weight>
+                    <only>RGBA(119, 163, 165, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(77, 88, 55, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>tattoo</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>30</weight>
+                    <only>RGBA(240, 240, 230, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+            <li>Thin</li>
+            <li>Female</li>
+          </alienbodytypes>
+          <bodyAddons>
+            <li>
+              <path>Asari/Paint/tattoo</path>
+              <bodyPart>Head</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <layerOffset>-0.27</layerOffset>
+              <drawnInBed>true</drawnInBed>
+              <colorChannel>tattoo</colorChannel>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </bodyTypes>
+                  <portraitBodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </portraitBodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-0.41,0.55)</Average_Normal>
+                  </crownTypes>
+                  <portraitCrownTypes>
+                    <Average_Normal>(-0.41,0.55)</Average_Normal>
+                  </portraitCrownTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-0.41,0.55)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-0.5, 0.55)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+        <chemicalSettings>
+        </chemicalSettings>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <head>Asari/Head/</head>
+          <body>Asari/Body/</body>
+        </li>
+      </graphicPaths>
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+      <relationSettings>
+      </relationSettings>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+        </cannotReceiveThoughts>
+      </thoughtSettings>
     </alienRace>
-  
     <statBases>
       <MarketValue>2000</MarketValue>
       <MoveSpeed>4.62</MoveSpeed>
@@ -189,17 +187,17 @@
       </li>
     </tools>
     <race>
-	  <nameGenerator>NamerPersonAsari</nameGenerator>
-	  <nameGeneratorFemale>NamerPersonAsari</nameGeneratorFemale>
+      <nameGenerator>NamerPersonAsari</nameGenerator>
+      <nameGeneratorFemale>NamerPersonAsari</nameGeneratorFemale>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>1000</lifeExpectancy>
-	<leatherDef>Leather_Asari</leatherDef>
+      <leatherDef>Leather_Asari</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
-      <bloodDef>FilthBloodAsari</bloodDef>	
+      <bloodDef>FilthBloodAsari</bloodDef>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
@@ -266,7 +264,7 @@
       </hediffGiverSets>
     </race>
     <recipes>
-       <li>InstallArchotechEye</li>
+      <li>InstallArchotechEye</li>
       <li>InstallArchotechArm</li>
       <li>InstallArchotechLeg</li>
       <li>InstallPowerClaw</li>
@@ -295,142 +293,139 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-  
   <!-- Outdated Compatibility Version -->
-  
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-  <defName>Alien_Asari</defName>
+    <defName>Alien_Asari</defName>
     <label>asari</label>
     <description>A mono-gender race, the asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.</description>
-      <alienRace>
-        <generalSettings>
-			<minAgeForAdulthood>50</minAgeForAdulthood>
-			<humanRecipeImport>true</humanRecipeImport>
-			<maleGenderProbability>0</maleGenderProbability>
-			<immuneToAge>false</immuneToAge>
-			<forcedRaceTraitEntries>
-			  <li>
-				 <defName>Beauty</defName>
-				 <degree>2</degree>
-				 <chance>50</chance>
-			  </li>
-			   <li>
-				<defName>Bisexual</defName>
-				<chance>60</chance>
-			   </li>
-			</forcedRaceTraitEntries>
-			<alienPartGenerator>
-				<colorChannels>
-					<li>
-						<name>skin</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li>
-									<weight>30</weight>
-									<only>RGBA(70, 94, 156, 255)</only>
-								</li>
-								<li>
-									<weight>20</weight>
-									<only>RGBA(105, 76, 162, 255)</only> 
-								</li>
-								<li>
-									<weight>30</weight>
-									<only>RGBA(119, 163, 165, 255)</only>
-								</li>
-								<li>
-									<weight>10</weight>
-									<only>RGBA(77, 88, 55, 255)</only>
-								</li>
-							</options>
-						</first>
-					</li>
-					<li>
-						<name>tattoo</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li>
-									<weight>30</weight>
-									<only>RGBA(240, 240, 230, 255)</only>
-								</li>
-							</options>
-						</first>
-					</li>
-				</colorChannels>
-			    <aliencrowntypes>
-					<li>Average_Normal</li>
-                </aliencrowntypes>
-				<alienbodytypes>
-					<li>Thin</li>
-					<li>Female</li>
-                </alienbodytypes>
-				<bodyAddons>
-					<li>
-						<path>Asari/Paint/tattoo</path>
-						<bodyPart>Head</bodyPart>
-						<inFrontOfBody>true</inFrontOfBody>
-						<layerInvert>false</layerInvert>
-						<layerOffset>-0.27</layerOffset>
-						<drawnInBed>true</drawnInBed>
-						<colorChannel>tattoo</colorChannel>
-						<offsets>
-							<south>
-								<bodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</bodyTypes>
-								<portraitBodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</portraitBodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.41,0.55)</Average_Normal>
-								</crownTypes>
-								<portraitCrownTypes>
-									<Average_Normal>(-0.41,0.55)</Average_Normal>
-								</portraitCrownTypes>
-							</south>
-							<north>
-								<bodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.41,0.55)</Average_Normal>
-								</crownTypes>
-							</north>
-							<east>
-								<bodyTypes>
-									<Female>(0.0,0.0)</Female>
-									<Thin>(0.0,0.0)</Thin>
-								</bodyTypes>
-								<crownTypes>
-									<Average_Normal>(-0.5, 0.55)</Average_Normal>
-								</crownTypes>
-							</east>
-						</offsets>
-					</li>
-				</bodyAddons>
-			</alienPartGenerator>
-			<chemicalSettings>	
-		    </chemicalSettings>
-		</generalSettings>
-		<graphicPaths>
-			<li>
-				<head>Asari/Head/</head>
-				<body>Asari/Body/</body>
-			</li>
-		</graphicPaths>
-        <hairSettings>
-            <hasHair>false</hasHair>
-        </hairSettings>
-        <relationSettings>
-        </relationSettings>
-			<thoughtSettings>
-				<cannotReceiveThoughts>
-				</cannotReceiveThoughts>
-			</thoughtSettings>
+    <alienRace>
+      <generalSettings>
+        <minAgeForAdulthood>50</minAgeForAdulthood>
+        <humanRecipeImport>true</humanRecipeImport>
+        <maleGenderProbability>0</maleGenderProbability>
+        <immuneToAge>false</immuneToAge>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Beauty</defName>
+            <degree>2</degree>
+            <chance>50</chance>
+          </li>
+          <li>
+            <defName>Bisexual</defName>
+            <chance>60</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>30</weight>
+                    <only>RGBA(70, 94, 156, 255)</only>
+                  </li>
+                  <li>
+                    <weight>20</weight>
+                    <only>RGBA(105, 76, 162, 255)</only>
+                  </li>
+                  <li>
+                    <weight>30</weight>
+                    <only>RGBA(119, 163, 165, 255)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(77, 88, 55, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>tattoo</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>30</weight>
+                    <only>RGBA(240, 240, 230, 255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+            <li>Thin</li>
+            <li>Female</li>
+          </alienbodytypes>
+          <bodyAddons>
+            <li>
+              <path>Asari/Paint/tattoo</path>
+              <bodyPart>Head</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <layerOffset>-0.27</layerOffset>
+              <drawnInBed>true</drawnInBed>
+              <colorChannel>tattoo</colorChannel>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </bodyTypes>
+                  <portraitBodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </portraitBodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-0.41,0.55)</Average_Normal>
+                  </crownTypes>
+                  <portraitCrownTypes>
+                    <Average_Normal>(-0.41,0.55)</Average_Normal>
+                  </portraitCrownTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-0.41,0.55)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Female>(0.0,0.0)</Female>
+                    <Thin>(0.0,0.0)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-0.5, 0.55)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+        <chemicalSettings>
+        </chemicalSettings>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <head>Asari/Head/</head>
+          <body>Asari/Body/</body>
+        </li>
+      </graphicPaths>
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+      <relationSettings>
+      </relationSettings>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+        </cannotReceiveThoughts>
+      </thoughtSettings>
     </alienRace>
-  
     <statBases>
       <MarketValue>2000</MarketValue>
       <MoveSpeed>4.62</MoveSpeed>
@@ -486,17 +481,17 @@
       </li>
     </tools>
     <race>
-	  <nameGenerator>NamerPersonAsari</nameGenerator>
-	  <nameGeneratorFemale>NamerPersonAsari</nameGeneratorFemale>
+      <nameGenerator>NamerPersonAsari</nameGenerator>
+      <nameGeneratorFemale>NamerPersonAsari</nameGeneratorFemale>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>1000</lifeExpectancy>
-	<leatherDef>Leather_Asari</leatherDef>
+      <leatherDef>Leather_Asari</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
-      <bloodDef>FilthBloodAsari</bloodDef>	
+      <bloodDef>FilthBloodAsari</bloodDef>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
@@ -563,7 +558,7 @@
       </hediffGiverSets>
     </race>
     <recipes>
-       <li>InstallArchotechEye</li>
+      <li>InstallArchotechEye</li>
       <li>InstallArchotechArm</li>
       <li>InstallArchotechLeg</li>
       <li>InstallPowerClaw</li>
@@ -592,5 +587,4 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-  
 </Defs>

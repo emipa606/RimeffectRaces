@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild01</defName>
+    <title>1st ephyra</title>
+    <titleShort>1st ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the first segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild02</defName>
+    <title>2nd ephyra</title>
+    <titleShort>2nd ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the second segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Animals</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild03</defName>
+    <title>3rd ephyra</title>
+    <titleShort>3rd ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the third segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Cooking</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild04</defName>
+    <title>4th ephyra</title>
+    <titleShort>4th ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the fourth segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild05</defName>
+    <title>5th ephyra</title>
+    <titleShort>5th ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the fifth segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Crafting</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild06</defName>
+    <title>6th ephyra</title>
+    <titleShort>6th ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the sixth segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Artistic</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild07</defName>
+    <title>7th ephyra</title>
+    <titleShort>7th ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the seventh segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild08</defName>
+    <title>8th ephyra</title>
+    <titleShort>8th ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the eight segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Medicine</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild09</defName>
+    <title>9th ephyra</title>
+    <titleShort>9th ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the ninth segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Construction</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hchild10</defName>
+    <title>10th ephyra</title>
+    <titleShort>10th ephyra</titleShort>
+    <baseDesc>[PAWN_nameDef] was the tenth segment to leave their polyp.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>PlantWork</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult01</defName>
+    <title>Enkindler preacher</title>
+    <titleShort>Preacher</titleShort>
+    <baseDesc>[PAWN_nameDef] knows how to spread the word of the Enkindlers.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>25</maleCommonality>
+    <femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>8</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult02</defName>
+    <title>Enkindler researcher</title>
+    <titleShort>Researcher</titleShort>
+    <baseDesc>[PAWN_nameDef] used to research the Prothean civilization.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>25</maleCommonality>
+    <femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult03</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult04</defName>
+    <title>Ranch overseer</title>
+    <titleShort>Ranch overseer</titleShort>
+    <baseDesc>[PAWN_nameDef] used to watch over a ranch.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Animals</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult05</defName>
+    <title>Constructor</title>
+    <titleShort>Constructor</titleShort>
+    <baseDesc>[PAWN_nameDef] used to be a constructor, planning and realizing stuctures.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Construction</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult06</defName>
+    <title>Technician</title>
+    <titleShort>Technician</titleShort>
+    <baseDesc>[PAWN_nameDef] used to be a technician, maintaining and creating equipment.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Crafting</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult07</defName>
+    <title>Water purification agent</title>
+    <titleShort>Purification agent</titleShort>
+    <baseDesc>[PAWN_nameDef] used to work as a water purification agent, responsible for maintaining a certain water purity standard.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult08</defName>
+    <title>Public servant</title>
+    <titleShort>Public servant</titleShort>
+    <baseDesc>[PAWN_nameDef] used to be a public servant, providing support to those in need.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult09</defName>
+    <title>Security specialist</title>
+    <titleShort>Security specialist</titleShort>
+    <baseDesc>[PAWN_nameDef] used to be a security specialist. The Hanar usually do not make very good soldiers, but there are places that only a Hanar can protect.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult10</defName>
+    <title>Physician</title>
+    <titleShort>Physician</titleShort>
+    <baseDesc>[PAWN_nameDef] used to be a doctor, administering injections and mending wounds.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Medicine</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Animals</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult11</defName>
+    <title>Sculptor</title>
+    <titleShort>Sculptor</titleShort>
+    <baseDesc>[PAWN_nameDef] used to chisel objects into artistic potrayals of the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Artistic</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult12</defName>
+    <title>Enkindler preacher</title>
+    <titleShort>Preacher</titleShort>
+    <baseDesc>[PAWN_nameDef] knows how to spread the word of the Enkindlers.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>25</maleCommonality>
+    <femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>8</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult13</defName>
+    <title>Enkindler preacher</title>
+    <titleShort>Preacher</titleShort>
+    <baseDesc>[PAWN_nameDef] knows how to spread the word of the Enkindlers.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>25</maleCommonality>
+    <femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>8</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult14</defName>
+    <title>Enkindler researcher</title>
+    <titleShort>Researcher</titleShort>
+    <baseDesc>[PAWN_nameDef] used to research the Prothean civilization.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>25</maleCommonality>
+    <femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult15</defName>
+    <title>Enkindler researcher</title>
+    <titleShort>Researcher</titleShort>
+    <baseDesc>[PAWN_nameDef] used to research the Prothean civilization.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>25</maleCommonality>
+    <femaleCommonality>25</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult16</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult17</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult18</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult19</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult20</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult21</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef>
+    <defName>Hadult22</defName>
+    <title>Enkindler disciple</title>
+    <titleShort>Disciple</titleShort>
+    <baseDesc>[PAWN_nameDef] used to study the Enkindler's will.</baseDesc>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <maleCommonality>75</maleCommonality>
+    <femaleCommonality>75</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>HanarBackstory</li>
+    </spawnCategories>
+  </AlienRace.AlienBackstoryDef>
+</Defs>

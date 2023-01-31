@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Quarian_Male_Average_Normal</defName>
+    <graphicPath>Quarian/HeadBase/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Quarian_Female_Average_Normal</defName>
+    <graphicPath>Quarian/HeadBase/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+</Defs>

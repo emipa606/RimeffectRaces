@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="QuarianPlayerBase">
+    <race>AlienQuarian</race>
+    <combatPower>40</combatPower>
+    <initialWillRange>3~7</initialWillRange>
+    <initialResistanceRange>15~23</initialResistanceRange>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  <PawnKindDef ParentName="QuarianPlayerBase">
+    <defName>PlayerQuarian</defName>
+    <label>colonist</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>QuarianBackstory</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>QuarianSuits</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>900</min>
+      <max>900</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>

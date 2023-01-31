@@ -1,21 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- ============================ Asari Base ========================== -->
-
   <PawnKindDef Name="AsariBase" Abstract="True">
     <defaultFactionType>AsariFaction</defaultFactionType>
     <race>AlienAsari</race>
     <chemicalAddictionChance>0.035</chemicalAddictionChance>
     <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
     <backstoryFilters>
-	  <li>
-      <categories>
-			<li>Civil</li>
-			<li>Outlander</li>
-      </categories>
+      <li>
+        <categories>
+          <li>Civil</li>
+          <li>Outlander</li>
+        </categories>
       </li>
-  	</backstoryFilters>
+    </backstoryFilters>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Outlander</li>
@@ -26,9 +24,7 @@
       <li>SpacerMilitary</li>
     </apparelTags>
   </PawnKindDef>
-  
-   <!-- ============================ Asari Slave Base ========================== -->
- 
+  <!-- ============================ Asari Slave Base ========================== -->
   <PawnKindDef Name="AsariSlaveBase" ParentName="AsariBase" Abstract="True">
     <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -53,17 +49,13 @@
     <inventoryOptions>
     </inventoryOptions>
   </PawnKindDef>
-  
-    <!-- ============================ Asari Slaves ========================== -->
-  
-    <PawnKindDef ParentName="AsariSlaveBase">
-		<defName>AsariSlave</defName>
-		<label>asari slave</label>
-		<race>AlienAsari</race>
-	</PawnKindDef>
-	
-	   <!-- ============================ Asari Refugee Base ========================== -->
- 
+  <!-- ============================ Asari Slaves ========================== -->
+  <PawnKindDef ParentName="AsariSlaveBase">
+    <defName>AsariSlave</defName>
+    <label>asari slave</label>
+    <race>AlienAsari</race>
+  </PawnKindDef>
+  <!-- ============================ Asari Refugee Base ========================== -->
   <PawnKindDef Name="AsariRefugeeBase" ParentName="AsariBase" Abstract="True">
     <combatPower>25</combatPower>
     <itemQuality>Normal</itemQuality>
@@ -88,17 +80,13 @@
     <inventoryOptions>
     </inventoryOptions>
   </PawnKindDef>
-  
-    <!-- ============================ Asari Refugees ========================== -->
-  
-    <PawnKindDef ParentName="AsariRefugeeBase">
-		<defName>AsariRefugee</defName>
-		<label>asari refugee</label>
-		<race>AlienAsari</race>
-	</PawnKindDef>
-  
+  <!-- ============================ Asari Refugees ========================== -->
+  <PawnKindDef ParentName="AsariRefugeeBase">
+    <defName>AsariRefugee</defName>
+    <label>asari refugee</label>
+    <race>AlienAsari</race>
+  </PawnKindDef>
   <!-- ============================ Asari Civilian Base ========================== -->
-
   <PawnKindDef Name="AsariCivBase" ParentName="AsariBase" Abstract="True">
     <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -150,15 +138,12 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-  
   <!-- ============================ Asari Civilians ========================== -->
-  
   <PawnKindDef ParentName="AsariCivBase">
     <defName>AsariColonist</defName>
     <label>colonist</label>
     <race>AlienAsari</race>
   </PawnKindDef>
-
   <PawnKindDef ParentName="AsariCivBase">
     <defName>AsariMatriarch</defName>
     <race>AlienAsari</race>
@@ -168,16 +153,13 @@
     <minGenerationAge>600</minGenerationAge>
     <maxGenerationAge>1000</maxGenerationAge>
   </PawnKindDef>
-  
   <PawnKindDef ParentName="AsariCivBase">
     <defName>AsariTrader</defName>
     <label>colony trader</label>
     <trader>true</trader>
     <race>AlienAsari</race>
   </PawnKindDef>
-  
   <!-- ============================ Asari Security ========================== -->
-  
   <PawnKindDef Name="AsariSecurityGuard" ParentName="AsariCivBase">
     <defName>AsariSecurityGuard</defName>
     <label>security guard</label>
@@ -217,9 +199,7 @@
       </countRange>
     </inventoryOptions>
   </PawnKindDef>
-  
   <!-- ============================ Asari Military Base ========================== -->
-  
   <PawnKindDef Name="AsariMilBase" ParentName="AsariBase" Abstract="True">
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <isFighter>true</isFighter>
@@ -233,7 +213,7 @@
     <apparelTags>
       <li>Outlander</li>
       <li>Military</li>
-	  <li>BeltDefensePop</li>
+      <li>BeltDefensePop</li>
     </apparelTags>
     <apparelMoney>
       <min>1500</min>
@@ -270,16 +250,13 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-  
   <!-- ============================ Asari Military ========================== -->
-  
   <PawnKindDef ParentName="AsariMilBase">
     <defName>AsariRecruit</defName>
     <label>recruit</label>
     <combatPower>70</combatPower>
     <race>AlienAsari</race>
   </PawnKindDef>
-  
   <PawnKindDef Name="AsariHuntresses" ParentName="AsariMilBase">
     <defName>AsariHuntress</defName>
     <label>huntresses</label>
@@ -293,8 +270,8 @@
     <apparelTags>
       <li>Outlander</li>
       <li>Military</li>
-	  <li>BeltDefensePop</li>
-	  <li>RangedShieldBelt</li>
+      <li>BeltDefensePop</li>
+      <li>RangedShieldBelt</li>
     </apparelTags>
     <apparelMoney>
       <min>1500</min>
@@ -339,8 +316,6 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-  
-
   <PawnKindDef Name="AsariCommando" ParentName="AsariMilBase">
     <defName>AsariCommando</defName>
     <label>commando</label>
@@ -354,8 +329,8 @@
     <apparelTags>
       <li>Outlander</li>
       <li>Military</li>
-	  <li>BeltDefensePop</li>
-	  <li>RangedShieldBelt</li>
+      <li>BeltDefensePop</li>
+      <li>RangedShieldBelt</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
@@ -400,9 +375,8 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-  
   <PawnKindDef Name="AsariCommandoElite" ParentName="AsariCommando">
-     <defName>AsariCommandoElite</defName>
+    <defName>AsariCommandoElite</defName>
     <label>elite commando</label>
     <race>AlienAsari</race>
     <combatPower>220</combatPower>
@@ -414,8 +388,8 @@
     <apparelTags>
       <li>Military</li>
       <li>Spacer</li>
-	  <li>BeltDefensePop</li>
-	  <li>RangedShieldBelt</li>
+      <li>BeltDefensePop</li>
+      <li>RangedShieldBelt</li>
     </apparelTags>
     <apparelMoney>
       <min>2500</min>
@@ -426,8 +400,8 @@
       <max>2000</max>
     </weaponMoney>
     <weaponTags>
-		<li>EliteGun</li>
-		<li>AdvancedGun</li>
+      <li>EliteGun</li>
+      <li>AdvancedGun</li>
     </weaponTags>
     <techHediffsMoney>
       <min>2000</min>
@@ -462,5 +436,4 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
 </Defs>

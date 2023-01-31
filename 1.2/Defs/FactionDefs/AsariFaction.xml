@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <FactionDef>
-		<defName>AsariFaction</defName>
-		<label>asari union</label>
+    <defName>AsariFaction</defName>
+    <label>asari union</label>
     <description>A colony of the Asari Union, who have been here for quite while and choose to stay out of the afairs of humans most of the time.\n\nThey are concerned with the practical matters of trade, trust, and survival.</description>
     <pawnsPlural>asari</pawnsPlural>
-  	<fixedName>Asari Union</fixedName>
+    <fixedName>Asari Union</fixedName>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <settlementGenerationWeight>1</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
@@ -23,19 +22,19 @@
       <max>40</max>
     </startingGoodwill>
     <pawnNameMaker>NamerPersonAsari</pawnNameMaker>
-	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-	<techLevel>Ultra</techLevel>
-  <backstoryFilters>
-			<li>
-      <categories>
-			<li>Civil</li>
-			<li>Outlander</li>
-      </categories>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Civil</li>
+          <li>Outlander</li>
+        </categories>
       </li>
-  	</backstoryFilters>
-	<hairTags>
-		<li>AsariHair</li>
-	</hairTags>
+    </backstoryFilters>
+    <hairTags>
+      <li>AsariHair</li>
+    </hairTags>
     <naturalColonyGoodwill>
       <min>-60</min>
       <max>0</max>
@@ -43,7 +42,7 @@
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
-   <caravanTraderKinds>
+    <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>Caravan_Outlander_CombatSupplier</li>
       <li>Caravan_Outlander_Exotic</li>
@@ -55,7 +54,7 @@
       <min>-50</min>
       <max>45</max>
     </allowedArrivalTemperatureRange>
-       <maxPawnCostPerTotalPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
         <li>(70, 50)</li>
@@ -77,7 +76,7 @@
           <AsariCommandoElite>170</AsariCommandoElite>
         </options>
       </li>
-            <li>
+      <li>
         <kindDef>Peaceful</kindDef>
         <options>
           <AsariColonist>50</AsariColonist>
@@ -87,8 +86,8 @@
           <AsariHuntress>130</AsariHuntress>
         </options>
       </li>
-	  <li>
-      <kindDef>Trader</kindDef>
+      <li>
+        <kindDef>Trader</kindDef>
         <traders>
           <AsariTrader>1</AsariTrader>
         </traders>
@@ -103,7 +102,7 @@
           <AsariCommando>130</AsariCommando>
         </guards>
       </li>
-	  <li>
+      <li>
         <kindDef>Settlement</kindDef>
         <options>
           <AsariColonist>50</AsariColonist>
@@ -117,12 +116,11 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-	<apparelStuffFilter>
-		<thingDefs>
-			<li>Synthread</li>
-			<li>Hyperweave</li>
-		</thingDefs>
-	</apparelStuffFilter>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+        <li>Hyperweave</li>
+      </thingDefs>
+    </apparelStuffFilter>
   </FactionDef>
-
 </Defs>

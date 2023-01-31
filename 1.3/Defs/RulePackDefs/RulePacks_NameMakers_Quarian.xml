@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RulePackDef>
     <defName>NamerPersonQuarian</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[QuarianMfirst] [Quarianlast]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[QuarianMfirst] [Quarianlast]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>QuarianMfirst</keyword>
           <path>NameBanks/Names_First_QuarianM</path>
@@ -19,14 +18,13 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>NamerPersonQuarianFemale</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[QuarianFfirst] [Quarianlast]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[QuarianFfirst] [Quarianlast]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>QuarianFfirst</keyword>
           <path>NameBanks/Names_First_QuarianF</path>
@@ -38,6 +36,4 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
-  </Defs>
-
+</Defs>

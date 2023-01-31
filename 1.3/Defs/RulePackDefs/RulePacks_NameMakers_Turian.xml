@@ -1,13 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RulePackDef>
     <defName>NamerPersonTurian</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[TurianMfirst] [Turianlast]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[TurianMfirst] [Turianlast]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>TurianMfirst</keyword>
           <path>NameBanks/Names_First_TurianM</path>
@@ -19,14 +18,13 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>NamerPersonTurianFemale</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[TurianFfirst] [Turianlast]</li>
-        </rulesStrings>
-        <rulesRaw>
+        <li>name-&gt;[TurianFfirst] [Turianlast]</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
           <keyword>TurianFfirst</keyword>
           <path>NameBanks/Names_First_TurianF</path>
@@ -38,6 +36,4 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-
-  </Defs>
-
+</Defs>

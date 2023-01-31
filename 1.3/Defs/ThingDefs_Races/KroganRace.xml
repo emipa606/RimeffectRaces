@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>AlienKrogan</defName>
     <label>Krogan</label>
-    
     <description>The Krogan are a species of large, resiliant, reptilian humanoids. They are known to be self-serving, fierce warriors.
 
 -5% Walking Speed
@@ -16,44 +14,36 @@
 +50% Hunger
 +50% Health
 +10% Immunity Gain Speed</description>
-        
     <statBases>
-		<PsychicSensitivity>1.0</PsychicSensitivity>
-		<ToxicSensitivity>0.8</ToxicSensitivity>
-		<ComfyTemperatureMin>5</ComfyTemperatureMin>
-		<ComfyTemperatureMax>38</ComfyTemperatureMax>
-		<LeatherAmount>65</LeatherAmount>
-		<MarketValue>2600</MarketValue>
-		<MoveSpeed>4.4</MoveSpeed>
-		<Flammability>0.9</Flammability>
-		<RoyalFavorValue>3</RoyalFavorValue>
-		
-		<CarryingCapacity>125</CarryingCapacity>
-		<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
-
-		<SocialImpact>1.0</SocialImpact>
-		<PlantWorkSpeed>1.0</PlantWorkSpeed>
-		<PlantHarvestYield>1.0</PlantHarvestYield>
-		<ResearchSpeed>0.7</ResearchSpeed>
-		
-		<MiningSpeed>1.2</MiningSpeed>
-		<MiningYield>1.0</MiningYield>
-		<ConstructionSpeed>0.8</ConstructionSpeed>
-		<ConstructSuccessChance>1.0</ConstructSuccessChance>
-		<DrugCookingSpeed>0.7</DrugCookingSpeed>		
-		<DrugSynthesisSpeed>0.7</DrugSynthesisSpeed>	
-		<GeneralLaborSpeed>0.7</GeneralLaborSpeed>
-
-		<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
-
-		<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
-		<MeleeHitChance>0.1</MeleeHitChance>
-		<MeleeDodgeChance>-0.2</MeleeDodgeChance>
-		
+      <PsychicSensitivity>1.0</PsychicSensitivity>
+      <ToxicSensitivity>0.8</ToxicSensitivity>
+      <ComfyTemperatureMin>5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>38</ComfyTemperatureMax>
+      <LeatherAmount>65</LeatherAmount>
+      <MarketValue>2600</MarketValue>
+      <MoveSpeed>4.4</MoveSpeed>
+      <Flammability>0.9</Flammability>
+      <RoyalFavorValue>3</RoyalFavorValue>
+      <CarryingCapacity>125</CarryingCapacity>
+      <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+      <SocialImpact>1.0</SocialImpact>
+      <PlantWorkSpeed>1.0</PlantWorkSpeed>
+      <PlantHarvestYield>1.0</PlantHarvestYield>
+      <ResearchSpeed>0.7</ResearchSpeed>
+      <MiningSpeed>1.2</MiningSpeed>
+      <MiningYield>1.0</MiningYield>
+      <ConstructionSpeed>0.8</ConstructionSpeed>
+      <ConstructSuccessChance>1.0</ConstructSuccessChance>
+      <DrugCookingSpeed>0.7</DrugCookingSpeed>
+      <DrugSynthesisSpeed>0.7</DrugSynthesisSpeed>
+      <GeneralLaborSpeed>0.7</GeneralLaborSpeed>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+      <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+      <MeleeHitChance>0.1</MeleeHitChance>
+      <MeleeDodgeChance>-0.2</MeleeDodgeChance>
     </statBases>
-
-	<tools>
+    <tools>
       <li>
         <label>left fist</label>
         <capacities>
@@ -111,241 +101,276 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
-	</tools>
-
-	<alienRace>
-
-	<generalSettings>
-		<allowHumanBios>False</allowHumanBios>
-		<immuneToAge>false</immuneToAge>
-		<humanRecipeImport>true</humanRecipeImport>
-		<alienPartGenerator>
-			<!-- -->
-			<alienbodytypes>
-				<li>Hulk</li>
-			</alienbodytypes>
-			<!-- -->
-			<useGenderedHeads>true</useGenderedHeads>
-			<useGenderedBodies>false</useGenderedBodies>
-			<aliencrowntypes>
-                    <li>Average_Normal_01</li>
-					<li>Average_Normal_02</li>
-					<li>Average_Normal_03</li>
-                    <li>Average_Normal_04</li>
-					<li>Average_Normal_05</li>
-					<li>Average_Normal_06</li>
-			        <li>Average_Normal_07</li>
-					<li>Average_Normal_08</li>
-					<li>Average_Normal_09</li>
-                    <li>Average_Normal_10</li>
-					<li>Average_Normal_11</li>
-					<li>Average_Normal_12</li>
-			</aliencrowntypes>
-			
-			     <customDrawSize>(1.25, 1.25)</customDrawSize>
-                 <customHeadDrawSize>(1.35, 1.2)</customHeadDrawSize>
-				 <customPortraitDrawSize>(1.25, 1.25)</customPortraitDrawSize>
-                 <customPortraitHeadDrawSize>(1.35, 1.2)</customPortraitHeadDrawSize>
-				<colorChannels>
-					<li>
-						<name>skin</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-							<!-- brown -->
-								<li><weight>3</weight><only>RGBA(1.000, 0.894, 0.769,1)</only></li>
-								<li><weight>2</weight><only>RGBA(0.678, 0.847, 0.902,1)</only></li>
-								<li><weight>1</weight><only>RGBA(1.000, 0.627, 0.478,1)</only></li>
-								<li><weight>3</weight><only>RGBA(1.000, 0.894, 0.882,1)</only></li>
-								<li><weight>5</weight><only>RGBA(0.663, 0.663, 0.663,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.827, 0.827, 0.827,1)</only></li>
-								<li><weight>2</weight><only>RGBA(1.000, 0.894, 0.710,1)</only></li>
-								<li><weight>3</weight><only>RGBA(1.000, 0.844, 0.729,1)</only></li>
-								<li><weight>2</weight><only>RGBA(0.638, 0.807, 0.862,1)</only></li>
-								<li><weight>1</weight><only>RGBA(1.000, 0.587, 0.438,1)</only></li>
-								<li><weight>3</weight><only>RGBA(1.000, 0.854, 0.842,1)</only></li>
-								<li><weight>5</weight><only>RGBA(0.623, 0.623, 0.623,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.787, 0.787, 0.787,1)</only></li>
-								<li><weight>2</weight><only>RGBA(0.741, 0.718, 0.420,1)</only></li>
-							</options>
-						</first>
-					</li>
-				</colorChannels>
-						<anchorReplacements>
-				<!-- South -->
-				<li>
-					<originalTag>RightEye</originalTag>
-					<replacement>
-						<rotation>South</rotation>
-						<tag>RightEye</tag>
-						<canMirror>false</canMirror>
-						<crownType>Average</crownType>
-						<offset>(-0.1,0,-0.30)</offset>
-						<range>0</range>
-						<layer>Head</layer>
-						<debugColor>(0,0,0,1)</debugColor>
-					</replacement>
-					<offsets>
-						<south>
-							<bodyTypes>
-								<Hulk>(-0.18,0.27)</Hulk>
-							</bodyTypes>
-						</south>
-					</offsets>
-				</li>
-				<li>
-					<originalTag>LeftEye</originalTag>
-					<replacement>
-						<rotation>South</rotation>
-						<tag>LeftEye</tag>
-						<canMirror>false</canMirror>
-						<crownType>Average</crownType>
-						<offset>(-0.1,0,-0.30)</offset>
-						<range>0</range>
-						<layer>Head</layer>
-						<debugColor>(0,0,0,1)</debugColor>
-					</replacement>
-					<offsets>
-						<south>
-							<bodyTypes>
-								<Hulk>(0.18,0.27)</Hulk>
-							</bodyTypes>
-						</south>
-					</offsets>
-				</li>
-				<!-- East -->
-				<li>
-					<originalTag>RightEye</originalTag>
-					<replacement>
-						<rotation>East</rotation>
-						<tag>RightEye</tag>
-						<canMirror>false</canMirror>
-						<crownType>Average</crownType>
-						<offset>(0.2,0,-0.30)</offset>
-						<range>0</range>
-						<layer>Head</layer>
-						<debugColor>(0,0,0,1)</debugColor>
-					</replacement>
-					<offsets>
-						<east>
-							<bodyTypes>
-								<Hulk>(0.25,0.24)</Hulk>
-							</bodyTypes>
-						</east>
-					</offsets>
-				</li>
-				<!-- West -->
-				<li>
-					<originalTag>LeftEye</originalTag>
-					<replacement>
-						<rotation>West</rotation>
-						<tag>LeftEye</tag>
-						<canMirror>false</canMirror>
-						<crownType>Average</crownType>
-						<offset>(-0.2,0,-0.30)</offset>
-						<range>0</range>
-						<layer>Head</layer>
-						<debugColor>(0,0,0,1)</debugColor>
-					</replacement>
-					<offsets>
-						<west>
-							<bodyTypes>
-								<Hulk>(-0.25,0.24)</Hulk>
-							</bodyTypes>
-						</west>
-					</offsets>
-				</li>
-			</anchorReplacements>
-		</alienPartGenerator>
-
-		<maleGenderProbability>.99</maleGenderProbability>    
-		<forcedRaceTraitEntries>
-			<li>
-				<defName>Abrasive</defName>
-				<chance>50</chance>
-			</li>
-		</forcedRaceTraitEntries>
-	</generalSettings>    
-
-	<graphicPaths>
-		<li>
-			<headOffset>(0, -0.05)</headOffset>
-			<head>Krogan/HeadBase/</head>
-		</li>
-	</graphicPaths>
-
-	<styleSettings>
-		<li>
-			<key>HairDef</key>
-			<value>
-				<hasStyle>false</hasStyle>
-				<styleTagsOverride>
-					<li>NoHair</li>
-				</styleTagsOverride>
-			</value>
-		</li>
-		<li>
-			<key>TattooDef</key>
-			<value>
-				<hasStyle>false</hasStyle>
-				<styleTagsOverride>
-					<li>NoTattoo</li>
-				</styleTagsOverride>
-			</value>
-		</li>
-		<li>
-			<key>BeardDef</key>
-			<value>
-				<hasStyle>false</hasStyle>
-				<styleTagsOverride>
-					<li>NoBeard</li>
-				</styleTagsOverride>
-			</value>
-		</li>
-	</styleSettings>
-
- 
-	<thoughtSettings>
-		<cannotReceiveThoughts><li>Pain</li></cannotReceiveThoughts>
-		<restrictedThoughts><li>KroganPain</li></restrictedThoughts>
-		<ateThoughtSpecific></ateThoughtSpecific>
-		<replacerList>
-		<li>
-			<original>Pain</original>
-			<replacer>KroganPain</replacer> 
-		</li>
-		</replacerList>
-	</thoughtSettings>
-
-	<raceRestriction>
-	</raceRestriction>
-
-</alienRace>
-    
-<race>
-	<thinkTreeMain>Humanlike</thinkTreeMain>
-	<nameGenerator>NamerPersonKrogan</nameGenerator>
-	<nameGeneratorFemale>NamerPersonKroganFemale</nameGeneratorFemale>
-	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
-	<intelligence>Humanlike</intelligence>
-	<makesFootprints>true</makesFootprints>
-	<lifeExpectancy>1300</lifeExpectancy>
-	<bloodDef>FilthBloodKrogan</bloodDef>
-	<nameCategory>HumanStandard</nameCategory>
-	<body>Krogan</body>
-	<baseBodySize>1.5</baseBodySize>
-	<baseHealthScale>1.5</baseHealthScale>
-	<baseHungerRate>1.5</baseHungerRate>
-	<foodType>OmnivoreHuman</foodType>
-	<leatherDef>Leather_Krogan</leatherDef>
-
-	<gestationPeriodDays>45</gestationPeriodDays>
+    </tools>
+    <alienRace>
+      <generalSettings>
+        <allowHumanBios>False</allowHumanBios>
+        <immuneToAge>false</immuneToAge>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <!-- -->
+          <alienbodytypes>
+            <li>Hulk</li>
+          </alienbodytypes>
+          <!-- -->
+          <useGenderedHeads>true</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+          <aliencrowntypes>
+            <li>Average_Normal_01</li>
+            <li>Average_Normal_02</li>
+            <li>Average_Normal_03</li>
+            <li>Average_Normal_04</li>
+            <li>Average_Normal_05</li>
+            <li>Average_Normal_06</li>
+            <li>Average_Normal_07</li>
+            <li>Average_Normal_08</li>
+            <li>Average_Normal_09</li>
+            <li>Average_Normal_10</li>
+            <li>Average_Normal_11</li>
+            <li>Average_Normal_12</li>
+          </aliencrowntypes>
+          <customDrawSize>(1.25, 1.25)</customDrawSize>
+          <customHeadDrawSize>(1.35, 1.2)</customHeadDrawSize>
+          <customPortraitDrawSize>(1.25, 1.25)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1.35, 1.2)</customPortraitHeadDrawSize>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- brown -->
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(1.000, 0.894, 0.769,1)</only>
+                  </li>
+                  <li>
+                    <weight>2</weight>
+                    <only>RGBA(0.678, 0.847, 0.902,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(1.000, 0.627, 0.478,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(1.000, 0.894, 0.882,1)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.663, 0.663, 0.663,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.827, 0.827, 0.827,1)</only>
+                  </li>
+                  <li>
+                    <weight>2</weight>
+                    <only>RGBA(1.000, 0.894, 0.710,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(1.000, 0.844, 0.729,1)</only>
+                  </li>
+                  <li>
+                    <weight>2</weight>
+                    <only>RGBA(0.638, 0.807, 0.862,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(1.000, 0.587, 0.438,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(1.000, 0.854, 0.842,1)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.623, 0.623, 0.623,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.787, 0.787, 0.787,1)</only>
+                  </li>
+                  <li>
+                    <weight>2</weight>
+                    <only>RGBA(0.741, 0.718, 0.420,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <anchorReplacements>
+            <!-- South -->
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <crownType>Average</crownType>
+                <offset>(-0.1,0,-0.30)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Hulk>(-0.18,0.27)</Hulk>
+                  </bodyTypes>
+                </south>
+              </offsets>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <crownType>Average</crownType>
+                <offset>(-0.1,0,-0.30)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Hulk>(0.18,0.27)</Hulk>
+                  </bodyTypes>
+                </south>
+              </offsets>
+            </li>
+            <!-- East -->
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>East</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <crownType>Average</crownType>
+                <offset>(0.2,0,-0.30)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+              <offsets>
+                <east>
+                  <bodyTypes>
+                    <Hulk>(0.25,0.24)</Hulk>
+                  </bodyTypes>
+                </east>
+              </offsets>
+            </li>
+            <!-- West -->
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>West</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <crownType>Average</crownType>
+                <offset>(-0.2,0,-0.30)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+              <offsets>
+                <west>
+                  <bodyTypes>
+                    <Hulk>(-0.25,0.24)</Hulk>
+                  </bodyTypes>
+                </west>
+              </offsets>
+            </li>
+          </anchorReplacements>
+        </alienPartGenerator>
+        <maleGenderProbability>.99</maleGenderProbability>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Abrasive</defName>
+            <chance>50</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <headOffset>(0, -0.05)</headOffset>
+          <head>Krogan/HeadBase/</head>
+        </li>
+      </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+            <styleTagsOverride>
+              <li>NoHair</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+            <styleTagsOverride>
+              <li>NoTattoo</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+            <styleTagsOverride>
+              <li>NoBeard</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+      </styleSettings>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>Pain</li>
+        </cannotReceiveThoughts>
+        <restrictedThoughts>
+          <li>KroganPain</li>
+        </restrictedThoughts>
+        <ateThoughtSpecific>
+        </ateThoughtSpecific>
+        <replacerList>
+          <li>
+            <original>Pain</original>
+            <replacer>KroganPain</replacer>
+          </li>
+        </replacerList>
+      </thoughtSettings>
+      <raceRestriction>
+      </raceRestriction>
+    </alienRace>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <nameGenerator>NamerPersonKrogan</nameGenerator>
+      <nameGeneratorFemale>NamerPersonKroganFemale</nameGeneratorFemale>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>1300</lifeExpectancy>
+      <bloodDef>FilthBloodKrogan</bloodDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Krogan</body>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHealthScale>1.5</baseHealthScale>
+      <baseHungerRate>1.5</baseHungerRate>
+      <foodType>OmnivoreHuman</foodType>
+      <leatherDef>Leather_Krogan</leatherDef>
+      <gestationPeriodDays>45</gestationPeriodDays>
       <litterSizeCurve>
-		<points>
-		<li>(0.5, 0)</li>
-		<li>(1, 1)</li>
-		<li>(1.01, 0.02)</li>
-		<li>(3.5, 0)</li>
-		</points>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
       </litterSizeCurve>
       <lifeStageAges>
         <li>
@@ -368,7 +393,7 @@
           <def>HumanlikeAdult</def>
           <minAge>18</minAge>
         </li>
-		<li>
+        <li>
           <def>HumanlikeOld</def>
           <minAge>800</minAge>
         </li>
@@ -384,46 +409,44 @@
         <points>
           <li>(14,0)</li>
           <li>(100,50)</li>
-		  <li>(200,30)</li>
-		  <li>(300,30)</li>
-		  <li>(400,25)</li>
-		  <li>(500,25)</li>
-		  <li>(600,25)</li>
-		  <li>(700,10)</li>
-		  <li>(800,10)</li>
-		  <li>(900,5)</li>
-		  <li>(1000,4)</li>
-		  <li>(1200,3)</li>
-		  <li>(1400,0)</li>
+          <li>(200,30)</li>
+          <li>(300,30)</li>
+          <li>(400,25)</li>
+          <li>(500,25)</li>
+          <li>(600,25)</li>
+          <li>(700,10)</li>
+          <li>(800,10)</li>
+          <li>(900,5)</li>
+          <li>(1000,4)</li>
+          <li>(1200,3)</li>
+          <li>(1400,0)</li>
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>
-		<li>OrganicAgeless</li>
+        <li>OrganicAgeless</li>
         <li>KroganHediffs</li>
       </hediffGiverSets>
-</race>
+    </race>
     <recipes>
-
-		<li>InstallPowerClaw</li>
-		<li>InstallBionicEye</li>
-		<li>InstallBionicArm</li>
-		<li>InstallBionicLeg</li>
-		<li>InstallSimpleProstheticArm</li>
-		<li>InstallSimpleProstheticLeg</li>
-		<li>InstallPegLeg</li>
-		<li>InstallDenture</li>
-		<li>InstallJoywire</li>
-		<li>InstallPainstopper</li>
-		<li>InstallNaturalHeart</li>
-		<li>InstallNaturalLung</li>
-		<li>InstallNaturalKidney</li>
-		<li>InstallNaturalLiver</li>
-		<li>AdministerMechSerumHealer</li>
-		<li>ExciseCarcinoma</li>
-		<li>RemoveBodyPart</li>
-		<li>Euthanize</li>
-		<li>Anesthetize</li>
+      <li>InstallPowerClaw</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallPegLeg</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>ExciseCarcinoma</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
     </recipes>
-    
-</AlienRace.ThingDef_AlienRace>
+  </AlienRace.ThingDef_AlienRace>
 </Defs>

@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
- 
-	<AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild01</defName>
     <title>Average child</title>
     <titleShort>Child</titleShort>
     <baseDescription>[PAWN_nameDef] grew up to be completely average.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
@@ -20,11 +19,11 @@
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -32,25 +31,28 @@
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Artistic</li><li>Cooking</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Cooking</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef>
-  
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild02</defName>
     <title>Average youngling</title>
     <titleShort>Youngling</titleShort>
     <baseDescription>[PAWN_nameDef] grew up to be completely average.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
@@ -61,11 +63,11 @@
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -73,36 +75,39 @@
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef>
-  
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild03</defName>
     <title>Average youngster</title>
     <titleShort>Youngster</titleShort>
     <baseDescription>[PAWN_nameDef] grew up to be completely average.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Animals</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
@@ -110,36 +115,38 @@
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Crafting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Crafting</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild04</defName>
     <title>Colonial child</title>
     <titleShort>Child</titleShort>
     <baseDescription>[PAWN_nameDef] grew up on a Turian colony.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
@@ -147,40 +154,44 @@
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Intellectual</li><li>Caring</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Caring</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild05</defName>
     <title>Colonial youngling</title>
     <titleShort>Youngling</titleShort>
     <baseDescription>[PAWN_nameDef] grew up on a Turian colony.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
@@ -188,40 +199,43 @@
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Artistic</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Animals</li><li>Hauling</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+      <li>Hauling</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild06</defName>
     <title>Colonial youngster</title>
     <titleShort>Youngster</titleShort>
     <baseDescription>[PAWN_nameDef] grew up on a Turian colony.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Animals</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
@@ -229,323 +243,352 @@
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Mining</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild07</defName>
     <title>Combat trainee</title>
     <titleShort>Trainee</titleShort>
     <baseDescription>[PAWN_nameDef] grew up training to be a combatant.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>20</maleCommonality>
-	    <femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
         <amount>5</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-		<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild08</defName>
     <title>Farm hand</title>
     <titleShort>Farm hand</titleShort>
     <baseDescription>[PAWN_nameDef] grew up on a farm.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Plants</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Animals</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<spawnCategories>
+    </skillGains>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild09</defName>
     <title>Slave</title>
     <titleShort>Slave</titleShort>
     <baseDescription>[PAWN_nameDef] grew up as a slave.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>2</maleCommonality>
-	    <femaleCommonality>2</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild10</defName>
     <title>Military academy ace</title>
     <titleShort>Ace</titleShort>
     <baseDescription>[PAWN_nameDef] was one of the best students of the miltiary arts in their academy.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>2</maleCommonality>
-	    <femaleCommonality>2</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>ShootingAccuracy</defName>
-            <degree>1</degree>
-			<chance>100</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Mining</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>ShootingAccuracy</defName>
+        <degree>1</degree>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Mining</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild11</defName>
     <title>Military academy cadet</title>
     <titleShort>Cadet</titleShort>
     <baseDescription>[PAWN_nameDef] finished military training at a military academy.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>20</maleCommonality>
-	    <femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
         <amount>5</amount>
       </li>
-	        <li>
+      <li>
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-    <workDisables><li>Animals</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild12</defName>
     <title>Public service student</title>
     <titleShort>Student</titleShort>
     <baseDescription>[PAWN_nameDef] dedicated their youth to becoming a public servant.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>15</maleCommonality>
-	    <femaleCommonality>15</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>15</maleCommonality>
+    <femaleCommonality>15</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild13</defName>
     <title>Engineering major</title>
     <titleShort>Engineer</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying engineering.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>5</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild14</defName>
     <title>Science student</title>
     <titleShort>Scientist</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying science and stuff.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-    <AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild15</defName>
     <title>Biology student</title>
     <titleShort>Biologist</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying biology.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Plants</defName>
         <amount>3</amount>
       </li>
-	  <li>
+      <li>
         <defName>Animals</defName>
         <amount>3</amount>
       </li>
-	  <li>
+      <li>
         <defName>Medicine</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualDumb</li><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild16</defName>
     <title>Medical student</title>
     <titleShort>Doctor</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying medicine.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Medicine</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild17</defName>
     <title>Culinary arts student</title>
     <titleShort>Cook</titleShort>
     <baseDescription>[PAWN_nameDef] grew up learning how to cook.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Cooking</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Intellectual</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TChild18</defName>
     <title>Psychology student</title>
     <titleShort>Psychiatrist</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying the bipedal psyche.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Social</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualSkilled</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualSkilled</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult01</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a colonist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -556,11 +599,11 @@
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -568,25 +611,29 @@
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-    <workDisables><li>Artistic</li><li>Crafting</li><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Crafting</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult02</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a colonist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -597,11 +644,11 @@
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -609,25 +656,29 @@
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-    <workDisables><li>Social</li><li>Firefighting</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>Firefighting</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult03</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a colonist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -638,11 +689,11 @@
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
@@ -650,25 +701,28 @@
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Caring</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult04</defName>
     <title>Soldier</title>
     <titleShort>Soldier</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a soldier.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>30</maleCommonality>
-	    <femaleCommonality>30</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -679,21 +733,23 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult05</defName>
     <title>Trooper</title>
     <titleShort>Trooper</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a soldier.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>20</maleCommonality>
-	    <femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -704,21 +760,23 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualSkilled</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualSkilled</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult06</defName>
     <title>Spaceship operator</title>
     <titleShort>Operator</titleShort>
     <baseDescription>[PAWN_nameDef] used to work on a spaceship.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>20</maleCommonality>
-	    <femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -729,7 +787,7 @@
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	   <li>
+      <li>
         <defName>Social</defName>
         <amount>4</amount>
       </li>
@@ -737,21 +795,23 @@
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Hauling</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult07</defName>
     <title>Mercenary</title>
     <titleShort>Mercenary</titleShort>
     <baseDescription>[PAWN_nameDef] used to work as a muscle for hire.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -762,21 +822,23 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult08</defName>
     <title>Public servant</title>
     <titleShort>Public servant</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a public servant.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>25</maleCommonality>
-	    <femaleCommonality>25</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>25</maleCommonality>
+    <femaleCommonality>25</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -787,21 +849,23 @@
         <defName>Social</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult09</defName>
     <title>Security guard</title>
     <titleShort>Guard</titleShort>
     <baseDescription>[PAWN_nameDef] used to work as a security guard.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -812,28 +876,31 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult10</defName>
     <title>Ranking officer</title>
     <titleShort>Officer</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a ranking officer in the military.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Social</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>7</amount>
       </li>
@@ -841,28 +908,31 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Hauling</li><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Hauling</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult11</defName>
     <title>Ship captain</title>
     <titleShort>Captain</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a captain of a spaceship.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>1</maleCommonality>
-	    <femaleCommonality>1</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Social</defName>
         <amount>8</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>8</amount>
       </li>
@@ -870,411 +940,456 @@
         <defName>Melee</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-    <workDisables><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult12</defName>
     <title>Engineer</title>
     <titleShort>Engineer</titleShort>
     <baseDescription>[PAWN_nameDef] used to be an engineer.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Crafting</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult13</defName>
     <title>Technician</title>
     <titleShort>Technician</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a technician.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Crafting</defName>
         <amount>6</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Cooking</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Cooking</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult14</defName>
     <title>Physician</title>
     <titleShort>Physician</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a doctor.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Medicine</defName>
         <amount>7</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Cooking</li><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Cooking</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult15</defName>
     <title>Veterinarian</title>
     <titleShort>Veterinarian</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a veterinarian.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Animals</defName>
         <amount>7</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Violent</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Violent</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult16</defName>
     <title>Floral biologist</title>
     <titleShort>Biologist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a floral biologist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Plants</defName>
         <amount>7</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Violent</li><li>Intellectual</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Violent</li>
+      <li>Intellectual</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult17</defName>
     <title>Biologist</title>
     <titleShort>Biologist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a biologist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Plants</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Animals</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Medicine</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Artistic</li><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult18</defName>
     <title>Psychologist</title>
     <titleShort>Psychologist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a psychologist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Social</defName>
         <amount>7</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Artistic</li><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult19</defName>
     <title>Scientist</title>
     <titleShort>Scientist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a scientist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>7</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualSkilled</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualSkilled</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult20</defName>
     <title>Teacher</title>
     <titleShort>Teacher</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a teacher.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>2</maleCommonality>
-	    <femaleCommonality>2</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>5</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>5</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult21</defName>
     <title>Cook</title>
     <titleShort>Cook</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a cook.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Cooking</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>1</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Animals</li><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult22</defName>
     <title>Slave</title>
     <titleShort>Slave</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a slave.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>1</maleCommonality>
-	    <femaleCommonality>1</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult23</defName>
     <title>Mechanic</title>
     <titleShort>Mechanic</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a mechanic.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Crafting</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>1</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Caring</li><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult24</defName>
     <title>Sniper</title>
     <titleShort>Sniper</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a sniper in the military.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>1</maleCommonality>
-	    <femaleCommonality>1</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Shooting</defName>
         <amount>15</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>ShootingAccuracy</defName>
-            <degree>1</degree>
-			<chance>100</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Intellectual</li><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>ShootingAccuracy</defName>
+        <degree>1</degree>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult25</defName>
     <title>Miner</title>
     <titleShort>Miner</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a miner.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Mining</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Intellectual</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-		<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult26</defName>
     <title>Spec ops</title>
     <titleShort>Spec ops</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a special operations agent, doing things we can only read about in novels.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>0.5</maleCommonality>
-	    <femaleCommonality>0.5</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>0.5</maleCommonality>
+    <femaleCommonality>0.5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Shooting</defName>
         <amount>13</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>6</amount>
       </li>
-	   <li>
+      <li>
         <defName>Social</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>ShootingAccuracy</defName>
-            <degree>1</degree>
-			<chance>100</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>ManualSkilled</li><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>ShootingAccuracy</defName>
+        <degree>1</degree>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualSkilled</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  		<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult27</defName>
     <title>Artist</title>
     <titleShort>Artist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be an artist, making newspaper collages and selling them for $$$.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>3</maleCommonality>
-	    <femaleCommonality>3</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>3</maleCommonality>
+    <femaleCommonality>3</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Artistic</defName>
         <amount>9</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualDumb</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult28</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a colonist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -1285,11 +1400,11 @@
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -1297,25 +1412,27 @@
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-    <workDisables><li>ManualSkilled</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualSkilled</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult29</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a colonist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -1326,11 +1443,11 @@
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
@@ -1338,25 +1455,29 @@
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Artistic</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-    <workDisables><li>Cooking</li><li>PlantWork</li><li>Animals</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Cooking</li>
+      <li>PlantWork</li>
+      <li>Animals</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>TAdult30</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a colonist.</baseDescription>
-    <bodyTypeMale>Male</bodyTypeMale> <bodyTypeFemale>Female</bodyTypeFemale>	
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -1367,11 +1488,11 @@
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
@@ -1379,15 +1500,17 @@
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-    <workDisables><li>ManualDumb</li><li>Intellectual</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Intellectual</li>
+    </workDisables>
+    <spawnCategories>
       <li>TurianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  </Defs>
+  </AlienRace.BackstoryDef>
+</Defs>

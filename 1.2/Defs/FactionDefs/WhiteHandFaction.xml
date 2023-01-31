@@ -1,65 +1,56 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<FactionDef>
-		<defName>WhiteHandFaction</defName>
-		<label>White Hand</label>
-		<description>The White Hand is a amalgamation of krogan and vorcha led by the Shaman of the White Hand.
+  <FactionDef>
+    <defName>WhiteHandFaction</defName>
+    <label>White Hand</label>
+    <description>The White Hand is a amalgamation of krogan and vorcha led by the Shaman of the White Hand.
 	
 They mostly live simple lives. Doing agricultural work, hunting and foraging. However, these "tribals" enjoy firing guns and smashing skulls which leads them to often raid nearby civiliziations.</description>
-		<pawnsPlural>Tribals</pawnsPlural>
-		<fixedName>White Hand</fixedName>
-		
-		<settlementGenerationWeight>1</settlementGenerationWeight>
-		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		
-		<factionIconPath>World/WorldObjects/HandFlag01</factionIconPath>
-		<settlementTexturePath>World/WorldObjects/HandFlag01</settlementTexturePath>
-		
-		<canMakeRandomly>true</canMakeRandomly>
-		<canStageAttacks>true</canStageAttacks>
-		<canSiege>true</canSiege>
-		
-		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<techLevel>Industrial</techLevel>
-		<backstoryCategories><li>KroganBackstory</li></backstoryCategories>	
-
-		<hairTags>
-			<li>KroganHair</li>
-		</hairTags>
-		
-		<startingGoodwill>
-			<min>-100</min>
-			<max>-90</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>-100</min>
-			<max>-90</max>
-		</naturalColonyGoodwill>
-
-		<visitorTraderKinds>
-			<li>Visitor_Neolithic_Standard</li>
-		</visitorTraderKinds>
-		<caravanTraderKinds>
-   <li>Caravan_Neolithic_Slaver</li>
-   <li>Caravan_Neolithic_BulkGoods</li>
-		</caravanTraderKinds>
-		<baseTraderKinds>
-			<li>Base_Neolithic_Standard</li>
-		</baseTraderKinds>
-		
-        <colorSpectrum>
-         <li>(0.827, 0.827, 0.827)</li>
-        </colorSpectrum>
-
-		<mustStartOneEnemy>true</mustStartOneEnemy>
-		<leaderTitle>shaman</leaderTitle>
-
-		<allowedArrivalTemperatureRange>
-			<min>-20</min>
-			<max>50</max>
-		</allowedArrivalTemperatureRange>
-		
+    <pawnsPlural>Tribals</pawnsPlural>
+    <fixedName>White Hand</fixedName>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <factionIconPath>World/WorldObjects/HandFlag01</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/HandFlag01</settlementTexturePath>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canStageAttacks>true</canStageAttacks>
+    <canSiege>true</canSiege>
+    <!--<factionNameMaker>NamerFaction</factionNameMaker>-->
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>KroganBackstory</li>
+    </backstoryCategories>
+    <hairTags>
+      <li>KroganHair</li>
+    </hairTags>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-90</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-90</max>
+    </naturalColonyGoodwill>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_BulkGoods</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <colorSpectrum>
+      <li>(0.827, 0.827, 0.827)</li>
+    </colorSpectrum>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
+    <leaderTitle>shaman</leaderTitle>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>50</max>
+    </allowedArrivalTemperatureRange>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,50)</li>
@@ -69,76 +60,73 @@ They mostly live simple lives. Doing agricultural work, hunting and foraging. Ho
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-		
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
         <commonality>50</commonality>
-		<options>
-		  <VorchaWhiteHandSoldier01>60</VorchaWhiteHandSoldier01>
-		  <VorchaWhiteHandVeteran01>50</VorchaWhiteHandVeteran01>
-		  <KroganWhiteHandSoldier01>30</KroganWhiteHandSoldier01>
-		  <KroganWhiteHandVeteran01>20</KroganWhiteHandVeteran01>
-		  <VorchaWhiteHandBrawler01>40</VorchaWhiteHandBrawler01>
-		  <KroganWhiteHandBrawler01>20</KroganWhiteHandBrawler01>
-		  <VorchaWhiteHandGrenadier01>30</VorchaWhiteHandGrenadier01>
-		  <KroganWhiteHandLeader01>1</KroganWhiteHandLeader01>
-		</options>
+        <options>
+          <VorchaWhiteHandSoldier01>60</VorchaWhiteHandSoldier01>
+          <VorchaWhiteHandVeteran01>50</VorchaWhiteHandVeteran01>
+          <KroganWhiteHandSoldier01>30</KroganWhiteHandSoldier01>
+          <KroganWhiteHandVeteran01>20</KroganWhiteHandVeteran01>
+          <VorchaWhiteHandBrawler01>40</VorchaWhiteHandBrawler01>
+          <KroganWhiteHandBrawler01>20</KroganWhiteHandBrawler01>
+          <VorchaWhiteHandGrenadier01>30</VorchaWhiteHandGrenadier01>
+          <KroganWhiteHandLeader01>1</KroganWhiteHandLeader01>
+        </options>
       </li>
-	  <li>
+      <li>
         <kindDef>Combat</kindDef>
         <commonality>50</commonality>
-		<options>
-		  <VorchaWhiteHandSoldier01>80</VorchaWhiteHandSoldier01>
-		  <VorchaWhiteHandVeteran01>40</VorchaWhiteHandVeteran01>
-		  <KroganWhiteHandSoldier01>30</KroganWhiteHandSoldier01>
-		  <KroganWhiteHandVeteran01>15</KroganWhiteHandVeteran01>
-		  <KroganWhiteHandLeader01>1</KroganWhiteHandLeader01>
-		</options>
+        <options>
+          <VorchaWhiteHandSoldier01>80</VorchaWhiteHandSoldier01>
+          <VorchaWhiteHandVeteran01>40</VorchaWhiteHandVeteran01>
+          <KroganWhiteHandSoldier01>30</KroganWhiteHandSoldier01>
+          <KroganWhiteHandVeteran01>15</KroganWhiteHandVeteran01>
+          <KroganWhiteHandLeader01>1</KroganWhiteHandLeader01>
+        </options>
       </li>
-	  <li>
+      <li>
         <kindDef>Combat</kindDef>
         <commonality>20</commonality>
-		<options>
-		  <VorchaWhiteHandBrawler01>60</VorchaWhiteHandBrawler01>
-		  <KroganWhiteHandBrawler01>30</KroganWhiteHandBrawler01>
-		  <VorchaWhiteHandGrenadier01>15</VorchaWhiteHandGrenadier01>
-		</options>
+        <options>
+          <VorchaWhiteHandBrawler01>60</VorchaWhiteHandBrawler01>
+          <KroganWhiteHandBrawler01>30</KroganWhiteHandBrawler01>
+          <VorchaWhiteHandGrenadier01>15</VorchaWhiteHandGrenadier01>
+        </options>
       </li>
-	  <li>
-      <kindDef>Trader</kindDef>
+      <li>
+        <kindDef>Trader</kindDef>
         <traders>
           <KroganTrader01>1</KroganTrader01>
         </traders>
         <carriers>
           <Muffalo>1</Muffalo>
-		  <Dromedary>1</Dromedary>
+          <Dromedary>1</Dromedary>
         </carriers>
         <guards>
-           <VorchaWhiteHandSoldier01>60</VorchaWhiteHandSoldier01>
-           <KroganWhiteHandSoldier01>20</KroganWhiteHandSoldier01>
+          <VorchaWhiteHandSoldier01>60</VorchaWhiteHandSoldier01>
+          <KroganWhiteHandSoldier01>20</KroganWhiteHandSoldier01>
         </guards>
-      </li> 
-	  <li>
+      </li>
+      <li>
         <kindDef>Settlement</kindDef>
         <options>
-		  <VorchaWhiteHandSoldier01>80</VorchaWhiteHandSoldier01>
-		  <VorchaWhiteHandVeteran01>40</VorchaWhiteHandVeteran01>
+          <VorchaWhiteHandSoldier01>80</VorchaWhiteHandSoldier01>
+          <VorchaWhiteHandVeteran01>40</VorchaWhiteHandVeteran01>
           <KroganWhiteHandSoldier01>30</KroganWhiteHandSoldier01>
-		  <KroganWhiteHandVeteran01>10</KroganWhiteHandVeteran01>
-		  <KroganWhiteHandLeader01>1</KroganWhiteHandLeader01>
+          <KroganWhiteHandVeteran01>10</KroganWhiteHandVeteran01>
+          <KroganWhiteHandLeader01>1</KroganWhiteHandLeader01>
         </options>
       </li>
-	  	  <li>
+      <li>
         <kindDef>Peaceful</kindDef>
         <maxTotalPoints>300</maxTotalPoints>
-		<options>
+        <options>
           <KroganWhiteHandSoldier01>20</KroganWhiteHandSoldier01>
-		  <VorchaWhiteHandSoldier01>60</VorchaWhiteHandSoldier01>
+          <VorchaWhiteHandSoldier01>60</VorchaWhiteHandSoldier01>
         </options>
       </li>
     </pawnGroupMakers>
-	</FactionDef>
-	  
-	
+  </FactionDef>
 </Defs>

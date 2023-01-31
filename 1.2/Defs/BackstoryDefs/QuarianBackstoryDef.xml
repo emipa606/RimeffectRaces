@@ -1,31 +1,29 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
- 
-	<AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild01</defName>
     <title>Average child</title>
     <titleShort>Child</titleShort>
-    <baseDescription>[PAWN_nameDef] grew up on a medium-sized vessel on the Flotilla.</baseDescription> 
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <baseDescription>[PAWN_nameDef] grew up on a medium-sized vessel on the Flotilla.</baseDescription>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>3</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -33,30 +31,32 @@
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Artistic</li><li>Cooking</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Cooking</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef>
-  
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild02</defName>
     <title>Liveship Child</title>
     <titleShort>Liveship Kid</titleShort>
-    <baseDescription>[PAWN_nameDef] grew up on one of the massive Quarian Liveships.</baseDescription>	
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <baseDescription>[PAWN_nameDef] grew up on one of the massive Quarian Liveships.</baseDescription>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
@@ -67,11 +67,11 @@
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -79,29 +79,28 @@
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<spawnCategories>
+    </skillGains>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef>
-  
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild03</defName>
     <title>Exile Child</title>
     <titleShort>Exile Child</titleShort>
-    <baseDescription>[PAWN_nameDef] grew up outside of the Flotilla, a child of exiles.</baseDescription>	
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <baseDescription>[PAWN_nameDef] grew up outside of the Flotilla, a child of exiles.</baseDescription>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
@@ -112,11 +111,11 @@
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Animals</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
@@ -124,41 +123,42 @@
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild04</defName>
     <title>Colonial child</title>
     <titleShort>Child</titleShort>
     <baseDescription>[PAWN_nameDef] grew up in a small Quarian community in the Rim.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>	
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
@@ -166,45 +166,48 @@
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Intellectual</li><li>Caring</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Caring</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild05</defName>
     <title>Colonial child</title>
     <titleShort>Colony kid</titleShort>
-    <baseDescription>[PAWN_nameDef] grew up on a Terminus colony.</baseDescription>	
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <baseDescription>[PAWN_nameDef] grew up on a Terminus colony.</baseDescription>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
@@ -212,45 +215,47 @@
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Artistic</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Animals</li><li>Hauling</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+      <li>Hauling</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild06</defName>
     <title>Orphaned child</title>
     <titleShort>Orphan</titleShort>
     <baseDescription>[PAWN_nameDef] was from a ship that was destroyed by pirates, and was taken in by others.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>60</maleCommonality>
-	    <femaleCommonality>60</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>60</maleCommonality>
+    <femaleCommonality>60</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Animals</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
@@ -258,419 +263,432 @@
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Mining</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild07</defName>
     <title>Combat trainee</title>
     <titleShort>Trainee</titleShort>
     <baseDescription>[PAWN_nameDef] grew up training to be a marine.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>20</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Shooting</defName>
         <amount>5</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-		<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild08</defName>
     <title>Liveship child</title>
     <titleShort>Liveship child</titleShort>
     <baseDescription>[PAWN_nameDef] grew up on a Liveship, tending the crops..</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Plants</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Animals</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<spawnCategories>
+    </skillGains>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild09</defName>
     <title>Slave</title>
     <titleShort>Slave</titleShort>
     <baseDescription>[PAWN_nameDef] grew up as a slave.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>2</maleCommonality>
-	    <femaleCommonality>2</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Melee</defName>
         <amount>1</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild10</defName>
     <title>Child prodigy</title>
     <titleShort>Prodigy</titleShort>
     <baseDescription>[PAWN_nameDef] is unusually skilled.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>2</maleCommonality>
-	    <femaleCommonality>2</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>100</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild11</defName>
     <title>Dull child</title>
     <titleShort>Dullard</titleShort>
     <baseDescription>[PAWN_nameDef] is a bit slow.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>2</maleCommonality>
-	    <femaleCommonality>2</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
         <amount>1</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild12</defName>
     <title>Computer whiz</title>
     <titleShort>Programmer</titleShort>
     <baseDescription>[PAWN_nameDef] grew up tinkering with computers.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-    <workDisables><li>ManualDumb</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild13</defName>
     <title>Engineering major</title>
     <titleShort>Engineer</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying engineering.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>8</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>8</amount>
       </li>
-
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild14</defName>
     <title>Science student</title>
     <titleShort>Scientist</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying science.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Intellectual</defName>
         <amount>8</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Hauling</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Hauling</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-    <AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild15</defName>
     <title>Biology student</title>
     <titleShort>Biologist</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying biology.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Plants</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Animals</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Medicine</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Social</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild16</defName>
     <title>Medical student</title>
     <titleShort>Doctor</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying medicine.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Medicine</defName>
         <amount>8</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>ManualDumb</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild17</defName>
     <title>Culinary arts student</title>
     <titleShort>Cook</titleShort>
     <baseDescription>[PAWN_nameDef] grew up learning how to cook.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Cooking</defName>
         <amount>8</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Intellectual</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QChild18</defName>
     <title>Psychology student</title>
     <titleShort>Psychologist</titleShort>
     <baseDescription>[PAWN_nameDef] grew up studying the psyche.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
         <defName>Social</defName>
         <amount>8</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult01</defName>
     <title>Ship crew</title>
     <titleShort>Crew</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a crewmember of a small ship.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -681,11 +699,11 @@
         <defName>Cooking</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>4</amount>
       </li>
@@ -693,29 +711,28 @@
         <defName>Intellectual</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<spawnCategories>
+    </skillGains>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult02</defName>
     <title>Mining crew</title>
     <titleShort>Miner</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a crewmember of a mining vessel.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -726,11 +743,11 @@
         <defName>Medicine</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>4</amount>
       </li>
@@ -738,41 +755,43 @@
         <defName>Construction</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult03</defName>
     <title>Ship crew</title>
     <titleShort>Crew</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a crewmember of a medium-sized ship.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Artistic</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>4</amount>
       </li>
@@ -780,30 +799,32 @@
         <defName>Construction</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Caring</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult04</defName>
     <title>Soldier</title>
     <titleShort>Marine</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a Migrant Fleet Marine.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>30</maleCommonality>
-	    <femaleCommonality>30</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>30</maleCommonality>
+    <femaleCommonality>30</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -814,26 +835,27 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult05</defName>
     <title>Mercenary</title>
     <titleShort>Mercenary</titleShort>
     <baseDescription>[PAWN_nameDef] is a mercenary, used to fighting.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>20</maleCommonality>
-	    <femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -844,26 +866,27 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-   	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult06</defName>
     <title>Pilot</title>
     <titleShort>Pilot</titleShort>
     <baseDescription>[PAWN_nameDef] was a pilot, a highly sought-after occupation.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>20</maleCommonality>
-	    <femaleCommonality>20</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>20</maleCommonality>
+    <femaleCommonality>20</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -874,7 +897,7 @@
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	   <li>
+      <li>
         <defName>Social</defName>
         <amount>6</amount>
       </li>
@@ -882,32 +905,33 @@
         <defName>Intellectual</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Mining</li></workDisables>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+    </workDisables>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult07</defName>
     <title>Mercenary</title>
     <titleShort>Mercenary</titleShort>
     <baseDescription>[PAWN_nameDef] used to work as a muscle for hire.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -918,26 +942,28 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Social</li><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult08</defName>
     <title>Exile</title>
     <titleShort>Exile</titleShort>
     <baseDescription>[PAWN_nameDef] was exiled from the Fleet for their crimes against the Quarian people.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -948,26 +974,28 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Animals</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult09</defName>
     <title>Admiralty Guard</title>
     <titleShort>Guard</titleShort>
     <baseDescription>[PAWN_nameDef] was once a guard for the Admiralty, a position given only to the most trusted soldiers.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -978,39 +1006,41 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Caring</li><li>Cleaning</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Caring</li>
+      <li>Cleaning</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult10</defName>
     <title>Marine officer</title>
     <titleShort>Officer</titleShort>
     <baseDescription>[PAWN_nameDef] used to be an officer in the Migrant Fleet Marines.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Social</defName>
         <amount>8</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>10</amount>
       </li>
@@ -1018,39 +1048,41 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Mining</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Mining</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult11</defName>
     <title>Ship captain</title>
     <titleShort>Captain</titleShort>
     <baseDescription>[PAWN_nameDef] used to be the captain of a ship, a highly-respected occupation.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>1</maleCommonality>
-	    <femaleCommonality>1</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Social</defName>
         <amount>10</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>12</amount>
       </li>
@@ -1058,516 +1090,541 @@
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult12</defName>
     <title>Engineer</title>
     <titleShort>Engineer</titleShort>
     <baseDescription>[PAWN_nameDef] used to be an engineer.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Crafting</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>7</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult13</defName>
     <title>Technician</title>
     <titleShort>Technician</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a technician.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Crafting</defName>
         <amount>9</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>5</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Social</li><li>Mining</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+      <li>Mining</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult14</defName>
     <title>Physician</title>
     <titleShort>Physician</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a doctor.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Medicine</defName>
         <amount>9</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>ManualDumb</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult15</defName>
     <title>Exile farmer</title>
     <titleShort>Farmer</titleShort>
     <baseDescription>[PAWN_nameDef] was exiled from the fleet and settled on an agricultural world.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Animals</defName>
         <amount>9</amount>
       </li>
-	       <li>
+      <li>
         <defName>Medicine</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Mining</li><li>Violent</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+      <li>Violent</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult16</defName>
     <title>Exile Farmer</title>
     <titleShort>Farmer</titleShort>
     <baseDescription>[PAWN_nameDef] was exiled from the fleet and settled on an agricultural world.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Plants</defName>
         <amount>9</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Caring</li><li>Violent</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+      <li>Violent</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult17</defName>
     <title>Exile descendant</title>
     <titleShort>Exile</titleShort>
     <baseDescription>[PAWN_nameDef] is the child of exiles, and has never even seen the Flotilla.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Shooting</defName>
         <amount>6</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>6</amount>
       </li>
-	  <li>
+      <li>
         <defName>Medicine</defName>
         <amount>6</amount>
       </li>
-	</skillGains>
-	<spawnCategories>
+    </skillGains>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult18</defName>
     <title>Psychologist</title>
     <titleShort>Psychologist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a psychologist.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Social</defName>
         <amount>9</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Caring</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Caring</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult19</defName>
     <title>Scientist</title>
     <titleShort>Scientist</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a scientist.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>9</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>ManualDumb</li><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult20</defName>
     <title>Teacher</title>
     <titleShort>Teacher</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a teacher.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>2</maleCommonality>
-	    <femaleCommonality>2</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>7</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Firefighting</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Firefighting</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult21</defName>
     <title>Cook</title>
     <titleShort>Cook</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a cook.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Cooking</defName>
         <amount>9</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>3</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Intellectual</li><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult22</defName>
     <title>Slave</title>
     <titleShort>Slave</titleShort>
     <baseDescription>[PAWN_nameDef] used to be a slave.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>1</maleCommonality>
-	    <femaleCommonality>1</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Social</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult23</defName>
     <title>Pilgrim</title>
     <titleShort>Pilgrim</titleShort>
     <baseDescription>[PAWN_nameDef] is still on their Pilgrimage</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>10</maleCommonality>
-	    <femaleCommonality>10</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>10</maleCommonality>
+    <femaleCommonality>10</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Crafting</defName>
         <amount>9</amount>
       </li>
-	  <li>
+      <li>
         <defName>Social</defName>
         <amount>2</amount>
       </li>
-	</skillGains>
-	<workDisables><li>Cleaning</li><li>Intellectual</li><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+      <li>Intellectual</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult24</defName>
     <title>Prodigy</title>
     <titleShort>Prodigy</titleShort>
     <baseDescription>[PAWN_nameDef] is probably one of the smarter Quarians out there.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>1</maleCommonality>
-	    <femaleCommonality>1</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>1</maleCommonality>
+    <femaleCommonality>1</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Crafting</defName>
         <amount>9</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-	<forcedTraits>
-        <li>
-            <defName>TooSmart</defName>
-            <chance>40</chance>
-        </li>
-	</forcedTraits>
-	<workDisables><li>Social</li><li>Cleaning</li><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>TooSmart</defName>
+        <chance>40</chance>
+      </li>
+    </forcedTraits>
+    <workDisables>
+      <li>Social</li>
+      <li>Cleaning</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult25</defName>
     <title>Pilgrim</title>
     <titleShort>Pilgrim</titleShort>
     <baseDescription>[PAWN_nameDef] is still on their Pilgrimage.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>5</maleCommonality>
-	    <femaleCommonality>5</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>5</maleCommonality>
+    <femaleCommonality>5</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Mining</defName>
         <amount>7</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>4</amount>
       </li>
-	
-	</skillGains>
-	<workDisables><li>Cleaning</li><li>Caring</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Cleaning</li>
+      <li>Caring</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-		<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult26</defName>
     <title>Pilgrim</title>
     <titleShort>PIlgrim</titleShort>
     <baseDescription>[PAWN_nameDef] is still on their Pilgrimage.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>3</maleCommonality>
-	    <femaleCommonality>3</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>3</maleCommonality>
+    <femaleCommonality>3</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
-       <li>
+      <li>
         <defName>Artistic</defName>
         <amount>9</amount>
       </li>
-	</skillGains>
-	<workDisables><li>ManualDumb</li><li>PlantWork</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  	  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult27</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] was a crewmember on a ship that decided to leave the Flotilla and form a community elsewhere.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -1578,11 +1635,11 @@
         <defName>Social</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
-	  <li>
+      <li>
         <defName>Shooting</defName>
         <amount>4</amount>
       </li>
@@ -1590,30 +1647,31 @@
         <defName>Medicine</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-    <workDisables><li>ManualSkilled</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualSkilled</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult28</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] was a crewmember on a ship that decided to leave the Flotilla and form a community elsewhere.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -1624,11 +1682,11 @@
         <defName>Social</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>3</amount>
       </li>
@@ -1636,30 +1694,33 @@
         <defName>Mining</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Artistic</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-    <workDisables><li>Cooking</li><li>PlantWork</li><li>Animals</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>Cooking</li>
+      <li>PlantWork</li>
+      <li>Animals</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-	
-	  	<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>QAdult29</defName>
     <title>Colonist</title>
     <titleShort>Colonist</titleShort>
     <baseDescription>[PAWN_nameDef] was a crewmember on a ship that decided to leave the Flotilla and form a community elsewhere.</baseDescription>
-	<bodyTypeMale>
-		<li>Male</li>
-	</bodyTypeMale>
-	<bodyTypeFemale>
-		<li>Female</li>
-	</bodyTypeFemale>
-	    <maleCommonality>50</maleCommonality>
-	    <femaleCommonality>50</femaleCommonality>
+    <bodyTypeMale>
+      <li>Male</li>
+    </bodyTypeMale>
+    <bodyTypeFemale>
+      <li>Female</li>
+    </bodyTypeFemale>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -1670,11 +1731,11 @@
         <defName>Social</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Cooking</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>4</amount>
       </li>
@@ -1682,15 +1743,17 @@
         <defName>Construction</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>4</amount>
       </li>
-	</skillGains>
-    <workDisables><li>ManualDumb</li><li>Intellectual</li></workDisables>
-	<spawnCategories>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Intellectual</li>
+    </workDisables>
+    <spawnCategories>
       <li>QuarianBackstory</li>
     </spawnCategories>
-	</AlienRace.BackstoryDef> 
-  
-  </Defs>
+  </AlienRace.BackstoryDef>
+</Defs>

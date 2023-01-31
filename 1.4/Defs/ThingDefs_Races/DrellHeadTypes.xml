@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_01</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_01</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_02</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_02</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_03</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_03</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_04</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_04</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_05</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_05</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_06</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_06</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_07</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_07</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_08</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_08</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_09</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_09</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_10</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_10</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_11</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_11</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Male_Average_Normal_12</defName>
+    <graphicPath>Drell/HeadBase/Male_Average_Normal_12</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_01</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_01</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_02</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_02</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_03</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_03</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_04</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_04</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_05</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_05</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_06</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_06</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_07</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_07</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_08</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_08</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_09</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_09</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_10</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_10</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_11</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_11</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drell_Female_Average_Normal_12</defName>
+    <graphicPath>Drell/HeadBase/Female_Average_Normal_12</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+</Defs>

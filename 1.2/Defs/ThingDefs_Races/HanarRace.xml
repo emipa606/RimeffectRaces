@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>AlienHanar</defName>
     <label>Hanar</label>
-    
     <description>The Hanar are a non-bipedal race resembling Earth's jellyfish. They are known for their intense politeness and strong religious beliefs.
 
 -25% Movement speed
@@ -16,40 +14,33 @@ Some disease immunity.
 Can't do many tasks.
 Can't wear clothes.
 Eat only raw meat.</description>
-        
     <statBases>
-		<PsychicSensitivity>0.5</PsychicSensitivity>
-		<ToxicSensitivity>1.0</ToxicSensitivity>
-		<ComfyTemperatureMin>5</ComfyTemperatureMin>
-		<ComfyTemperatureMax>35</ComfyTemperatureMax>
-		<LeatherAmount>25</LeatherAmount>
-		<MarketValue>1200</MarketValue>
-		<MoveSpeed>3.45</MoveSpeed>
-		<Flammability>1.0</Flammability>
-		
-		<CarryingCapacity>75</CarryingCapacity>
-
-		<SocialImpact>1.0</SocialImpact>
-		<PlantWorkSpeed>1.0</PlantWorkSpeed>
-		<PlantHarvestYield>1.0</PlantHarvestYield>
-		<ResearchSpeed>1.0</ResearchSpeed>
-		
-		<MiningSpeed>1.0</MiningSpeed>
-		<MiningYield>1.0</MiningYield>
-		<ConstructionSpeed>1.0</ConstructionSpeed>
-		<ConstructSuccessChance>1.0</ConstructSuccessChance>
-		<DrugCookingSpeed>1.0</DrugCookingSpeed>		
-		<DrugSynthesisSpeed>1.0</DrugSynthesisSpeed>		
-		<GeneralLaborSpeed>1.0</GeneralLaborSpeed>
-
-		<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
-		<MeleeHitChance>1.0</MeleeHitChance>
-		<MeleeDodgeChance>1.0</MeleeDodgeChance>
-		
+      <PsychicSensitivity>0.5</PsychicSensitivity>
+      <ToxicSensitivity>1.0</ToxicSensitivity>
+      <ComfyTemperatureMin>5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+      <LeatherAmount>25</LeatherAmount>
+      <MarketValue>1200</MarketValue>
+      <MoveSpeed>3.45</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <CarryingCapacity>75</CarryingCapacity>
+      <SocialImpact>1.0</SocialImpact>
+      <PlantWorkSpeed>1.0</PlantWorkSpeed>
+      <PlantHarvestYield>1.0</PlantHarvestYield>
+      <ResearchSpeed>1.0</ResearchSpeed>
+      <MiningSpeed>1.0</MiningSpeed>
+      <MiningYield>1.0</MiningYield>
+      <ConstructionSpeed>1.0</ConstructionSpeed>
+      <ConstructSuccessChance>1.0</ConstructSuccessChance>
+      <DrugCookingSpeed>1.0</DrugCookingSpeed>
+      <DrugSynthesisSpeed>1.0</DrugSynthesisSpeed>
+      <GeneralLaborSpeed>1.0</GeneralLaborSpeed>
+      <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+      <MeleeHitChance>1.0</MeleeHitChance>
+      <MeleeDodgeChance>1.0</MeleeDodgeChance>
     </statBases>
-
-		<tools>
-	  <li>
+    <tools>
+      <li>
         <label>left front outside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -58,7 +49,7 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarLeftFrontOutsideTentacle</linkedBodyPartsGroup>
       </li>
-	  <li>
+      <li>
         <label>left middle outside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -67,7 +58,7 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarLeftMiddleOutsideTentacle</linkedBodyPartsGroup>
       </li>
-	  <li>
+      <li>
         <label>left rear outside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -76,7 +67,7 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarLeftRearOutsideTentacle</linkedBodyPartsGroup>
       </li>
-	  <li>
+      <li>
         <label>left front inside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -85,7 +76,7 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarLeftFrontInsideTentacle</linkedBodyPartsGroup>
       </li>
-	  <li>
+      <li>
         <label>right front outside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -94,7 +85,7 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarRightFrontOutsideTentacle</linkedBodyPartsGroup>
       </li>
-	  <li>
+      <li>
         <label>right middle outside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -103,7 +94,7 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarRightMiddleOutsideTentacle</linkedBodyPartsGroup>
       </li>
-	  <li>
+      <li>
         <label>right rear outside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -112,7 +103,7 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarRightRearOutsideTentacle</linkedBodyPartsGroup>
       </li>
-	  <li>
+      <li>
         <label>right front inside tentacle</label>
         <capacities>
           <li>Blunt</li>
@@ -121,144 +112,192 @@ Eat only raw meat.</description>
         <cooldownTime>1</cooldownTime>
         <linkedBodyPartsGroup>HanarRightFrontInsideTentacle</linkedBodyPartsGroup>
       </li>
-	</tools>
-
-	<alienRace>
-
-	<generalSettings>
-		<allowHumanBios>False</allowHumanBios>
-		<humanRecipeImport>true</humanRecipeImport>
-		<alienPartGenerator>
-			<!-- -->
-			<alienbodytypes>
-				<li>Thin</li>
-			</alienbodytypes>
-			<!-- -->
-			<useGenderedHeads>false</useGenderedHeads>
-			<aliencrowntypes>
-                    <li>Average_Normal_01</li>
-			</aliencrowntypes>
-				 <customDrawSize>(1.0, 1.1)</customDrawSize>
-                 <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
-				 <customPortraitDrawSize>(1.0, 1.1)</customPortraitDrawSize>
-                 <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
-				<colorChannels>
-					<li>
-						<name>skin</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li><weight>3</weight><only>RGBA(0.679, 0.283, 0.777,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.729, 0.333, 0.827,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.779, 0.383, 0.877,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.917, 0.677, 0.917,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.867, 0.627, 0.867,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.817, 0.577, 0.817,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.050, 0.799, 1.000,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.626, 0.489, 0.909,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.576, 0.439, 0.859,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.526, 0.389, 0.809,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.905, 0.489, 0.889,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.855, 0.439, 0.839,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.805, 0.389, 0.789,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.168, 0.615, 1.000,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.118, 0.565, 1.000,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.068, 0.515, 0.950,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.917, 0.677, 0.917,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.867, 0.627, 0.867,1)</only></li>
-								<li><weight>3</weight><only>RGBA(0.817, 0.777, 0.817,1)</only></li>
-							</options>
-						</first>
-					</li>
-				</colorChannels>
-			
-		</alienPartGenerator>
-          
-	    <disallowedTraits>
+    </tools>
+    <alienRace>
+      <generalSettings>
+        <allowHumanBios>False</allowHumanBios>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <!-- -->
+          <alienbodytypes>
+            <li>Thin</li>
+          </alienbodytypes>
+          <!-- -->
+          <useGenderedHeads>false</useGenderedHeads>
+          <aliencrowntypes>
+            <li>Average_Normal_01</li>
+          </aliencrowntypes>
+          <customDrawSize>(1.0, 1.1)</customDrawSize>
+          <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+          <customPortraitDrawSize>(1.0, 1.1)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+          <colorChannels>
             <li>
-				<defName>Nudist</defName>
-			</li>
-			<li>
-				<defName>Transhumanist</defName>
-			</li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.679, 0.283, 0.777,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.729, 0.333, 0.827,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.779, 0.383, 0.877,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.917, 0.677, 0.917,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.867, 0.627, 0.867,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.817, 0.577, 0.817,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.050, 0.799, 1.000,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.626, 0.489, 0.909,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.576, 0.439, 0.859,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.526, 0.389, 0.809,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.905, 0.489, 0.889,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.855, 0.439, 0.839,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.805, 0.389, 0.789,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.168, 0.615, 1.000,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.118, 0.565, 1.000,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.068, 0.515, 0.950,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.917, 0.677, 0.917,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.867, 0.627, 0.867,1)</only>
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.817, 0.777, 0.817,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+        </alienPartGenerator>
+        <disallowedTraits>
+          <li>
+            <defName>Nudist</defName>
+          </li>
+          <li>
+            <defName>Transhumanist</defName>
+          </li>
         </disallowedTraits>
-		<forcedRaceTraitEntries>
-			<li>
-				<defName>Asexual</defName>
-				<chance>100</chance>
-			</li>
-		</forcedRaceTraitEntries>
-	</generalSettings>    
-         
-	<graphicPaths>
-		<li>
-			<body>Hanar/Body/</body>
-			<head>Hanar/HeadBase/</head>
-		</li>
-	</graphicPaths>
-
-	<hairSettings>
-		<hasHair>false</hasHair>
-	</hairSettings>
-
-	<relationSettings>
-	</relationSettings>
- 
-	<thoughtSettings>
-		<cannotReceiveThoughts>
-			<li>AteWithoutTable</li>
-			<li>Naked</li>
-			<li>SoakingWet</li>
-			<li>AteRawFood</li>
-			<li>AteCorpse</li>
-		</cannotReceiveThoughts>
-		<restrictedThoughts>
-			<li>HanarFood</li>
-			<li>HanarCorpse</li>
-		</restrictedThoughts>
-		<ateThoughtSpecific></ateThoughtSpecific>
-		<replacerList>
-		<li>
-			<original>AteRawFood</original>
-			<replacer>HanarFood</replacer> 
-		</li>
-		<li>
-			<original>AteCorpse</original>
-			<replacer>HanarCorpse</replacer> 
-		</li>
-		</replacerList>
-	</thoughtSettings>
-
-    <raceRestriction>
-	<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel> 
-	<apparelList><li>Apparel_HanarSweater</li></apparelList>
-	</raceRestriction>
-
-</alienRace>
-    
-<race>
-	<thinkTreeMain>Humanlike</thinkTreeMain>
-	<nameGenerator>NamerPersonHanar</nameGenerator>
-	<hasGenders>true</hasGenders>
-	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
-	<intelligence>Humanlike</intelligence>
-	<lifeExpectancy>300</lifeExpectancy>
-	<bloodDef>FilthBloodHanar</bloodDef>
-	<nameCategory>HumanStandard</nameCategory>
-	<body>Hanar</body>
-	<baseBodySize>1.0</baseBodySize>
-	<baseHealthScale>1.0</baseHealthScale>
-	<baseHungerRate>0.5</baseHungerRate>
-	<foodType>CarnivoreAnimalStrict</foodType>
-	<leatherDef>Leather_Hanar</leatherDef>
-
-	<gestationPeriodDays>45</gestationPeriodDays>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Asexual</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <body>Hanar/Body/</body>
+          <head>Hanar/HeadBase/</head>
+        </li>
+      </graphicPaths>
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+      <relationSettings>
+      </relationSettings>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>AteWithoutTable</li>
+          <li>Naked</li>
+          <li>SoakingWet</li>
+          <li>AteRawFood</li>
+          <li>AteCorpse</li>
+        </cannotReceiveThoughts>
+        <restrictedThoughts>
+          <li>HanarFood</li>
+          <li>HanarCorpse</li>
+        </restrictedThoughts>
+        <ateThoughtSpecific>
+        </ateThoughtSpecific>
+        <replacerList>
+          <li>
+            <original>AteRawFood</original>
+            <replacer>HanarFood</replacer>
+          </li>
+          <li>
+            <original>AteCorpse</original>
+            <replacer>HanarCorpse</replacer>
+          </li>
+        </replacerList>
+      </thoughtSettings>
+      <raceRestriction>
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <apparelList>
+          <li>Apparel_HanarSweater</li>
+        </apparelList>
+      </raceRestriction>
+    </alienRace>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <nameGenerator>NamerPersonHanar</nameGenerator>
+      <hasGenders>true</hasGenders>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <lifeExpectancy>300</lifeExpectancy>
+      <bloodDef>FilthBloodHanar</bloodDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Hanar</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.0</baseHealthScale>
+      <baseHungerRate>0.5</baseHungerRate>
+      <foodType>CarnivoreAnimalStrict</foodType>
+      <leatherDef>Leather_Hanar</leatherDef>
+      <gestationPeriodDays>45</gestationPeriodDays>
       <litterSizeCurve>
-		<points>
-		<li>(0.5, 0)</li>
-		<li>(1, 1)</li>
-		<li>(1.01, 0.02)</li>
-		<li>(3.5, 0)</li>
-		</points>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
       </litterSizeCurve>
       <lifeStageAges>
         <li>
@@ -281,7 +320,7 @@ Eat only raw meat.</description>
           <def>HumanlikeAdult</def>
           <minAge>30</minAge>
         </li>
-		<li>
+        <li>
           <def>HumanlikeOld</def>
           <minAge>200</minAge>
         </li>
@@ -298,25 +337,24 @@ Eat only raw meat.</description>
           <li>(14,0)</li>
           <li>(30,5)</li>
           <li>(60,10)</li>
-		  <li>(90,20)</li>
-		  <li>(120,25)</li>
-		  <li>(150,30)</li>
-		  <li>(180,25)</li>
-		  <li>(210,15)</li>
-		  <li>(240,10)</li>
-		  <li>(270,5)</li>
-		  <li>(300,0)</li>
+          <li>(90,20)</li>
+          <li>(120,25)</li>
+          <li>(150,30)</li>
+          <li>(180,25)</li>
+          <li>(210,15)</li>
+          <li>(240,10)</li>
+          <li>(270,5)</li>
+          <li>(300,0)</li>
         </points>
       </ageGenerationCurve>
-      <hediffGiverSets Inherit= "False">
+      <hediffGiverSets Inherit="False">
         <li>HanarHediffs</li>
       </hediffGiverSets>
-</race>
+    </race>
     <recipes>
-		<li>RemoveBodyPart</li>
-		<li>Euthanize</li>
-		<li>Anesthetize</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
     </recipes>
-    
-</AlienRace.ThingDef_AlienRace>
+  </AlienRace.ThingDef_AlienRace>
 </Defs>

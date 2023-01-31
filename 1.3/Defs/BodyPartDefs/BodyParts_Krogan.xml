@@ -1,18 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<BodyPartDef>
-		<defName>NeuroconductiveFluid</defName>
-		<label>neuroconductive fluid</label>
-		<hitPoints>100</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<bleedRate>0</bleedRate>
-		<canSuggestAmputation>false</canSuggestAmputation>
-		<tags>
-			<li>Spine</li>
-		</tags>
-	</BodyPartDef>
-  
+  <BodyPartDef>
+    <defName>NeuroconductiveFluid</defName>
+    <label>neuroconductive fluid</label>
+    <hitPoints>100</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>Spine</li>
+    </tags>
+  </BodyPartDef>
 </Defs>

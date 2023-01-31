@@ -1,42 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<FactionDef ParentName="FactionBase">
-		<defName>DrellPlayerColony</defName>
-		<label>Drell Colony</label>
-		<description>Your own community</description>
-		<isPlayer>true</isPlayer>
-		<basicMemberKind>PlayerDrell</basicMemberKind>
-		<pawnsPlural>Drell</pawnsPlural>
-		<colorSpectrum>
-		<!--
+  <FactionDef ParentName="FactionBase">
+    <defName>DrellPlayerColony</defName>
+    <label>Drell Colony</label>
+    <description>Your own community</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>PlayerDrell</basicMemberKind>
+    <pawnsPlural>Drell</pawnsPlural>
+    <colorSpectrum>
+      <!--
 			<li>(204, 255, 51)</li>
 			<li>(51, 153, 51)</li>
 			-->
-			<!-- green -->
-			<li>(50, 250, 70)</li>
-			<li>(0, 180, 0)</li>
-			<!-- red -->
-			<li>(190, 0, 40)</li>
-		</colorSpectrum>
-		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<backstoryCategories><li>DrellBackstory</li></backstoryCategories>
-
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
-		<settlementTexturePath>World/WorldObjects/TurianFlag01</settlementTexturePath>
-<!-- techLevel : Industrial Medieval Neolithic -->		
-<!-- StartingResearchTag : TribalStart ClassicStart -->
-		<techLevel>Industrial</techLevel>
-		<startingResearchTags>
-			<li>ClassicStart</li>
-		</startingResearchTags>		
-		
-		<hairTags>
-			<li>DrellHair</li>
-		</hairTags>
-						
-	</FactionDef>
-	
+      <!-- green -->
+      <li>(50, 250, 70)</li>
+      <li>(0, 180, 0)</li>
+      <!-- red -->
+      <li>(190, 0, 40)</li>
+    </colorSpectrum>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <backstoryCategories>
+      <li>DrellBackstory</li>
+    </backstoryCategories>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/TurianFlag01</settlementTexturePath>
+    <!-- techLevel : Industrial Medieval Neolithic -->
+    <!-- StartingResearchTag : TribalStart ClassicStart -->
+    <techLevel>Industrial</techLevel>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>DrellHair</li>
+    </hairTags>
+  </FactionDef>
 </Defs>

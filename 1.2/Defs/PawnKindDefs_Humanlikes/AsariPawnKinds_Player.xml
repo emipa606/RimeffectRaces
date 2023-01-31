@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <PawnKindDef Abstract="True" Name="BaseAsariPlayerPawnKind">
     <race>AlienAsari</race>
     <combatPower>40</combatPower>
@@ -9,22 +8,21 @@
     <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
-
   <PawnKindDef ParentName="BaseAsariPlayerPawnKind">
     <defName>AsariPlayer</defName>
     <label>colonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <backstoryFilters>
       <li>
-      <categories>
-			<li>Civil</li>
-			<li>Outlander</li>
-      </categories>
+        <categories>
+          <li>Civil</li>
+          <li>Outlander</li>
+        </categories>
       </li>
-  	</backstoryFilters>
-	<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    </backstoryFilters>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
-		<li>IndustrialBasic</li>
+      <li>IndustrialBasic</li>
     </apparelTags>
     <apparelMoney>
       <min>600</min>
@@ -32,5 +30,4 @@
     </apparelMoney>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
-
 </Defs>

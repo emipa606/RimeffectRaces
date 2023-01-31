@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BaseFilth">
     <defName>FilthBloodAsari</defName>
     <label>blood</label>
@@ -17,8 +16,7 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef> 
-
+  </ThingDef>
   <ThingDef ParentName="BaseFilth">
     <defName>FilthBloodKrogan</defName>
     <label>blood</label>
@@ -35,9 +33,8 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef>  
-   
-     <ThingDef ParentName="BaseFilth">
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
     <defName>FilthBloodTurian</defName>
     <label>blood</label>
     <statBases>
@@ -53,9 +50,8 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef>  
-  
-    <ThingDef ParentName="BaseFilth">
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
     <defName>FilthBloodSalarian</defName>
     <label>blood</label>
     <statBases>
@@ -71,9 +67,8 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef>  
-  
-      <ThingDef ParentName="BaseFilth">
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
     <defName>FilthBloodHanar</defName>
     <label>mesoglea</label>
     <statBases>
@@ -89,9 +84,8 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef>  
-  
-        <ThingDef ParentName="BaseFilth">
+  </ThingDef>
+  <ThingDef ParentName="BaseFilth">
     <defName>FilthBloodReaper</defName>
     <label>filth</label>
     <statBases>
@@ -107,6 +101,5 @@
       <cleaningWorkToReduceThickness>90</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
     </filth>
-  </ThingDef>  
-  
+  </ThingDef>
 </Defs>

@@ -1,26 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<BodyPartDef>
-		<defName>LeftMandible</defName>
-		<label>left mandible</label>
-		<hitPoints>10</hitPoints>
-		<skinCovered>false</skinCovered>
-		<tags>
-			<li>EatingSource</li>
-			<li>TalkingSource</li>
-		</tags>
-	</BodyPartDef>
-	
-	<BodyPartDef>
-		<defName>RightMandible</defName>
-		<label>right mandible</label>
-		<hitPoints>10</hitPoints>
-		<skinCovered>false</skinCovered>
-		<tags>
-			<li>EatingSource</li>
-			<li>TalkingSource</li>
-		</tags>
-	</BodyPartDef>
-  
+  <BodyPartDef>
+    <defName>LeftMandible</defName>
+    <label>left mandible</label>
+    <hitPoints>10</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>RightMandible</defName>
+    <label>right mandible</label>
+    <hitPoints>10</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+    </tags>
+  </BodyPartDef>
 </Defs>

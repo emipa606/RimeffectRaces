@@ -1,11 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <StuffCategoryDef>
     <defName>Wooly</defName>
     <label>wool</label>
   </StuffCategoryDef>
-
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_HanarSweater</defName>
     <description>A cozy looking sweater to keep your jellyfish warm.</description>
@@ -25,14 +23,14 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>2700</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
       <Mass>0.5</Mass>
       <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
-		<apparel>
+    <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
@@ -49,8 +47,7 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
-  
-    <ThingDef ParentName="ArmorMachineableBase">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_ArmoredExosuit</defName>
     <label>up-armored envirosuit</label>
     <description>A field modification of the standard Quarian suit that increases its defensive capabilities, at the cost of considerable bulk and weight. Commonly used by Migrant Fleet Marines to help improve survivability in heavy fighting.</description>
@@ -91,7 +88,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
-		<li>UpperHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparel/ArmoredExosuit/ArmoredExosuit</wornGraphicPath>
       <layers>
@@ -104,9 +101,9 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-	  <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
-	<tradeTags>
+    <tradeTags>
       <li>HiTechArmor</li>
     </tradeTags>
     <colorGenerator Class="ColorGenerator_Options">
@@ -118,5 +115,4 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
 </Defs>

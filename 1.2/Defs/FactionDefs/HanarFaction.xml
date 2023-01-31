@@ -1,62 +1,53 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<FactionDef>
-		<defName>HanarFaction</defName>
-		<label>Hanar</label>
-		<description>This faction should not exist.</description>
-		<pawnsPlural>hanar</pawnsPlural>
-		<fixedName>Hanar</fixedName>
-		<hidden>true</hidden>
-		
-		<settlementGenerationWeight>0</settlementGenerationWeight>
-		<requiredCountAtGameStart>0</requiredCountAtGameStart>
-		
-		<factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
-		<settlementTexturePath>World/WorldObjects/HanarFlag01</settlementTexturePath>
-		
-		<canMakeRandomly>false</canMakeRandomly>
-		<canStageAttacks>false</canStageAttacks>
-		
-		<!--<factionNameMaker>NamerFaction</factionNameMaker>-->
-		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<techLevel>Spacer</techLevel>
-		<backstoryCategories><li>HanarBackstory</li></backstoryCategories>		
-
-		<hairTags>
-			<li>HanarHair</li>
-		</hairTags>
-		
-		<startingGoodwill>
-			<min>0</min>
-			<max>69</max>
-		</startingGoodwill>
-		<naturalColonyGoodwill>
-			<min>0</min>
-			<max>69</max>
-		</naturalColonyGoodwill>
-
-		<visitorTraderKinds>
-			<li>Visitor_Outlander_Standard</li>
-		</visitorTraderKinds>
-		<caravanTraderKinds>
+  <FactionDef>
+    <defName>HanarFaction</defName>
+    <label>Hanar</label>
+    <description>This faction should not exist.</description>
+    <pawnsPlural>hanar</pawnsPlural>
+    <fixedName>Hanar</fixedName>
+    <hidden>true</hidden>
+    <settlementGenerationWeight>0</settlementGenerationWeight>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <factionIconPath>World/WorldObjects/DefaultSettlement</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/HanarFlag01</settlementTexturePath>
+    <canMakeRandomly>false</canMakeRandomly>
+    <canStageAttacks>false</canStageAttacks>
+    <!--<factionNameMaker>NamerFaction</factionNameMaker>-->
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>HanarBackstory</li>
+    </backstoryCategories>
+    <hairTags>
+      <li>HanarHair</li>
+    </hairTags>
+    <startingGoodwill>
+      <min>0</min>
+      <max>69</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>0</min>
+      <max>69</max>
+    </naturalColonyGoodwill>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
-		</caravanTraderKinds>
-		<baseTraderKinds>
-			<li>Base_Outlander_Standard</li>
-		</baseTraderKinds>
-		
-        <colorSpectrum>
-         <li>(0.914, 0.588, 0.478)</li>
-        </colorSpectrum>
-
-		<mustStartOneEnemy>false</mustStartOneEnemy>
-		<leaderTitle>Noone</leaderTitle>
-
-		<allowedArrivalTemperatureRange>
-			<min>5</min>
-			<max>40</max>
-		</allowedArrivalTemperatureRange>
-		
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <colorSpectrum>
+      <li>(0.914, 0.588, 0.478)</li>
+    </colorSpectrum>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <leaderTitle>Noone</leaderTitle>
+    <allowedArrivalTemperatureRange>
+      <min>5</min>
+      <max>40</max>
+    </allowedArrivalTemperatureRange>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,50)</li>
@@ -66,30 +57,27 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-		
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
         <options>
           <HanarColonist01>50</HanarColonist01>
-		  <HanarSlave01>50</HanarSlave01>
+          <HanarSlave01>50</HanarSlave01>
           <DrellLeader01>50</DrellLeader01>
-		</options>
+        </options>
       </li>
-	  <li>
+      <li>
         <kindDef>Settlement</kindDef>
         <options>
         </options>
       </li>
-	  	  <li>
+      <li>
         <kindDef>Peaceful</kindDef>
         <maxTotalPoints>300</maxTotalPoints>
-		<options>
-		  <HanarColonist01>50</HanarColonist01>
+        <options>
+          <HanarColonist01>50</HanarColonist01>
         </options>
       </li>
     </pawnGroupMakers>
-	</FactionDef>
-	  
-	
+  </FactionDef>
 </Defs>

@@ -1,110 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-    <SoundDef>
-    <defName>CannibalArmCannon</defName>  
+  <SoundDef>
+    <defName>CannibalArmCannon</defName>
     <context>MapOnly</context>
-	 <sustain>False</sustain>  
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
+    <sustain>False</sustain>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>CannibalArmCannon</clipPath>
           </li>
-        </grains>    
+        </grains>
         <volumeRange>
-          <min>25</min>        
+          <min>25</min>
           <max>25</max>
-        </volumeRange>        
-		<pitchRange><min>2.5</min> <max>2.5</max></pitchRange>
+        </volumeRange>
+        <pitchRange>
+          <min>2.5</min>
+          <max>2.5</max>
+        </pitchRange>
       </li>
     </subSounds>
   </SoundDef>
-
-    <SoundDef>
-    <defName>Phaeston</defName>  
+  <SoundDef>
+    <defName>Phaeston</defName>
     <context>MapOnly</context>
-	 <sustain>False</sustain>  
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
+    <sustain>False</sustain>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Phaeston</clipPath>
           </li>
-        </grains>    
+        </grains>
         <volumeRange>
-          <min>100</min>        
+          <min>100</min>
           <max>100</max>
-        </volumeRange>        
+        </volumeRange>
       </li>
     </subSounds>
   </SoundDef>
-  
-      <SoundDef>
-    <defName>PulseRifleRER</defName>  
+  <SoundDef>
+    <defName>PulseRifleRER</defName>
     <context>MapOnly</context>
-	 <sustain>False</sustain>  
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
+    <sustain>False</sustain>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>PulseRifleRER</clipPath>
           </li>
-        </grains>    
+        </grains>
         <volumeRange>
-          <min>100</min>        
+          <min>100</min>
           <max>100</max>
-        </volumeRange>        
+        </volumeRange>
       </li>
     </subSounds>
   </SoundDef>
-  
-        <SoundDef>
-    <defName>PulseShotgunRER</defName>  
+  <SoundDef>
+    <defName>PulseShotgunRER</defName>
     <context>MapOnly</context>
-	 <sustain>False</sustain>  
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
+    <sustain>False</sustain>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>PulseShotgunRER</clipPath>
           </li>
-        </grains>    
+        </grains>
         <volumeRange>
-          <min>100</min>        
+          <min>100</min>
           <max>100</max>
-        </volumeRange>        
+        </volumeRange>
       </li>
     </subSounds>
   </SoundDef>
-
-        <SoundDef>
-    <defName>M76RevenantRER</defName>  
+  <SoundDef>
+    <defName>M76RevenantRER</defName>
     <context>MapOnly</context>
-	 <sustain>False</sustain>  
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
+    <sustain>False</sustain>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>M76RevenantRER</clipPath>
           </li>
-        </grains>    
+        </grains>
         <volumeRange>
-          <min>100</min>        
+          <min>100</min>
           <max>100</max>
-        </volumeRange>        
+        </volumeRange>
       </li>
     </subSounds>
   </SoundDef>
-
 </Defs>

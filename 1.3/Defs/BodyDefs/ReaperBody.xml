@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<!-- Husk -->
-
+  <!-- Husk -->
   <BodyDef>
     <defName>ReaperHusk</defName>
     <label>husk</label>
@@ -14,62 +12,62 @@
         <li>Torso</li>
       </groups>
       <parts>
+        <li>
+          <def>HuskHead</def>
+          <coverage>0.08</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
             <li>
-              <def>HuskHead</def>
-              <coverage>0.08</coverage>
+              <def>HuskSkull</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
               <groups>
                 <li>UpperHead</li>
                 <li>FullHead</li>
-				<li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
-                  <def>HuskSkull</def>
-                  <coverage>0.18</coverage>
+                  <def>HuskBrain</def>
+                  <coverage>0.8</coverage>
                   <depth>Inside</depth>
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
                   </groups>
-                  <parts>
-                    <li>
-                      <def>HuskBrain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-					  <groups>
-                        <li>UpperHead</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
-                </li>
-                <li>
-                  <def>HuskEye</def>
-                  <customLabel>left eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>HuskEye</def>
-                  <customLabel>right eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>HuskJaw</def>
-                  <coverage>0.15</coverage>
-                  <groups>
-                    <li>HuskJaw</li>
-                    <li>FullHead</li>
-                  </groups>
                 </li>
               </parts>
+            </li>
+            <li>
+              <def>HuskEye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.07</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>HuskEye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.07</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>HuskJaw</def>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>HuskJaw</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
         </li>
         <li>
           <def>HuskShoulder</def>
@@ -170,9 +168,7 @@
       </parts>
     </corePart>
   </BodyDef>
-  
-  	<!-- Cannibal -->
-  
+  <!-- Cannibal -->
   <BodyDef>
     <defName>ReaperCannibal</defName>
     <label>cannibal</label>
@@ -184,80 +180,80 @@
         <li>Torso</li>
       </groups>
       <parts>
+        <li>
+          <def>CannibalHead</def>
+          <coverage>0.08</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
             <li>
-              <def>CannibalHead</def>
-              <coverage>0.08</coverage>
+              <def>CannibalSkull</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
               <groups>
                 <li>UpperHead</li>
                 <li>FullHead</li>
-				<li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
-                  <def>CannibalSkull</def>
-                  <coverage>0.18</coverage>
+                  <def>CannibalBrain</def>
+                  <coverage>0.8</coverage>
                   <depth>Inside</depth>
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
                   </groups>
-                  <parts>
-                    <li>
-                      <def>CannibalBrain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-					  <groups>
-                        <li>UpperHead</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
-                </li>
-                <li>
-                  <def>CannibalEye</def>
-                  <customLabel>left eye</customLabel>
-                  <coverage>0.05</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>CannibalEye</def>
-                  <customLabel>right eye</customLabel>
-                  <coverage>0.05</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>CannibalEye</def>
-                  <customLabel>top right eye</customLabel>
-                  <coverage>0.05</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-			    <li>
-                  <def>CannibalEye</def>
-                  <customLabel>top left eye</customLabel>
-                  <coverage>0.05</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-				<li>
-                  <def>CannibalJaw</def>
-                  <coverage>0.15</coverage>
-                  <groups>
-                    <li>HuskJaw</li>
-                    <li>FullHead</li>
-                  </groups>
                 </li>
               </parts>
+            </li>
+            <li>
+              <def>CannibalEye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>CannibalEye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>CannibalEye</def>
+              <customLabel>top right eye</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>CannibalEye</def>
+              <customLabel>top left eye</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>CannibalJaw</def>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>HuskJaw</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
         </li>
         <li>
           <def>CannibalShoulder</def>
@@ -358,9 +354,7 @@
       </parts>
     </corePart>
   </BodyDef>
-  
-    	<!-- Brute -->
-  
+  <!-- Brute -->
   <BodyDef>
     <defName>ReaperBrute</defName>
     <label>Brute</label>
@@ -372,62 +366,62 @@
         <li>Torso</li>
       </groups>
       <parts>
+        <li>
+          <def>BruteHead</def>
+          <coverage>0.08</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
             <li>
-              <def>BruteHead</def>
-              <coverage>0.08</coverage>
+              <def>BruteSkull</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
               <groups>
                 <li>UpperHead</li>
                 <li>FullHead</li>
-				<li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
-                  <def>BruteSkull</def>
-                  <coverage>0.18</coverage>
+                  <def>BruteBrain</def>
+                  <coverage>0.8</coverage>
                   <depth>Inside</depth>
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
                   </groups>
-                  <parts>
-                    <li>
-                      <def>BruteBrain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-					  <groups>
-                        <li>UpperHead</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
-                </li>
-                <li>
-                  <def>BruteEye</def>
-                  <customLabel>left eye</customLabel>
-                  <coverage>0.05</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>BruteEye</def>
-                  <customLabel>right eye</customLabel>
-                  <coverage>0.05</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-				<li>
-                  <def>BruteJaw</def>
-                  <coverage>0.15</coverage>
-                  <groups>
-                    <li>HuskJaw</li>
-                    <li>FullHead</li>
-                  </groups>
                 </li>
               </parts>
+            </li>
+            <li>
+              <def>BruteEye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>BruteEye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>BruteJaw</def>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>HuskJaw</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
         </li>
         <li>
           <def>BruteShoulder</def>
@@ -528,9 +522,7 @@
       </parts>
     </corePart>
   </BodyDef>
-  
-  	<!-- Marauder -->
-
+  <!-- Marauder -->
   <BodyDef>
     <defName>ReaperMarauder</defName>
     <label>marauder</label>
@@ -542,62 +534,62 @@
         <li>Torso</li>
       </groups>
       <parts>
+        <li>
+          <def>MarauderHead</def>
+          <coverage>0.08</coverage>
+          <groups>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
             <li>
-              <def>MarauderHead</def>
-              <coverage>0.08</coverage>
+              <def>MarauderSkull</def>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
               <groups>
                 <li>UpperHead</li>
                 <li>FullHead</li>
-				<li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
-                  <def>MarauderSkull</def>
-                  <coverage>0.18</coverage>
+                  <def>MarauderBrain</def>
+                  <coverage>0.8</coverage>
                   <depth>Inside</depth>
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
                   </groups>
-                  <parts>
-                    <li>
-                      <def>MarauderBrain</def>
-                      <coverage>0.8</coverage>
-                      <depth>Inside</depth>
-					  <groups>
-                        <li>UpperHead</li>
-                        <li>FullHead</li>
-                      </groups>
-                    </li>
-                  </parts>
-                </li>
-                <li>
-                  <def>MarauderEye</def>
-                  <customLabel>left eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>MarauderEye</def>
-                  <customLabel>right eye</customLabel>
-                  <coverage>0.07</coverage>
-                  <groups>
-                    <li>FullHead</li>
-                    <li>Eyes</li>
-                  </groups>
-                </li>
-                <li>
-                  <def>MarauderJaw</def>
-                  <coverage>0.15</coverage>
-                  <groups>
-                    <li>HuskJaw</li>
-                    <li>FullHead</li>
-                  </groups>
                 </li>
               </parts>
+            </li>
+            <li>
+              <def>MarauderEye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.07</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>MarauderEye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.07</coverage>
+              <groups>
+                <li>FullHead</li>
+                <li>Eyes</li>
+              </groups>
+            </li>
+            <li>
+              <def>MarauderJaw</def>
+              <coverage>0.15</coverage>
+              <groups>
+                <li>HuskJaw</li>
+                <li>FullHead</li>
+              </groups>
+            </li>
+          </parts>
         </li>
         <li>
           <def>MarauderShoulder</def>
@@ -698,6 +690,4 @@
       </parts>
     </corePart>
   </BodyDef>
-  
-  
 </Defs>
