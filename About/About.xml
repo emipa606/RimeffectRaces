@@ -35,7 +35,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2240993715
 
 [table]
     [tr]
-        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/RimeffectRaces][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
@@ -87,7 +87,7 @@ Includes settings to disable/enable each race.
 
 [h1]Non-Steam Version[/h1]
 
-https://github.com/troopersmith1/RimeffectRaces/releases
+https://github.com/emipa606/RimeffectRaces/releases
 
 
 [h1]Compatibility[/h1]
@@ -105,9 +105,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2527583317
 
 Batarians are currently exempt from the WoundAnchor system because I can't figure out how to make it work with four eyed races. So they won't show Bionic or Archotech eyes, or show when they are blinded.
 
-
-If you like what I do, consider buying me a coffee. Thanks!
-[url=https://ko-fi.com/troopersmith1] [img]https://i.imgur.com/icRN3dW.png[/img] [/url]
 	
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
@@ -117,5 +114,6 @@ If you like what I do, consider buying me a coffee. Thanks!
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]</description>
+[/list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2926557428]Last updated 2023-03-16[/url]</description>
 </ModMetaData>

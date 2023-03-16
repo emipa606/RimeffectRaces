@@ -55,7 +55,7 @@ Includes settings to disable/enable each race.
 # Non-Steam Version
 
 
-https://github.com/troopersmith1/RimeffectRaces/releases
+https://github.com/emipa606/RimeffectRaces/releases
 
 
 # Compatibility
@@ -75,10 +75,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2527583317
 
 Batarians are currently exempt from the WoundAnchor system because I can't figure out how to make it work with four eyed races. So they won't show Bionic or Archotech eyes, or show when they are blinded.
 
-
-If you like what I do, consider buying me a coffee. Thanks!
-https://ko-fi.com/troopersmith1] ![Image](https://i.imgur.com/icRN3dW.png)
- 
 	
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
@@ -92,3 +88,4 @@ https://ko-fi.com/troopersmith1] ![Image](https://i.imgur.com/icRN3dW.png)
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2926557428]Last updated 2023-03-16

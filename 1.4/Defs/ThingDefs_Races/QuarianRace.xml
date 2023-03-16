@@ -272,6 +272,35 @@ Envirosuit provides "natural" armor and temp resistances, but unable to wear nor
           <li MayRequire="dninemfive.advancedshieldbelts">Apparel_HeavyShieldBelt</li>
           <li MayRequire="dninemfive.advancedshieldbelts">Apparel_RangedShieldBelt</li>
         </whiteApparelList>
+        <blackGeneList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
+        </blackGeneList>
+        <blackGeneTags>
+          <!-- <li>SkinColor</li> -->
+          <!-- <li>HairColor</li> -->
+          <li>EyeColor</li>
+          <li>BodyType</li>
+          <li>Ears</li>
+          <li>Nose</li>
+          <li>Jaw</li>
+          <li>Head</li>
+          <li>Headbone</li>
+          <li>HairStyle</li>
+          <li>BeardStyle</li>
+          <li>SkinColorOverride</li>
+          <li>Fur</li>
+          <li>Tail</li>
+        </blackGeneTags>
+        <blackEndoCategories>
+          <!-- <li>Melanin</li> -->
+          <!-- <li>HairColor</li> -->
+          <li>Ears</li>
+          <li>Nose</li>
+          <li>Jaw</li>
+          <li>Head</li>
+          <li>BodyType</li>
+        </blackEndoCategories>
       </raceRestriction>
     </alienRace>
     <race>

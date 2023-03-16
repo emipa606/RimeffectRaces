@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>a808e689-eb07-4e56-92e4-b64fd33b7efd</ID>
   <ModName>Rimeffect Races (Continued)</ModName>
-  <Version>1.4.1</Version>
+  <Version>1.4.2</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,8 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
-
